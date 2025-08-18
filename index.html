@@ -23,6 +23,7 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
             width: 90%;
             max-width: 800px;
+            position: relative; /* Added for positioning the buttons */
         }
         h1, h2 {
             text-align: center;
@@ -38,6 +39,7 @@
             border-radius: 10px;
             background-color: #f0faff;
             transition: transform 0.2s;
+            cursor: pointer; /* Makes the entire box clickable */
         }
         .question-item:hover {
             transform: translateY(-5px);
@@ -45,7 +47,6 @@
         .question-text {
             font-weight: bold;
             margin-bottom: 10px;
-            cursor: pointer;
             color: #007bff;
             transition: color 0.2s;
             display: flex;
@@ -118,14 +119,11 @@
             margin-top: 25px;
             text-align: center;
         }
-        .top-bottom-controls {
+        .quiz-controls-bottom {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 10px 0;
-        }
-        .top-bottom-controls button {
-            width: 48%;
+            justify-content: flex-end; /* Aligns to the right */
+            gap: 10px; /* Space between buttons */
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -222,14 +220,6 @@
             const quizContainer = document.getElementById('quiz-container');
             quizContainer.innerHTML = '';
             document.getElementById('quiz-title').textContent = data.quizTitle;
-
-            const topControls = document.createElement('div');
-            topControls.classList.add('top-bottom-controls');
-            const topButton = document.createElement('button');
-            topButton.textContent = "Go to Bottom";
-            topButton.onclick = () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-            topControls.appendChild(topButton);
-            quizContainer.appendChild(topControls);
             
             const form = document.createElement('form');
             form.id = 'quiz-form';
@@ -249,7 +239,8 @@
                 const keyButton = document.createElement('button');
                 keyButton.textContent = "Show Key";
                 keyButton.classList.add('key-button');
-                keyButton.onclick = () => {
+                keyButton.onclick = (event) => {
+                    event.stopPropagation(); // Prevents the questionDiv's click event from firing
                     const keyElement = questionDiv.querySelector('.answer-key');
                     if (keyElement.style.display === 'none' || keyElement.style.display === '') {
                         keyElement.style.display = 'block';
@@ -259,10 +250,10 @@
                         keyButton.textContent = "Show Key";
                     }
                 };
-                
-                questionTextContainer.onclick = () => {
+
+                questionDiv.addEventListener('click', () => {
                     keyButton.style.display = 'block';
-                };
+                });
 
                 questionTextContainer.appendChild(keyButton);
                 questionDiv.appendChild(questionTextContainer);
@@ -296,12 +287,20 @@
                 form.appendChild(questionDiv);
             });
 
+            // Moved and redesigned the bottom controls
             const bottomControls = document.createElement('div');
-            bottomControls.classList.add('top-bottom-controls');
+            bottomControls.classList.add('quiz-controls-bottom');
+            
             const bottomButton = document.createElement('button');
-            bottomButton.textContent = "Go to Top";
-            bottomButton.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+            bottomButton.textContent = "Go to Bottom";
+            bottomButton.onclick = () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
             bottomControls.appendChild(bottomButton);
+
+            const topButton = document.createElement('button');
+            topButton.textContent = "Go to Top";
+            topButton.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+            bottomControls.appendChild(topButton);
+
             quizContainer.appendChild(bottomControls);
 
             form.addEventListener('change', (event) => {
