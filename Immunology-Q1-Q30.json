@@ -1,0 +1,365 @@
+{
+  "quizTitle": "Y3_Immunologie_Pr. Kruy Sunlay Q1-Q30 24-25.pdf",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Citer l'organe et fluide biologique suivantes qui n'appartiennent pas à la première ligne de défense de l'organisme :",
+      "options": [
+        "Fluide biologique du système respiratoire",
+        "Cheveux",
+        "Salive",
+        "Système lacrymal",
+        "Fluide biologique du système digestif"
+      ],
+      "answer": "Fluide biologique du système digestif"
+    },
+    {
+      "id": 2,
+      "question": "Citer l'item qui est faux pour les caractéristiques des lymphocytes T:",
+      "options": [
+        "Ils ont une durée de vie très courts",
+        "Les lymphocytes T sont très peu recirculants dans le sang périphérique",
+        "En microscopie électronique, leur membrane paraît lisse, noyau dense et cytoplasme très fin",
+        "Dans les milieux de culture adéquats, les lymphocytes T se transforment en lymphoblastes",
+        "ils expriment à leur surface des classes d'immunoglobulines"
+      ],
+      "answer": "En microscopie électronique, leur membrane paraît lisse, noyau dense et cytoplasme très fin"
+    },
+    {
+      "id": 3,
+      "question": "Citer les cellules qui sont des cellules non auxiliaires du système immunitaire.",
+      "options": [
+        "Keratocytes",
+        "Mastocytes",
+        "Cellules tumorale",
+        "Cellules Langerhans",
+        "Cellule dendritique"
+      ],
+      "answer": "Cellules tumorale"
+    },
+    {
+      "id": 4,
+      "question": "Citer un item qui est faux, pour les activités de macrophage ?",
+      "options": [
+        "Est une cellule présentatrice d'antigène",
+        "Est capable d'absorber les pathogènes",
+        "Est capable de tuer des bactéries",
+        "Ne participe pas la coopération cellulaire au cours d'une réponse immunitaire",
+        "Synthétise les chimiokines"
+      ],
+      "answer": "Ne participe pas la coopération cellulaire au cours d'une réponse immunitaire"
+    },
+    {
+      "id": 5,
+      "question": "Parmi les propositions suivantes, indiquez celle qui est exacte (L'histamine est:",
+      "options": [
+        "Le produit de décarboxylation de molécules amine carboxylé",
+        "Un vasoconstricteur puissant",
+        "Un produit de transamination de l'histidine",
+        "Un produit libéré lors du processus inflammatoire",
+        "Un non stimulant des sécrétions de l'estomac"
+      ],
+      "answer": "Un produit libéré lors du processus inflammatoire"
+    },
+    {
+      "id": 6,
+      "question": "Indiquez la réponse juste. Le thymus:",
+      "options": [
+        "Est un organe lymphoïde primaire",
+        "Est un organe lymphoïde secondaire ou périphérique",
+        "Augmente de taille jusqu'à la puberté puis reste à la même volume chez le sujet âgé",
+        "Ne permet la différenciation des lymphocytes T",
+        "Ne contient des thymocytes dont la différenciation n'est pas contrôlée par les cellules épithéliales thymiques et les facteurs thymiques"
+      ],
+      "answer": "Est un un organe lymphoïde primaire"
+    },
+    {
+      "id": 7,
+      "question": "Citer la fonction de macrophage, qui est fausse :",
+      "options": [
+        "Induction de la réponse inflammatoire",
+        "Participe a la coopération cellulaire",
+        "Fait la présentation de peptides aux cellules de l'immunité adaptative.",
+        "Action non immédiate en immunité naturelle.",
+        "Réagi à l'action des pathogènes."
+      ],
+      "answer": "Induction de la réponse inflammatoire"
+    },
+    {
+      "id": 8,
+      "question": "Citer une caractéristique de lymphocyte B, qui est fausse:",
+      "options": [
+        "Existe des récepteurs à l'antigène TCR sur la membrane",
+        "Contient des molécules membranaires CD19, CD20, marqueur de lignée",
+        "10-15% en nombre de lymphocytes du sang périphérique",
+        "Présente des immunoglobulines á sa surface",
+        "Durée de vie quelques semaines"
+      ],
+      "answer": "Existe des récepteurs à l'antigène TCR sur la membrane"
+    },
+    {
+      "id": 9,
+      "question": "Citer une caractéristique de lymphocytes T, qui est fausse :",
+      "options": [
+        "Existe des récepteurs à l'antigène BCR sur la membrane",
+        "Contient des molécules membranaires CD3CD4, CD3CD8",
+        "70-80% en nombre de lymphocytes du sang peripherique",
+        "N'a pas des immunoglobulines á sa surface",
+        "Durée de vie quelques semaines"
+      ],
+      "answer": "Existe des récepteurs à l'antigène BCR sur la membrane"
+    },
+    {
+      "id": 10,
+      "question": "Citer une des caractéristiques de la fonction immunitaire de lymphocytes T CD8, qui est juste :",
+      "options": [
+        "Reconnaissance de l'antigène spécifique présenté par le récepteur BCR",
+        "Ne fait pas de régulation de la réponse immune.",
+        "Fonction de cytotoxicité",
+        "Pas de présentatrice de peptides.",
+        "Pas de mémoire immunologique"
+      ],
+      "answer": "Fonction de cytotoxicité"
+    },
+    {
+      "id": 11,
+      "question": "Le rôle de lymphocyte T4 ou CD4 au cours d'une réponse immunitaire, citer l'item qui est juste.",
+      "options": [
+        "Rôle cytotoxique (CTL) càd il sécrète une substance capable de lyser les organismes étrangers",
+        "Rôle de régulation au cours d'une réponse a la fois cellulaire et humorale",
+        "Lymphocytes CD4 secrètent une substance toxique qui élimine les pathogènes",
+        "Rôle d'éliminer les corps étrangers par sécrétion des lymphokines;",
+        "Rôle de présentatrice de l'antigène aux autres cellules du système immunitaire."
+      ],
+      "answer": "Rôle de régulation au cours d'une réponse a la fois cellulaire et humorale"
+    },
+    {
+      "id": 12,
+      "question": "L'item faux pour la définition de la fonction fondamentale du système immunitaire :",
+      "options": [
+        "Reconnaître les molécules étrangères à l'organisme;",
+        "Définir le soi et le non soi;",
+        "Assurer la défense du soi et éliminer le non soi;",
+        "Discriminer spécifiquement et sélectivement les moléculaires étrangères et les molécules constitutives de son propre organisme.",
+        "Stocker l'information avant de définir le soi et le non soi"
+      ],
+      "answer": "Stocker l'information avant de définir le soi et le non soi"
+    },
+    {
+      "id": 13,
+      "question": "Parmi les cellules sous mentionnées, citer celles qui participent au système immunitaire par son action d'opsonisation sur l'antigène ?",
+      "options": [
+        "Les plaquettes",
+        "Les lymphocytes B",
+        "Les polynucléaires neutrophiles",
+        "Les hématies",
+        "Les lymphocytes T"
+      ],
+      "answer": "Les polynucléaires neutrophiles"
+    },
+    {
+      "id": 14,
+      "question": "Parmi les cellules sous mentionnées, citer celles qui participent au système immunitaire par son action de digestion des pathogènes ?",
+      "options": [
+        "Les plaquettes",
+        "Les lymphocytes B",
+        "Les hématies",
+        "Les macrophages",
+        "Les lymphocytes T"
+      ],
+      "answer": "Les macrophages"
+    },
+    {
+      "id": 15,
+      "question": "Le système immunitaire est composé de cellules spécialisées et d'effecteur moléculaire ou molécules plasmatiques, quelles sont les cellules qui ne libèrent pas les interleukines dans les organes et le sang plasmatique ?",
+      "options": [
+        "Macrophages",
+        "Cellules dendritiques",
+        "Cellules blanches du système hématopoïétique",
+        "Lymphocytes B",
+        "Hématies"
+      ],
+      "answer": "Hématies"
+    },
+    {
+      "id": 16,
+      "question": "Citer une des cellules suivantes qui n'appartient pas à la population cellulaire du système immunitaire ?",
+      "options": [
+        "Monocytes/Macrophage",
+        "Lymphocytes B/T",
+        "Globules blanches",
+        "Cellules dendritiques",
+        "Cellule tumorale"
+      ],
+      "answer": "Cellule tumorale"
+    },
+    {
+      "id": 17,
+      "question": "Substance ou pathogène capable de déclencher une immunogénicité ?phrase juste :",
+      "options": [
+        "Adjuvant",
+        "Virus Covid 19",
+        "Morceau de pain",
+        "Bol de riz",
+        "L'eau"
+      ],
+      "answer": "Virus Covid 19"
+    },
+    {
+      "id": 18,
+      "question": "Substance ou pathogène capable d'augmenter l'immunogénicité ? citer la phrase juste :",
+      "options": [
+        "Adjuvant",
+        "Virus Covid 19",
+        "Morceau de pain",
+        "Bol de riz",
+        "L'eau"
+      ],
+      "answer": "Adjuvant"
+    },
+    {
+      "id": 19,
+      "question": "Citer la phrase qui est fausse, les molécules membranaires des cellulaires de l' immunité permet de:",
+      "options": [
+        "Distinguer les lignées de cellules d'immunité",
+        "Ont pour origine l'organe lymphoïde secondaire",
+        "Distinguer des stades de différenciation de cellules d'immunité",
+        "Indiquer une spécialisation fonctionnelle de cellules d'immunité",
+        "Distinguer les lignées de cellules d'immunité + Ont pour origine l'organe lymphoïde secondaire"
+      ],
+      "answer": "Ont pour origine l'organe lymphoïde secondaire"
+    },
+    {
+      "id": 20,
+      "question": "Donner une réponse juste, les Monocytes/Macrophage :",
+      "options": [
+        "Provient de l'organe lymphoïde secondaire",
+        "N'ont pas secrété les chimiokines",
+        "Présentent l'antigène aux lymphocytes helper CD4, ensuite lymphocytes B et T",
+        "Ont pour rôle de cytotoxicité",
+        "Ont pour rôle la régulation du système immunitaire"
+      ],
+      "answer": "Présentent l'antigène aux lymphocytes helper CD4, ensuite lymphocytes B et T"
+    },
+    {
+      "id": 21,
+      "question": "Citer une phrase fausse, le siège de la réponse immunitaire s'effectue au niveau de",
+      "options": [
+        "Thymus",
+        "Ganglion lymphatique",
+        "Organes lymphoïdes uro-génitaux",
+        "Organes lymphoïdes diffuses",
+        "Organes lymphoïdes secondaires"
+      ],
+      "answer": "Thymus"
+    },
+    {
+      "id": 22,
+      "question": "Citer l'item qui est juste, le thymus est:",
+      "options": [
+        "Siège de différentiation des hématies",
+        "Organe lymphoïde secondaire",
+        "Siège de l'hématopoïèse",
+        "Siège de différenciation de lymphocytes T",
+        "Siège de différenciation de lymphocytes B."
+      ],
+      "answer": "Siège de différenciation de lymphocytes T"
+    },
+    {
+      "id": 23,
+      "question": "Citer une phrase qui est fausse, les organes-et tissu composants du tissu lymphoïdes secondaire sont:",
+      "options": [
+        "Ganglions lymphatiques",
+        "Plaque de Peyer",
+        "Thymus et moelle osseuse;",
+        "Cellules Langherans de la peau",
+        "Tissu lymphoïde pulmonaire diffus."
+      ],
+      "answer": "Thymus et moelle osseuse;"
+    },
+    {
+      "id": 24,
+      "question": "Les monocytes et les lymphocytes, citer une phrase juste :",
+      "options": [
+        "Sont produits dans le thymus",
+        "Incapable de migrer sur un site inflammatoire",
+        "Sont porteurs d'immunoglobuline",
+        "Peuvent sécréter des quantités importantes d'interleukines",
+        "Peuvent sécréter des quantités importantes d'immunoglobulines"
+      ],
+      "answer": "Peuvent sécréter des quantités importantes d'interleukines"
+    },
+    {
+      "id": 25,
+      "question": "Par définition le terme d'antigène désigne toute espèce moléculaire d'origine biologique ou biosynthétique qui introduit dans le milieu intérieur d'un animal (appelé hôte ou receveur), est capable de stimuler son système immunitaire. Citer une phrase qui est un des antigènes :",
+      "options": [
+        "Saccharose",
+        "Lactose",
+        "Graisse du porc",
+        "Lait de soja",
+        "Virus Covid 19"
+      ],
+      "answer": "Virus Covid 19"
+    },
+    {
+      "id": 26,
+      "question": "Citer la fonction immunologique de défense naturelle ou innée qui est fausse :",
+      "options": [
+        "Assurer une réponse initiale rapide",
+        "Permet le plus souvent d'éliminer efficacement des pathogènes",
+        "Aide á la mise en place de réponse adaptative",
+        "Pas de mémoire immunologique après la 2eme agression",
+        "Assurer la défense naturelle ou innée par les lymphocytes B et T"
+      ],
+      "answer": "Assurer la défense naturelle ou innée par les lymphocytes B et T"
+    },
+    {
+      "id": 27,
+      "question": "Citer la fonction immunologique de défense adaptative qui est fausse:",
+      "options": [
+        "Assurer une réponse tardive lors d'une primo infection",
+        "Réponse spécifique d'antigène",
+        "Aide a la mise en place de réponse naturelle ou innée",
+        "Dotée de mémoire immunologique pour la 2eme agression",
+        "Les lymphocytes B et T assurent la défense adaptative"
+      ],
+      "answer": "Aide a la mise en place de réponse naturelle ou innée"
+    },
+    {
+      "id": 28,
+      "question": "Citer la barrière anatomique de la première ligne de défense de la réponse naturelle qui est fausse :",
+      "options": [
+        "Peau et muqueux",
+        "Fluides gastriques",
+        "Poil et cheveux",
+        "Système lacrymale",
+        "Salive"
+      ],
+      "answer": "Poil et cheveux"
+    },
+    {
+      "id": 29,
+      "question": "Au cours de la réponse naturelle ou innée, il est apparu lors de la réaction à l'inflammation quelques éléments, citer l'élément qui est faux :",
+      "options": [
+        "Pâleur",
+        "Chaleur",
+        "Rougeur",
+        "Douleur",
+        "Protéine d'inflammation"
+      ],
+      "answer": "Protéine d'inflammation"
+    },
+    {
+      "id": 30,
+      "question": "Au cours de la réponse naturelle ou innée, il est apparu le phénomène de phagocytose, citer l'étape qui est fausse :",
+      "options": [
+        "Phase d'attraction ou chimiotactisme",
+        "Phase d'adhérence",
+        "Phase d'ingestion;",
+        "Phase de digestion",
+        "Phase d'élimination"
+      ],
+      "answer": "Phase d'élimination"
+    }
+  ]
+}
