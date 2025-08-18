@@ -250,7 +250,9 @@
                 const keyButton = document.createElement('button');
                 keyButton.textContent = "Show Key";
                 keyButton.classList.add('key-button');
+                // The fix is here: we prevent the default form submission
                 keyButton.onclick = (event) => {
+                    event.preventDefault(); // Prevents the form from submitting and reloading the page
                     event.stopPropagation();
                     const keyElement = questionDiv.querySelector('.answer-key');
                     if (keyElement.style.display === 'none' || keyElement.style.display === '') {
@@ -347,7 +349,6 @@
                 const containerBottom = container.offsetTop + container.offsetHeight;
                 const windowBottom = window.scrollY + window.innerHeight;
 
-                // Hide floating buttons if the user scrolls past the quiz container
                 if (windowBottom > containerBottom) {
                     floatingControls.style.display = 'none';
                 } else {
