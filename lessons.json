@@ -11,7 +11,8 @@
         "Clichée de face en AP. en inspiration profonde avec une pénétration suffisante et l’identification correcte",
         "Clichée de face avec une pénétration suffisante et l’identification correcte"
       ],
-      "answer": "Clichée de face en inspiration profonde avec une pénétration suffisante et l’identification correcte"
+      "answer": "Clichée de face en inspiration profonde avec une pénétration suffisante et l’identification correcte",
+      "key": "Face, inspiration profonde, pénétration suffisante"
     },
     {
       "id": 2,
@@ -23,7 +24,8 @@
         "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord latéral net avec paroi thoracique",
         "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord médial net, bord latéral net avec paroi thoracique"
       ],
-      "answer": "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord médial net, bord latéral confondu avec paroi thoracique"
+      "answer": "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord médial net, bord latéral confondu avec paroi thoracique",
+      "key": "Périphérique, fusiforme, angle en pente douce, bord médial net"
     },
     {
       "id": 3,
@@ -35,7 +37,8 @@
         "Opacité hétérogène rétractile",
         "Opacité homogène de contour floue"
       ],
-      "answer": "Opacité sans broncho- et alvéologramme aérien, la concavité vers le haut"
+      "answer": "Opacité sans broncho- et alvéologramme aérien, la concavité vers le haut",
+      "key": "Sans bronchogramme, concavité vers le haut"
     },
     {
       "id": 4,
@@ -47,7 +50,8 @@
         "Opacité médiastinale de borde externe nette et concave, borde interne effacé",
         "Opacité médiastinale avec bronchogramme aérien"
       ],
-      "answer": "Opacité médiastinale de bord externe convexe et nette, borde interne effacé"
+      "answer": "Opacité médiastinale de bord externe convexe et nette, borde interne effacé",
+      "key": "Bord externe convexe et net"
     },
     {
       "id": 5,
@@ -59,7 +63,8 @@
         "Opacité solitaire ou cavitaire avec angle de raccordements en pente douce",
         "Opacité médiastinale de bord externe convexe et nette, borde interne effacé"
       ],
-      "answer": "Gros opacité solitaire ou cavitaire entouré par l’air pulmonaire avec angle de raccordements aigus"
+      "answer": "Gros opacité solitaire ou cavitaire entouré par l’air pulmonaire avec angle de raccordements aigus",
+      "key": "Opacité solitaire, angle aigu"
     },
     {
       "id": 6,
@@ -71,7 +76,8 @@
         "Opacité réticulaire floues",
         "Opacité de contour nette"
       ],
-      "answer": "Opacité hétérogène systématisé, regroupé, de densité hydrique de borde floues"
+      "answer": "Opacité hétérogène systématisé, regroupé, de densité hydrique de borde floues",
+      "key": "Hétérogène, bord flou"
     },
     {
       "id": 7,
@@ -83,7 +89,8 @@
         "Opacité hétérogène irrégulier",
         "Opacité solitaire plus de 3cm"
       ],
-      "answer": "Opacité micronodulaire, épaississement péribroncho-vasculaire et image en rayon de miel, sans bronchogramme aérien"
+      "answer": "Opacité micronodulaire, épaississement péribroncho-vasculaire et image en rayon de miel, sans bronchogramme aérien",
+      "key": "Micronodules, rayon de miel"
     },
     {
       "id": 8,
@@ -95,7 +102,8 @@
         "Opacité cavitaire et nodulaires",
         "Opacité en verres dépolis"
       ],
-      "answer": "Épaississement de la paroi bronchique et dilatation bronchique"
+      "answer": "Épaississement de la paroi bronchique et dilatation bronchique",
+      "key": "Épaississement et dilatation"
     },
     {
       "id": 9,
@@ -107,7 +115,8 @@
         "2d < (D) ( < 0,3)",
         "2 d < (D) ( < 0,1)"
       ],
-      "answer": "2 d < (D) ( < 0,50)"
+      "answer": "2 d < (D) ( < 0,50)",
+      "key": "ICT < 0.50"
     },
     {
       "id": 10,
@@ -119,7 +128,8 @@
         "Bronchite",
         "Tumeur pulmonaire"
       ],
-      "answer": "Cardiomégalie et péricardite"
+      "answer": "Cardiomégalie et péricardite",
+      "key": "Cardiomégalie et péricardite"
     },
     {
       "id": 11,
@@ -131,7 +141,8 @@
         "Assis, en apnée post-expiration",
         "Couché latéralement, inspiration normale"
       ],
-      "answer": "Debout, en inspiration maximale"
+      "answer": "Debout, en inspiration maximale",
+      "key": "Debout, inspiration maximale"
     },
     {
       "id": 12,
@@ -143,7 +154,8 @@
         "Ascension de l’hémicoupole diaphragmatique",
         "Réduction du diamètre trachéal"
       ],
-      "answer": "Opacité déclive à bord supérieur concave vers le haut"
+      "answer": "Opacité déclive à bord supérieur concave vers le haut",
+      "key": "Opacité déclive, concavité vers le haut"
     },
     {
       "id": 13,
@@ -155,7 +167,8 @@
         "Une clarté intense sans trame vasculaire",
         "Un effacement complet de l’hile"
       ],
-      "answer": "Une opacité floue avec bronchogramme aérique"
+      "answer": "Une opacité floue avec bronchogramme aérique",
+      "key": "Opacité floue, bronchogramme aérique"
     },
     {
       "id": 14,
@@ -167,7 +180,8 @@
         "Les côtes postérieures",
         "Le bord diaphragmatique droit"
       ],
-      "answer": "La scissure horizontale"
+      "answer": "La scissure horizontale",
+      "key": "Scissure horizontale (non visible)"
     },
     {
       "id": 15,
@@ -179,7 +193,8 @@
         "Élargissement médiastinal",
         "Silhouette cardiaque floue"
       ],
-      "answer": "Hyperclarté périphérique sans trame vasculaire"
+      "answer": "Hyperclarté périphérique sans trame vasculaire",
+      "key": "Hyperclarté sans trame vasculaire"
     },
     {
       "id": 16,
@@ -191,7 +206,8 @@
         "Étudier les pathologies pulmonaires et pleuro-médiastinales",
         "Remplacer le scanner thoracique"
       ],
-      "answer": "Étudier les pathologies pulmonaires et pleuro-médiastinales"
+      "answer": "Étudier les pathologies pulmonaires et pleuro-médiastinales",
+      "key": "Pathologies pulmonaires et pleuro-médiastinales"
     }
   ]
 }
