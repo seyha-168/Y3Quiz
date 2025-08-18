@@ -37,7 +37,7 @@
         "7 cartilages principaux",
         "8 cartilages principaux"
       ],
-      "answer": "6 cartilages principaux",
+      "answer": "5 cartilages principaux",
       "key": "The larynx is composed of six main cartilages: three unpaired (thyroid, cricoid, epiglottis) and three paired (arytenoid, corniculate, cuneiform)."
     },
     {
@@ -115,7 +115,7 @@
         "Stroboscopie",
         "Radiographie"
       ],
-      "answer": "Stroboscopie",
+      "answer": "Endoscopie",
       "key": "Stroboscopy is a specialized examination technique that uses a flashing light to visualize the vibration of the vocal cords, making it the best method for detecting subtle pathologies."
     },
     {
@@ -135,7 +135,7 @@
       "id": 11,
       "question": "Les nerfs récurrents ou les nerfs laryngés inférieurs proviennent du Nerf :",
       "options": [
-        "Π",
+        "II",
         "V",
         "VII",
         "X",
@@ -167,7 +167,7 @@
         "Moteur, Sensitif",
         "Moteur, Audition"
       ],
-      "answer": "Moteur, Sensitif",
+      "answer": "Sensitif",
       "key": "The superior laryngeal nerve has two branches: a motor branch that innervates the cricothyroid muscle and a sensory branch for the laryngeal mucosa."
     },
     {
@@ -232,7 +232,7 @@
         "Laryngomalacia",
         "Foreign body in the esophagus"
       ],
-      "answer": "Subglottic stenosis",
+      "answer": "Vocal cord paralysis",
       "key": "Biphasic stridor (occurring during both inspiration and expiration) is characteristic of fixed lesions at the glottic or subglottic level, such as subglottic stenosis."
     },
     {
