@@ -2,5 +2,8 @@
   {
     "title": "Sémiologie Radiologique",
     "filename": "lessons.json"
-  }
+  },
+  {
+    "title": "SémiologieQ15",
+    "filename": "SémiologieQ15.json"
 ]
