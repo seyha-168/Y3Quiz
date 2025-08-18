@@ -148,23 +148,23 @@
     </div>
 
     <script>
-        document.getElementById('redo-btn').addEventListener('click', redoQuiz);
-        document.getElementById('back-btn').addEventListener('click', showLessonsList);
-        
-        // Final Fix: Attaching event listeners to the buttons on page load
-        document.getElementById('go-to-bottom-btn').addEventListener('click', () => {
-            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-        });
-        document.getElementById('go-to-top-btn').addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        let originalLessonData = null;
-        let lastSelectedQuestion = null;
-
+        // Place event listeners inside window.onload to ensure buttons exist
         window.onload = function() {
             showLessonsList();
+
+            document.getElementById('redo-btn').addEventListener('click', redoQuiz);
+            document.getElementById('back-btn').addEventListener('click', showLessonsList);
+            
+            document.getElementById('go-to-bottom-btn').addEventListener('click', () => {
+                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            });
+            document.getElementById('go-to-top-btn').addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
         };
+        
+        let originalLessonData = null;
+        let lastSelectedQuestion = null;
 
         function showLessonsList() {
             const quizContainer = document.getElementById('quiz-container');
