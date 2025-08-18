@@ -57,7 +57,7 @@
         .controls {
             display: flex;
             justify-content: center;
-            flex-wrap: wrap; /* Allows buttons to wrap on smaller screens */
+            flex-wrap: wrap;
             margin-top: 20px;
         }
         button, .lesson-button {
@@ -78,6 +78,19 @@
             margin-top: 25px;
             text-align: center;
         }
+        /* New CSS for fixed buttons */
+        .fixed-controls {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none; /* Initially hidden */
+            flex-direction: column;
+            gap: 10px;
+        }
+        .fixed-controls button {
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            width: 150px; /* Adjust button width */
+        }
     </style>
 </head>
 <body>
@@ -89,12 +102,14 @@
             </div>
 
         <div class="controls">
-            <button id="top-btn" onclick="goToTop()" style="display:none;">Go to Top</button>
-            <button id="bottom-btn" onclick="goToBottom()" style="display:none;">Go to Bottom</button>
-            <button id="redo-btn" onclick="redoQuiz()" style="display:none;">Redo Quiz</button>
-            <button id="back-btn" onclick="showLessonsList()" style="display:none;">Back to Lessons</button>
+            <button id="redo-btn" style="display:none;">Redo Quiz</button>
+            <button id="back-btn" style="display:none;">Back to Lessons</button>
         </div>
+    </div>
 
+    <div class="fixed-controls" id="fixed-controls">
+        <button id="top-btn" onclick="goToTop()">Go to Top</button>
+        <button id="bottom-btn" onclick="goToBottom()">Go to Bottom</button>
     </div>
 
     <script>
@@ -124,8 +139,7 @@
             // Hide all quiz-related buttons
             document.getElementById('redo-btn').style.display = 'none';
             document.getElementById('back-btn').style.display = 'none';
-            document.getElementById('top-btn').style.display = 'none';
-            document.getElementById('bottom-btn').style.display = 'none';
+            document.getElementById('fixed-controls').style.display = 'none';
 
             fetch('lessons_list.json')
                 .then(response => response.json())
@@ -159,8 +173,7 @@
                     // Show quiz-related buttons
                     document.getElementById('redo-btn').style.display = 'block';
                     document.getElementById('back-btn').style.display = 'block';
-                    document.getElementById('top-btn').style.display = 'block';
-                    document.getElementById('bottom-btn').style.display = 'block';
+                    document.getElementById('fixed-controls').style.display = 'flex'; // Show fixed buttons
                 })
                 .catch(error => {
                     console.error('There has been a problem with your fetch operation:', error);
@@ -168,8 +181,7 @@
                     document.getElementById('quiz-container').innerHTML = "<p>Could not load the quiz questions. Please ensure the file is in the same folder and correctly formatted.</p>";
                     document.getElementById('redo-btn').style.display = 'none';
                     document.getElementById('back-btn').style.display = 'block';
-                    document.getElementById('top-btn').style.display = 'none';
-                    document.getElementById('bottom-btn').style.display = 'none';
+                    document.getElementById('fixed-controls').style.display = 'none';
                 });
         }
 
@@ -178,7 +190,7 @@
                 const shuffledData = JSON.parse(JSON.stringify(originalLessonData));
                 shuffledData.questions = shuffleArray(shuffledData.questions);
                 buildQuiz(shuffledData);
-                goToTop(); // Scroll to top after redoing
+                goToTop();
             }
         }
         
