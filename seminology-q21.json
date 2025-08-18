@@ -1,0 +1,278 @@
+{
+  "quizTitle": "Sémiologie Dr. Teng Vannara Q21",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Larynx, c'est un organe",
+      "options": [
+        "Respiratoire",
+        "Phonatoire",
+        "De déglutition",
+        "De l'audiition",
+        "Respiratoire, Phonatoire, De déglutition"
+      ],
+      "answer": "Respiratoire, Phonatoire, De déglutition",
+      "key": "The larynx serves multiple functions, including breathing, phonation (voice production), and swallowing."
+    },
+    {
+      "id": 2,
+      "question": "Larynx est situé",
+      "options": [
+        "Au-dessus de la trachée",
+        "Au-dessous de la trachée",
+        "En arrière de la trachée",
+        "En avant de la trachée",
+        "Au-dessus la base de la langue"
+      ],
+      "answer": "Au-dessus de la trachée",
+      "key": "The larynx is the part of the respiratory tract that is situated superior to the trachea."
+    },
+    {
+      "id": 3,
+      "question": "Larynx est comporté par",
+      "options": [
+        "4 cartilages principaux",
+        "5 cartilages principaux",
+        "6 cartilages principaux",
+        "7 cartilages principaux",
+        "8 cartilages principaux"
+      ],
+      "answer": "6 cartilages principaux",
+      "key": "The larynx is composed of six main cartilages: three unpaired (thyroid, cricoid, epiglottis) and three paired (arytenoid, corniculate, cuneiform)."
+    },
+    {
+      "id": 4,
+      "question": "Le muscle de l'adduction du larynx est un",
+      "options": [
+        "Muscle inter- aryténoïdien",
+        "Muscle crico- aryténoïdien postérieur",
+        "Muscle sterno-cleido-hyoïdien",
+        "Muscle omo-hyoïdien",
+        "Muscle crico-thyroïdien"
+      ],
+      "answer": "Muscle inter- aryténoïdien",
+      "key": "The interarytenoid muscle is an adductor, bringing the arytenoid cartilages together to close the vocal cords."
+    },
+    {
+      "id": 5,
+      "question": "Le muscle de l'abduction du larynx est un",
+      "options": [
+        "Muscle inter-aryténoïdien",
+        "Muscle crico- aryténoïdien postérieur",
+        "Muscle crico-thyroïdien",
+        "Muscle crico- aryténoïdien",
+        "Muscle omo-hyoïdien"
+      ],
+      "answer": "Muscle crico- aryténoïdien postérieur",
+      "key": "The posterior cricoarytenoid muscle is the only muscle in the larynx that abducts (opens) the vocal cords."
+    },
+    {
+      "id": 6,
+      "question": "Le muscle tenseur du larynx est un",
+      "options": [
+        "Muscle inter- aryténoïdien",
+        "Muscle crico-aryténoïdien postérieur",
+        "Muscle crico-thyroïdien",
+        "Muscle crico- aryténoïdien",
+        "Musle omo-hyoïdien"
+      ],
+      "answer": "Muscle crico-thyroïdien",
+      "key": "The cricothyroid muscle is responsible for stretching and tensing the vocal cords, which raises the pitch of the voice."
+    },
+    {
+      "id": 7,
+      "question": "La fonction du nerf récurrent ou nerf laryngé inférieur est",
+      "options": [
+        "Moteur",
+        "Sensitif",
+        "Audition",
+        "Moteur, Sensitif",
+        "Moteur, Audition"
+      ],
+      "answer": "Moteur",
+      "key": "The recurrent laryngeal nerve provides motor innervation to all the intrinsic muscles of the larynx except the cricothyroid muscle."
+    },
+    {
+      "id": 8,
+      "question": "Pendant la phase respiratoire, les plis vocaux sont",
+      "options": [
+        "Fermetures",
+        "Ouvertures",
+        "Béants",
+        "Ouverture la commissure antérieure et fermeture la commissure postérieure",
+        "Fermeture la commissure antérieure et ouverture la commissure postérieure"
+      ],
+      "answer": "Ouvertures",
+      "key": "During the respiratory phase, the vocal cords are open to allow air to pass freely into and out of the lungs."
+    },
+    {
+      "id": 9,
+      "question": "Actuellement, quel est un mieux technique de l'examen pour rechercher pathologique du larynx?",
+      "options": [
+        "Endoscopie",
+        "Fibroscopie",
+        "Miroir de Garcia",
+        "Stroboscopie",
+        "Radiographie"
+      ],
+      "answer": "Stroboscopie",
+      "key": "Stroboscopy is a specialized examination technique that uses a flashing light to visualize the vibration of the vocal cords, making it the best method for detecting subtle pathologies."
+    },
+    {
+      "id": 10,
+      "question": "Parmi les éléments cliniques de pathologie du larynx, quel est un maître symptôme ?",
+      "options": [
+        "Dysphagie",
+        "Dysphonie",
+        "Dyspnée",
+        "Fausses rautes",
+        "Crachats hémoptoïques"
+      ],
+      "answer": "Dysphonie",
+      "key": "Dysphonia (hoarseness or an abnormal voice) is the most common and classic symptom of laryngeal pathology."
+    },
+    {
+      "id": 11,
+      "question": "Les nerfs récurrents ou les nerfs laryngés inférieurs proviennent du Nerf :",
+      "options": [
+        "Π",
+        "V",
+        "VII",
+        "X",
+        "XII"
+      ],
+      "answer": "X",
+      "key": "The recurrent laryngeal nerves are branches of the vagus nerve, which is cranial nerve X."
+    },
+    {
+      "id": 12,
+      "question": "Dans les causes de dysphonie au-dessous, sauf un :",
+      "options": [
+        "Intoxication alcalo-tabagique",
+        "Profession (chanteur, avocat, professeur.......)",
+        "Allergie (environnement, poussière, alimentaire...)",
+        "ATCD: médicaux, chirurgicaux, traumatisme...",
+        "Corps étranger"
+      ],
+      "answer": "Corps étranger",
+      "key": "While a foreign body can cause dysphonia, the other options (smoking/alcohol, profession, allergy, and medical history) are common chronic or predisposing factors, making 'Corps étranger' the exception."
+    },
+    {
+      "id": 13,
+      "question": "La fonction du nerf laryngé supérieur est",
+      "options": [
+        "Moteur",
+        "Sensitif",
+        "Audition",
+        "Moteur, Sensitif",
+        "Moteur, Audition"
+      ],
+      "answer": "Moteur, Sensitif",
+      "key": "The superior laryngeal nerve has two branches: a motor branch that innervates the cricothyroid muscle and a sensory branch for the laryngeal mucosa."
+    },
+    {
+      "id": 14,
+      "question": "Dans parmi les fonctions du larynx suivantes sauf un :",
+      "options": [
+        "Respiration",
+        "Déglutition",
+        "Phonation",
+        "Audition",
+        "Respiration, Déglutition, Phonation"
+      ],
+      "answer": "Audition",
+      "key": "The larynx is crucial for respiration, swallowing (déglutition), and phonation, but it has no role in audition (hearing)."
+    },
+    {
+      "id": 15,
+      "question": "Les instruments pour technique de l'examen de la laryngoscopie indirecte suivantes sauf un :",
+      "options": [
+        "Miroir de Garcia",
+        "Fibroscope flexible par voie nasale",
+        "Endoscope 90°-70°",
+        "Vidéoscopie - Stroboscopie",
+        "Otoscope"
+      ],
+      "answer": "Otoscope",
+      "key": "An otoscope is an instrument used to examine the ear, not the larynx."
+    },
+    {
+      "id": 16,
+      "question": "What is the most common symptom of laryngeal pathology?",
+      "options": [
+        "Dysphagia",
+        "Odynophagia",
+        "Hoarseness",
+        "Stridor",
+        "Aspiration"
+      ],
+      "answer": "Hoarseness",
+      "key": "Hoarseness is the most frequently reported symptom of laryngeal disorders, particularly those affecting the vocal cords."
+    },
+    {
+      "id": 17,
+      "question": "Which symptom suggests a supraglottic lesion rather than a glottic one?",
+      "options": [
+        "Early hoarseness",
+        "Foreign body sensation",
+        "Airway obstruction",
+        "Dysphagia with referred otalgia",
+        "Hemoptysis"
+      ],
+      "answer": "Dysphagia with referred otalgia",
+      "key": "Supraglottic cancers often present with vague throat pain, difficulty swallowing (dysphagia), and pain referred to the ear (otalgia), whereas glottic cancers typically present with hoarseness."
+    },
+    {
+      "id": 18,
+      "question": "What is the most likely cause of biphasic stridor in a laryngeal disorder?",
+      "options": [
+        "Glottic tumor",
+        "Vocal cord paralysis",
+        "Subglottic stenosis",
+        "Laryngomalacia",
+        "Foreign body in the esophagus"
+      ],
+      "answer": "Subglottic stenosis",
+      "key": "Biphasic stridor (occurring during both inspiration and expiration) is characteristic of fixed lesions at the glottic or subglottic level, such as subglottic stenosis."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is a red flag symptom in hoarseness requiring urgent ENT referral?",
+      "options": [
+        "Hoarseness lasting less than 2 weeks",
+        "Intermittent hoarseness after voice overuse",
+        "Hoarseness associated with cough",
+        "Hoarseness lasting >3 weeks, especially in a smoker",
+        "Hoarseness improving with rest"
+      ],
+      "answer": "Hoarseness lasting >3 weeks, especially in a smoker",
+      "key": "Persistent hoarseness that lasts longer than three weeks, particularly in high-risk individuals like smokers, is a red flag for laryngeal malignancy and requires urgent evaluation."
+    },
+    {
+      "id": 20,
+      "question": "Which feature most strongly suggests laryngeal carcinoma?",
+      "options": [
+        "Sudden-onset aphonia",
+        "Hoarseness with upper respiratory infection",
+        "Progressive hoarseness with weight loss and dysphagia",
+        "Hoarseness after shouting",
+        "Recurrent laryngitis"
+      ],
+      "answer": "Progressive hoarseness with weight loss and dysphagia",
+      "key": "The combination of a progressively worsening voice, difficulty swallowing, and unexplained weight loss is highly suggestive of advanced laryngeal carcinoma."
+    },
+    {
+      "id": 21,
+      "question": "What is the most likely finding on laryngoscopy in vocal cord nodules?",
+      "options": [
+        "Unilateral immobile vocal cord",
+        "Ulcerated mass on vocal cord",
+        "Bilateral symmetric lesions at the junction of anterior and middle thirds",
+        "Swollen arytenoids",
+        "Subglottic narrowing"
+      ],
+      "answer": "Bilateral symmetric lesions at the junction of anterior and middle thirds",
+      "key": "Vocal cord nodules, often referred to as 'singer's nodules', are classically found as bilateral, symmetrical lesions at the point of greatest vocal cord impact, which is the junction of the anterior and middle thirds."
+    }
+  ]
+}
