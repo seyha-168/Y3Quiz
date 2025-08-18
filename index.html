@@ -248,11 +248,10 @@
                 questionTextContainer.appendChild(questionSpan);
                 
                 const keyButton = document.createElement('button');
+                keyButton.type = "button"; // The key fix: prevents form submission
                 keyButton.textContent = "Show Key";
                 keyButton.classList.add('key-button');
-                // The fix is here: we prevent the default form submission
                 keyButton.onclick = (event) => {
-                    event.preventDefault(); // Prevents the form from submitting and reloading the page
                     event.stopPropagation();
                     const keyElement = questionDiv.querySelector('.answer-key');
                     if (keyElement.style.display === 'none' || keyElement.style.display === '') {
