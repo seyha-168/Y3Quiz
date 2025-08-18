@@ -31,11 +31,11 @@
       "id": 3,
       "question": "Quel est l'aspect typique d'une hémorragie intracérébrale aiguë au scanner non injecté ?",
       "options": [
-        "Hypodense par rapport au parenchyme cérébral",
-        "Iso-dense par rapport au parenchyme cérébral",
+        "O. Hypodense par rapport au parenchyme cérébral",
+        "O. Iso-dense par rapport au parenchyme cérébral",
         "Hyperdense par rapport au parenchyme cérébral",
         "Non visible sans injection de produit de contraste",
-        "Difficile à différencier du liquide céphalorachidien (LCR)"
+        "O. Difficile à différencier du liquide céphalorachidien (LCR)"
       ],
       "answer": "Hyperdense par rapport au parenchyme cérébral",
       "key": "An acute intracerebral hemorrhage typically appears as a hyperdense area compared to the surrounding brain parenchyma on a non-contrast CT scan."
@@ -44,7 +44,7 @@
       "id": 4,
       "question": "In MRI, the signal from water is:",
       "options": [
-        "Bright on T1, bright on T2",
+        "O.Bright on T1, bright on T2",
         "Bright on T1, dark on T2",
         "Dark on T1, bright on T2",
         "Dark on T1, dark on T2",
@@ -57,11 +57,11 @@
       "id": 5,
       "question": "Quelle est l'unité de densité en scanner?",
       "options": [
-        "Gray (Gy)",
+        "O. Gray (Gy)",
         "Becquerel (Bq)",
-        "Sievert (Sv)",
+        "O. Sievert (Sv)",
         "Hounsfield (UH)",
-        "Tesla (T)"
+        "O. Tesla (T)"
       ],
       "answer": "Hounsfield (UH)",
       "key": "The unit of density used in CT scanning is the Hounsfield Unit (HU)."
@@ -70,11 +70,11 @@
       "id": 6,
       "question": "Quelle est la densité typique de l'eau en unité Hounsfield (UH) sur un scanner ?",
       "options": [
-        "-1000 UH",
-        "-500 UH",
+        ")-1000 UH",
+        ")-500 UH",
         "0 UH",
-        "+500 UH",
-        "+1000 UH"
+        ")+500 UH",
+        ")+1000 UH"
       ],
       "answer": "0 UH",
       "key": "The typical Hounsfield density of water on a CT scan is 0 HU."
