@@ -1,0 +1,197 @@
+{
+  "quizTitle": "Sémiologie Radiologique - QCM",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la techniquement acceptable de radiographie thoracique simple ?",
+      "options": [
+        "Clichée de face en inspiration profonde avec une pénétration suffisante et l’identification correcte",
+        "Clichée de face en expiration avec une pénétration suffisante et l’identification correcte",
+        "Clichée de face en AP. en expiration avec une pénétration suffisante et l’identification correcte",
+        "Clichée de face en AP. en inspiration profonde avec une pénétration suffisante et l’identification correcte",
+        "Clichée de face avec une pénétration suffisante et l’identification correcte"
+      ],
+      "answer": "Clichée de face en inspiration profonde avec une pénétration suffisante et l’identification correcte"
+    },
+    {
+      "id": 2,
+      "question": "Quelle est le signe sémiologie radiologique d’une opacité pariétale typique ?",
+      "options": [
+        "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord médial net, bord latéral confondu avec paroi thoracique",
+        "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord médial confondu, bord latéral net avec paroi thoracique",
+        "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord médial confondu",
+        "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord latéral net avec paroi thoracique",
+        "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord médial net, bord latéral net avec paroi thoracique"
+      ],
+      "answer": "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord médial net, bord latéral confondu avec paroi thoracique"
+    },
+    {
+      "id": 3,
+      "question": "Quelle est le signe sémiologie radiologique d’un épanchement liquidien pleural ?",
+      "options": [
+        "Opacité sans broncho- et alvéologramme aérien, la concavité vers le haut",
+        "Opacité sans broncho- et alvéologramme aérien, la concavité vers le bas",
+        "Opacité avec broncho- et alvéologramme aérien basal",
+        "Opacité hétérogène rétractile",
+        "Opacité homogène de contour floue"
+      ],
+      "answer": "Opacité sans broncho- et alvéologramme aérien, la concavité vers le haut"
+    },
+    {
+      "id": 4,
+      "question": "Quelle est le signe sémiologie radiologique d’une masse médiastinale ?",
+      "options": [
+        "Opacité médiastinale de bord externe convexe et nette, borde interne effacé",
+        "Opacité médiastinale de bord externe floue et borde interne nette",
+        "Opacité médiastinale hétérogène avec bord externe floue",
+        "Opacité médiastinale de borde externe nette et concave, borde interne effacé",
+        "Opacité médiastinale avec bronchogramme aérien"
+      ],
+      "answer": "Opacité médiastinale de bord externe convexe et nette, borde interne effacé"
+    },
+    {
+      "id": 5,
+      "question": "Quelle est la définition du syndrome parenchymateuse en radiologique standard ?",
+      "options": [
+        "Gros opacité solitaire ou cavitaire entouré par l’air pulmonaire avec angle de raccordements aigus",
+        "Micro-opacité pulmonaire",
+        "Opacités réticulaire et micronodulaire",
+        "Opacité solitaire ou cavitaire avec angle de raccordements en pente douce",
+        "Opacité médiastinale de bord externe convexe et nette, borde interne effacé"
+      ],
+      "answer": "Gros opacité solitaire ou cavitaire entouré par l’air pulmonaire avec angle de raccordements aigus"
+    },
+    {
+      "id": 6,
+      "question": "Quelle est la sémiologie radiologique d’un syndrome alvéolaire ?",
+      "options": [
+        "Opacité hétérogène systématisé, regroupé, de densité hydrique de borde floues",
+        "Opacité systématisé, regroupé, de densité hydrique de borde nette",
+        "Opacités en verres dépolis",
+        "Opacité réticulaire floues",
+        "Opacité de contour nette"
+      ],
+      "answer": "Opacité hétérogène systématisé, regroupé, de densité hydrique de borde floues"
+    },
+    {
+      "id": 7,
+      "question": "Quelle est l’aspect radiologique d’un syndrome interstitiel ?",
+      "options": [
+        "Opacité micronodulaire, épaississement péribroncho-vasculaire et image en rayon de miel, sans bronchogramme aérien",
+        "Opacité avec bronchogramme aérien",
+        "Opacité micronodulaire, épaississement péribroncho-vasculaire avec bronchogramme aérien",
+        "Opacité hétérogène irrégulier",
+        "Opacité solitaire plus de 3cm"
+      ],
+      "answer": "Opacité micronodulaire, épaississement péribroncho-vasculaire et image en rayon de miel, sans bronchogramme aérien"
+    },
+    {
+      "id": 8,
+      "question": "Quelle est le signe sémiologie du syndrome bronchique ?",
+      "options": [
+        "Épaississement de la paroi bronchique et dilatation bronchique",
+        "Épaississement péribroncho-vasculaire",
+        "Opacité réticulaire et nodulaire",
+        "Opacité cavitaire et nodulaires",
+        "Opacité en verres dépolis"
+      ],
+      "answer": "Épaississement de la paroi bronchique et dilatation bronchique"
+    },
+    {
+      "id": 9,
+      "question": "Quelle est l’index cardio thoracique normal ?",
+      "options": [
+        "2 d < (D) ( < 0,50)",
+        "2d < (D) ( < 1)",
+        "2 d < (D) ( < 0)",
+        "2d < (D) ( < 0,3)",
+        "2 d < (D) ( < 0,1)"
+      ],
+      "answer": "2 d < (D) ( < 0,50)"
+    },
+    {
+      "id": 10,
+      "question": "Quelle est la pathologie de grosse cour en radiologie standard ?",
+      "options": [
+        "Cardiomégalie et péricardite",
+        "Pneumonie",
+        "Pleurésie",
+        "Bronchite",
+        "Tumeur pulmonaire"
+      ],
+      "answer": "Cardiomégalie et péricardite"
+    },
+    {
+      "id": 11,
+      "question": "Quel est le bon positionnement du patient pour une radiographie thoracique standard de face ?",
+      "options": [
+        "Décubitus dorsal, inspiration bloquée",
+        "Debout, en expiration forcée",
+        "Debout, en inspiration maximale",
+        "Assis, en apnée post-expiration",
+        "Couché latéralement, inspiration normale"
+      ],
+      "answer": "Debout, en inspiration maximale"
+    },
+    {
+      "id": 12,
+      "question": "Quel signe est caractéristique d’un épanchement pleural à la radiographie ?",
+      "options": [
+        "Hyperclarté basale avec niveau hydro-aérique",
+        "Opacité déclive à bord supérieur concave vers le haut",
+        "Silhouette cardiaque floue",
+        "Ascension de l’hémicoupole diaphragmatique",
+        "Réduction du diamètre trachéal"
+      ],
+      "answer": "Opacité déclive à bord supérieur concave vers le haut"
+    },
+    {
+      "id": 13,
+      "question": "Une opacité alvéolaire typique se présente comme :",
+      "options": [
+        "Une hyperclarté homogène périphérique",
+        "Une opacité hétérogène sans limite",
+        "Une opacité floue avec bronchogramme aérique",
+        "Une clarté intense sans trame vasculaire",
+        "Un effacement complet de l’hile"
+      ],
+      "answer": "Une opacité floue avec bronchogramme aérique"
+    },
+    {
+      "id": 14,
+      "question": "Laquelle des structures suivantes n’est pas normalement visible sur une radiographie thoracique de face ?",
+      "options": [
+        "L’arc moyen du cœur",
+        "La trachée",
+        "La scissure horizontale",
+        "Les côtes postérieures",
+        "Le bord diaphragmatique droit"
+      ],
+      "answer": "La scissure horizontale"
+    },
+    {
+      "id": 15,
+      "question": "Quel est le signe radiologique principal d’un pneumothorax ?",
+      "options": [
+        "Opacité hétérogène avec ligne de niveau",
+        "Opacité déclive avec courbure ascendante",
+        "Hyperclarté périphérique sans trame vasculaire",
+        "Élargissement médiastinal",
+        "Silhouette cardiaque floue"
+      ],
+      "answer": "Hyperclarté périphérique sans trame vasculaire"
+    },
+    {
+      "id": 16,
+      "question": "Quel est le principal intérêt de la radiographie thoracique ?",
+      "options": [
+        "Diagnostiquer l’embolie pulmonaire avec certitude",
+        "Dépister la tuberculose uniquement",
+        "Visualiser les structures intra-abdominales",
+        "Étudier les pathologies pulmonaires et pleuro-médiastinales",
+        "Remplacer le scanner thoracique"
+      ],
+      "answer": "Étudier les pathologies pulmonaires et pleuro-médiastinales"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz with Instant Feedback</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 700px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        #quiz-form {
+            text-align: left;
+        }
+        .question-item {
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .question-text {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .option {
+            margin-bottom: 5px;
+        }
+        .correct-feedback {
+            color: green;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .incorrect-feedback {
+            color: red;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        button {
+            padding: 12px 25px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #results-container {
+            margin-top: 25px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="quiz-title">Dynamic Quiz with Instant Feedback</h1>
+        <p>Please upload your JSON lesson file to build the quiz.</p>
+        <input type="file" id="json-upload" accept=".json">
+        
+        <div id="quiz-container">
+            </div>
+
+        <div class="controls">
+            <button id="redo-btn" style="display:none;">Redo Quiz</button>
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById('json-upload').addEventListener('change', handleFileSelect);
+        document.getElementById('redo-btn').addEventListener('click', redoQuiz);
+
+        // Store the original lesson data to allow for redoing the quiz
+        let originalLessonData = null;
+
+        function handleFileSelect(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    try {
+                        originalLessonData = JSON.parse(e.target.result);
+                        buildQuiz(originalLessonData);
+                        document.getElementById('redo-btn').style.display = 'block';
+                    } catch (error) {
+                        alert('Error reading the file. Please ensure it is a valid JSON file.');
+                        console.error(error);
+                    }
+                };
+                reader.readAsText(file);
+            }
+        }
+
+        function redoQuiz() {
+            if (originalLessonData) {
+                // Create a copy of the data before shuffling
+                const shuffledData = JSON.parse(JSON.stringify(originalLessonData));
+                shuffledData.questions = shuffleArray(shuffledData.questions);
+                buildQuiz(shuffledData);
+            }
+        }
+        
+        // New function to shuffle an array
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+            }
+            return array;
+        }
+
+        function buildQuiz(data) {
+            const quizContainer = document.getElementById('quiz-container');
+            quizContainer.innerHTML = '';
+            
+            // Set the quiz title from the JSON file
+            document.getElementById('quiz-title').textContent = data.quizTitle;
+
+            const form = document.createElement('form');
+            form.id = 'quiz-form';
+            quizContainer.appendChild(form);
+            
+            data.questions.forEach((q, index) => {
+                const questionDiv = document.createElement('div');
+                questionDiv.classList.add('question-item');
+                
+                const questionText = document.createElement('p');
+                questionText.classList.add('question-text');
+                questionText.textContent = `${index + 1}. ${q.question}`;
+                questionDiv.appendChild(questionText);
+                
+                q.options.forEach(option => {
+                    const optionDiv = document.createElement('div');
+                    optionDiv.classList.add('option');
+                    
+                    const input = document.createElement('input');
+                    input.type = 'radio';
+                    input.name = `question${q.id}`;
+                    input.value = option;
+                    input.id = `q${q.id}_${option.replace(/\s+/g, '')}`;
+                    
+                    const label = document.createElement('label');
+                    label.htmlFor = input.id;
+                    label.textContent = option;
+                    
+                    optionDiv.appendChild(input);
+                    optionDiv.appendChild(label);
+                    questionDiv.appendChild(optionDiv);
+                });
+                
+                form.appendChild(questionDiv);
+            });
+
+            // Add an event listener to the form to check answers instantly
+            form.addEventListener('change', (event) => {
+                const selectedInput = event.target;
+                const questionId = parseInt(selectedInput.name.replace('question', ''));
+                const questionData = data.questions.find(q => q.id === questionId);
+
+                const userAnswer = selectedInput.value;
+                const correctAnswer = questionData.answer;
+                
+                const feedbackSpan = document.createElement('span');
+                feedbackSpan.id = `feedback-${questionId}`;
+
+                // Remove any previous feedback for this question
+                const existingFeedback = document.getElementById(`feedback-${questionId}`);
+                if (existingFeedback) {
+                    existingFeedback.remove();
+                }
+
+                if (userAnswer === correctAnswer) {
+                    feedbackSpan.textContent = '✅ Correct!';
+                    feedbackSpan.classList.add('correct-feedback');
+                } else {
+                    feedbackSpan.textContent = `❌ Incorrect. The correct answer is: ${correctAnswer}`;
+                    feedbackSpan.classList.add('incorrect-feedback');
+                }
+                
+                // Append the feedback next to the question
+                const questionDiv = selectedInput.closest('.question-item');
+                questionDiv.appendChild(feedbackSpan);
+            });
+        }
+    </script>
+</body>
+</html>
