@@ -1,5 +1,5 @@
 {
-  "quizTitle": "Y3_Immunologie_Pr. Kruy Sunlay Q1-Q30 24-25.pdf",
+  "quizTitle": "Immunology Part 1 Q1-Q30",
   "questions": [
     {
       "id": 1,
@@ -8,10 +8,11 @@
         "Fluide biologique du système respiratoire",
         "Cheveux",
         "Salive",
-        "Système lacrymal",
-        "Fluide biologique du système digestif"
+        "-Système lacrymal",
+        "-Fluide biologique du système digestif"
       ],
-      "answer": "Fluide biologique du système digestif"
+      "answer": "Cheveux",
+      "key": "Défense : première ligne"
     },
     {
       "id": 2,
@@ -23,7 +24,8 @@
         "Dans les milieux de culture adéquats, les lymphocytes T se transforment en lymphoblastes",
         "ils expriment à leur surface des classes d'immunoglobulines"
       ],
-      "answer": "En microscopie électronique, leur membrane paraît lisse, noyau dense et cytoplasme très fin"
+      "answer": "ils expriment à leur surface des classes d'immunoglobulines",
+      "key": "Lymphocytes T : fausse caractéristique"
     },
     {
       "id": 3,
@@ -35,7 +37,8 @@
         "Cellules Langerhans",
         "Cellule dendritique"
       ],
-      "answer": "Cellules tumorale"
+      "answer": "Cellules tumorale",
+      "key": "Cellules non auxiliaires"
     },
     {
       "id": 4,
@@ -47,7 +50,8 @@
         "Ne participe pas la coopération cellulaire au cours d'une réponse immunitaire",
         "Synthétise les chimiokines"
       ],
-      "answer": "Ne participe pas la coopération cellulaire au cours d'une réponse immunitaire"
+      "answer": "Ne participe pas la coopération cellulaire au cours d'une réponse immunitaire",
+      "key": "Macrophages : activités fausses"
     },
     {
       "id": 5,
@@ -59,7 +63,8 @@
         "Un produit libéré lors du processus inflammatoire",
         "Un non stimulant des sécrétions de l'estomac"
       ],
-      "answer": "Un produit libéré lors du processus inflammatoire"
+      "answer": "Un produit libéré lors du processus inflammatoire",
+      "key": "Histamine : rôle exact"
     },
     {
       "id": 6,
@@ -71,7 +76,8 @@
         "Ne permet la différenciation des lymphocytes T",
         "Ne contient des thymocytes dont la différenciation n'est pas contrôlée par les cellules épithéliales thymiques et les facteurs thymiques"
       ],
-      "answer": "Est un un organe lymphoïde primaire"
+      "answer": "Est un organe lymphoïde primaire",
+      "key": "Thymus : organe lymphoïde primaire"
     },
     {
       "id": 7,
@@ -83,7 +89,8 @@
         "Action non immédiate en immunité naturelle.",
         "Réagi à l'action des pathogènes."
       ],
-      "answer": "Induction de la réponse inflammatoire"
+      "answer": "Réagi à l'action des pathogènes.",
+      "key": "Macrophages : fonction fausse"
     },
     {
       "id": 8,
@@ -95,7 +102,8 @@
         "Présente des immunoglobulines á sa surface",
         "Durée de vie quelques semaines"
       ],
-      "answer": "Existe des récepteurs à l'antigène TCR sur la membrane"
+      "answer": "Existe des récepteurs à l'antigène TCR sur la membrane",
+      "key": "Lymphocytes B : fausse caractéristique"
     },
     {
       "id": 9,
@@ -107,7 +115,8 @@
         "N'a pas des immunoglobulines á sa surface",
         "Durée de vie quelques semaines"
       ],
-      "answer": "Existe des récepteurs à l'antigène BCR sur la membrane"
+      "answer": "Existe des récepteurs à l'antigène BCR sur la membrane",
+      "key": "Lymphocytes T : fausse caractéristique"
     },
     {
       "id": 10,
@@ -119,7 +128,8 @@
         "Pas de présentatrice de peptides.",
         "Pas de mémoire immunologique"
       ],
-      "answer": "Fonction de cytotoxicité"
+      "answer": "Fonction de cytotoxicité",
+      "key": "Lymphocytes T CD8 : fonction"
     },
     {
       "id": 11,
@@ -131,7 +141,8 @@
         "Rôle d'éliminer les corps étrangers par sécrétion des lymphokines;",
         "Rôle de présentatrice de l'antigène aux autres cellules du système immunitaire."
       ],
-      "answer": "Rôle de régulation au cours d'une réponse a la fois cellulaire et humorale"
+      "answer": "Rôle de régulation au cours d'une réponse a la fois cellulaire et humorale",
+      "key": "Lymphocytes T4/CD4 : rôle de régulation"
     },
     {
       "id": 12,
@@ -143,7 +154,8 @@
         "Discriminer spécifiquement et sélectivement les moléculaires étrangères et les molécules constitutives de son propre organisme.",
         "Stocker l'information avant de définir le soi et le non soi"
       ],
-      "answer": "Stocker l'information avant de définir le soi et le non soi"
+      "answer": "Stocker l'information avant de définir le soi et le non soi",
+      "key": "Système immunitaire : fausse fonction"
     },
     {
       "id": 13,
@@ -155,7 +167,8 @@
         "Les hématies",
         "Les lymphocytes T"
       ],
-      "answer": "Les polynucléaires neutrophiles"
+      "answer": "Les polynucléaires neutrophiles",
+      "key": "Opsonisation : cellule"
     },
     {
       "id": 14,
@@ -167,7 +180,8 @@
         "Les macrophages",
         "Les lymphocytes T"
       ],
-      "answer": "Les macrophages"
+      "answer": "Les macrophages",
+      "key": "Digestion des pathogènes"
     },
     {
       "id": 15,
@@ -179,7 +193,8 @@
         "Lymphocytes B",
         "Hématies"
       ],
-      "answer": "Hématies"
+      "answer": "Hématies",
+      "key": "Cellules qui ne libèrent pas d'interleukines"
     },
     {
       "id": 16,
@@ -191,7 +206,8 @@
         "Cellules dendritiques",
         "Cellule tumorale"
       ],
-      "answer": "Cellule tumorale"
+      "answer": "Cellule tumorale",
+      "key": "Cellules non immunitaires"
     },
     {
       "id": 17,
@@ -203,7 +219,8 @@
         "Bol de riz",
         "L'eau"
       ],
-      "answer": "Virus Covid 19"
+      "answer": "Virus Covid 19",
+      "key": "Immunogénicité"
     },
     {
       "id": 18,
@@ -215,7 +232,8 @@
         "Bol de riz",
         "L'eau"
       ],
-      "answer": "Adjuvant"
+      "answer": "Adjuvant",
+      "key": "Augmentation de l'immunogénicité"
     },
     {
       "id": 19,
@@ -227,7 +245,8 @@
         "Indiquer une spécialisation fonctionnelle de cellules d'immunité",
         "Distinguer les lignées de cellules d'immunité + Ont pour origine l'organe lymphoïde secondaire"
       ],
-      "answer": "Ont pour origine l'organe lymphoïde secondaire"
+      "answer": "Ont pour origine l'organe lymphoïde secondaire",
+      "key": "Molécules membranaires : fausse origine"
     },
     {
       "id": 20,
@@ -239,7 +258,8 @@
         "Ont pour rôle de cytotoxicité",
         "Ont pour rôle la régulation du système immunitaire"
       ],
-      "answer": "Présentent l'antigène aux lymphocytes helper CD4, ensuite lymphocytes B et T"
+      "answer": "Présentent l'antigène aux lymphocytes helper CD4, ensuite lymphocytes B et T",
+      "key": "Monocytes/Macrophage : rôle exact"
     },
     {
       "id": 21,
@@ -251,7 +271,8 @@
         "Organes lymphoïdes diffuses",
         "Organes lymphoïdes secondaires"
       ],
-      "answer": "Thymus"
+      "answer": "Thymus",
+      "key": "Réponse immunitaire : siège faux"
     },
     {
       "id": 22,
@@ -263,7 +284,8 @@
         "Siège de différenciation de lymphocytes T",
         "Siège de différenciation de lymphocytes B."
       ],
-      "answer": "Siège de différenciation de lymphocytes T"
+      "answer": "Siège de différenciation de lymphocytes T",
+      "key": "Thymus : rôle juste"
     },
     {
       "id": 23,
@@ -275,7 +297,8 @@
         "Cellules Langherans de la peau",
         "Tissu lymphoïde pulmonaire diffus."
       ],
-      "answer": "Thymus et moelle osseuse;"
+      "answer": "Thymus et moelle osseuse;",
+      "key": "Tissu lymphoïde secondaire : faux"
     },
     {
       "id": 24,
@@ -287,7 +310,8 @@
         "Peuvent sécréter des quantités importantes d'interleukines",
         "Peuvent sécréter des quantités importantes d'immunoglobulines"
       ],
-      "answer": "Peuvent sécréter des quantités importantes d'interleukines"
+      "answer": "Peuvent sécréter des quantités importantes d'interleukines",
+      "key": "Monocytes/lymphocytes : fonction"
     },
     {
       "id": 25,
@@ -299,7 +323,8 @@
         "Lait de soja",
         "Virus Covid 19"
       ],
-      "answer": "Virus Covid 19"
+      "answer": "Virus Covid 19",
+      "key": "Antigène : exemple"
     },
     {
       "id": 26,
@@ -311,7 +336,8 @@
         "Pas de mémoire immunologique après la 2eme agression",
         "Assurer la défense naturelle ou innée par les lymphocytes B et T"
       ],
-      "answer": "Assurer la défense naturelle ou innée par les lymphocytes B et T"
+      "answer": "Assurer la défense naturelle ou innée par les lymphocytes B et T",
+      "key": "Défense innée : fonction fausse"
     },
     {
       "id": 27,
@@ -323,7 +349,8 @@
         "Dotée de mémoire immunologique pour la 2eme agression",
         "Les lymphocytes B et T assurent la défense adaptative"
       ],
-      "answer": "Aide a la mise en place de réponse naturelle ou innée"
+      "answer": "Aide a la mise en place de réponse naturelle ou innée",
+      "key": "Défense adaptative : fonction fausse"
     },
     {
       "id": 28,
@@ -335,7 +362,8 @@
         "Système lacrymale",
         "Salive"
       ],
-      "answer": "Poil et cheveux"
+      "answer": "Fluides gastriques",
+      "key": "Barrière anatomique : fausse"
     },
     {
       "id": 29,
@@ -347,7 +375,8 @@
         "Douleur",
         "Protéine d'inflammation"
       ],
-      "answer": "Protéine d'inflammation"
+      "answer": "Pâleur",
+      "key": "Inflammation : élément faux"
     },
     {
       "id": 30,
@@ -359,7 +388,8 @@
         "Phase de digestion",
         "Phase d'élimination"
       ],
-      "answer": "Phase d'élimination"
+      "answer": "Phase d'élimination",
+      "key": "Phagocytose : étape fausse"
     }
   ]
 }
