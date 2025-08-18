@@ -82,42 +82,42 @@
 
     <div class="container">
         <h1 id="quiz-title">Dynamic Quiz with Instant Feedback</h1>
-        <p>Please upload your JSON lesson file to build the quiz.</p>
-        <input type="file" id="json-upload" accept=".json">
         
         <div id="quiz-container">
             </div>
 
         <div class="controls">
-            <button id="redo-btn" style="display:none;">Redo Quiz</button>
+            <button id="redo-btn">Redo Quiz</button>
         </div>
 
     </div>
 
     <script>
-        document.getElementById('json-upload').addEventListener('change', handleFileSelect);
         document.getElementById('redo-btn').addEventListener('click', redoQuiz);
 
         // Store the original lesson data to allow for redoing the quiz
         let originalLessonData = null;
 
-        function handleFileSelect(event) {
-            const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    try {
-                        originalLessonData = JSON.parse(e.target.result);
-                        buildQuiz(originalLessonData);
-                        document.getElementById('redo-btn').style.display = 'block';
-                    } catch (error) {
-                        alert('Error reading the file. Please ensure it is a valid JSON file.');
-                        console.error(error);
+        // Fetch the JSON data automatically on page load
+        window.onload = function() {
+            fetch('lessons.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
                     }
-                };
-                reader.readAsText(file);
-            }
-        }
+                    return response.json();
+                })
+                .then(data => {
+                    originalLessonData = data;
+                    buildQuiz(originalLessonData);
+                })
+                .catch(error => {
+                    console.error('There has been a problem with your fetch operation:', error);
+                    document.getElementById('quiz-title').textContent = "Error Loading Quiz";
+                    document.getElementById('quiz-container').innerHTML = "<p>Could not load the quiz questions. Please ensure 'lessons.json' is in the same repository folder.</p>";
+                    document.getElementById('redo-btn').style.display = 'none';
+                });
+        };
 
         function redoQuiz() {
             if (originalLessonData) {
@@ -157,7 +157,10 @@
                 questionText.textContent = `${index + 1}. ${q.question}`;
                 questionDiv.appendChild(questionText);
                 
-                q.options.forEach(option => {
+                // Shuffle options before displaying them
+                const shuffledOptions = shuffleArray([...q.options]);
+
+                shuffledOptions.forEach(option => {
                     const optionDiv = document.createElement('div');
                     optionDiv.classList.add('option');
                     
