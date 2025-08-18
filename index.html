@@ -199,6 +199,8 @@
                     document.getElementById('redo-btn').style.display = 'block';
                     document.getElementById('back-btn').style.display = 'block';
                     document.getElementById('floating-controls').style.display = 'flex';
+                    
+                    // Fixed: Call setupFloatingControls here to add listeners after quiz loads
                     setupFloatingControls();
                 })
                 .catch(error => {
@@ -343,8 +345,7 @@
         function setupFloatingControls() {
             const goToBottomBtn = document.getElementById('go-to-bottom-btn');
             const goToTopBtn = document.getElementById('go-to-top-btn');
-            const quizContainer = document.getElementById('quiz-container');
-
+            
             goToBottomBtn.addEventListener('click', () => {
                 window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
             });
