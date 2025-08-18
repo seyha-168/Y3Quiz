@@ -151,14 +151,14 @@
         document.getElementById('redo-btn').addEventListener('click', redoQuiz);
         document.getElementById('back-btn').addEventListener('click', showLessonsList);
         
-        // These event listeners are now outside any function, so they are always active.
+        // Final Fix: Attaching event listeners to the buttons on page load
         document.getElementById('go-to-bottom-btn').addEventListener('click', () => {
             window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
         });
         document.getElementById('go-to-top-btn').addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
-        
+
         let originalLessonData = null;
         let lastSelectedQuestion = null;
 
