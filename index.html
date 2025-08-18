@@ -23,7 +23,7 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
             width: 90%;
             max-width: 800px;
-            position: relative; /* Added for positioning the buttons */
+            position: relative;
         }
         h1, h2 {
             text-align: center;
@@ -39,7 +39,7 @@
             border-radius: 10px;
             background-color: #f0faff;
             transition: transform 0.2s;
-            cursor: pointer; /* Makes the entire box clickable */
+            cursor: pointer;
         }
         .question-item:hover {
             transform: translateY(-5px);
@@ -72,7 +72,7 @@
         .key-button {
             padding: 5px 10px;
             font-size: 14px;
-            background-color: #28a745; /* Green color for the button */
+            background-color: #28a745;
             color: #fff;
             border: none;
             border-radius: 5px;
@@ -122,8 +122,9 @@
         .quiz-controls-bottom {
             display: flex;
             justify-content: flex-end; /* Aligns to the right */
-            gap: 10px; /* Space between buttons */
+            gap: 10px; /* Adds space between the buttons */
             margin-top: 20px;
+            width: 100%;
         }
     </style>
 </head>
@@ -240,7 +241,7 @@
                 keyButton.textContent = "Show Key";
                 keyButton.classList.add('key-button');
                 keyButton.onclick = (event) => {
-                    event.stopPropagation(); // Prevents the questionDiv's click event from firing
+                    event.stopPropagation();
                     const keyElement = questionDiv.querySelector('.answer-key');
                     if (keyElement.style.display === 'none' || keyElement.style.display === '') {
                         keyElement.style.display = 'block';
@@ -287,7 +288,6 @@
                 form.appendChild(questionDiv);
             });
 
-            // Moved and redesigned the bottom controls
             const bottomControls = document.createElement('div');
             bottomControls.classList.add('quiz-controls-bottom');
             
