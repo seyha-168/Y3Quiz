@@ -92,7 +92,7 @@
             width: auto;
         }
         button:hover, .lesson-button:hover {
-            background-color: #6aabcf; /* A slightly darker sky blue for hover effect */
+            background-color: #6aabcf;
         }
         #results-container {
             margin-top: 25px;
@@ -132,7 +132,7 @@
             showLessonsList();
         };
 
-        function showAnswerKey(questionId, answer) {
+        function showAnswerKey(questionId, key) {
             const feedbackElementId = `key-${questionId}`;
             let keyElement = document.getElementById(feedbackElementId);
 
@@ -144,7 +144,7 @@
                 keyElement = document.createElement('div');
                 keyElement.id = feedbackElementId;
                 keyElement.classList.add('answer-key');
-                keyElement.textContent = `Correct Answer: ${answer}`;
+                keyElement.textContent = `Key: ${key}`;
                 const questionDiv = document.querySelector(`.question-item:nth-of-type(${questionId})`);
                 questionDiv.appendChild(keyElement);
             }
@@ -220,7 +220,6 @@
             quizContainer.innerHTML = '';
             document.getElementById('quiz-title').textContent = data.quizTitle;
 
-            // Add Go to Bottom button at the top of the form
             const topControls = document.createElement('div');
             topControls.classList.add('top-bottom-controls');
             const topButton = document.createElement('button');
@@ -244,10 +243,11 @@
                 questionSpan.textContent = `${index + 1}. ${q.question}`;
                 questionTextContainer.appendChild(questionSpan);
                 
+                // Pass the 'key' to the showAnswerKey function
                 const keyButton = document.createElement('button');
                 keyButton.textContent = "Show Key";
                 keyButton.classList.add('key-button');
-                keyButton.onclick = () => showAnswerKey(q.id, q.answer);
+                keyButton.onclick = () => showAnswerKey(q.id, q.key);
                 questionTextContainer.appendChild(keyButton);
 
                 questionDiv.appendChild(questionTextContainer);
@@ -276,7 +276,6 @@
                 form.appendChild(questionDiv);
             });
 
-            // Add Go to Top button at the bottom of the form
             const bottomControls = document.createElement('div');
             bottomControls.classList.add('top-bottom-controls');
             const bottomButton = document.createElement('button');
