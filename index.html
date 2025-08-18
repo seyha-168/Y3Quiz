@@ -151,6 +151,14 @@
         document.getElementById('redo-btn').addEventListener('click', redoQuiz);
         document.getElementById('back-btn').addEventListener('click', showLessonsList);
         
+        // These event listeners are now outside any function, so they are always active.
+        document.getElementById('go-to-bottom-btn').addEventListener('click', () => {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        });
+        document.getElementById('go-to-top-btn').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        
         let originalLessonData = null;
         let lastSelectedQuestion = null;
 
@@ -199,9 +207,6 @@
                     document.getElementById('redo-btn').style.display = 'block';
                     document.getElementById('back-btn').style.display = 'block';
                     document.getElementById('floating-controls').style.display = 'flex';
-                    
-                    // Fixed: Call setupFloatingControls here to add listeners after quiz loads
-                    setupFloatingControls();
                 })
                 .catch(error => {
                     console.error('There has been a problem with your fetch operation:', error);
@@ -339,19 +344,6 @@
                 
                 const questionDiv = selectedInput.closest('.question-item');
                 questionDiv.appendChild(feedbackSpan);
-            });
-        }
-        
-        function setupFloatingControls() {
-            const goToBottomBtn = document.getElementById('go-to-bottom-btn');
-            const goToTopBtn = document.getElementById('go-to-top-btn');
-            
-            goToBottomBtn.addEventListener('click', () => {
-                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-            });
-            
-            goToTopBtn.addEventListener('click', () => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
             });
         }
     </script>
