@@ -1,51 +1,200 @@
-shuffledOptions.forEach(option => {
-                    const optionDiv = document.createElement('div');
-                    optionDiv.classList.add('option');
-                    
-                    const input = document.createElement('input');
-                    input.type = 'radio';
-                    input.name = question${q.id};
-                    input.value = option;
-                    input.id = q${q.id}_${option.replace(/\s+/g, '')};
-                    
-                    const label = document.createElement('label');
-                    label.htmlFor = input.id;
-                    label.textContent = option;
-                    
-                    optionDiv.appendChild(input);
-                    optionDiv.appendChild(label);
-                    questionDiv.appendChild(optionDiv);
-                });
-                
-                form.appendChild(questionDiv);
-            });
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Lessons</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .quiz-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .option-button {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        .correct {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
+        .incorrect {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+        }
+        .key-text {
+            font-style: italic;
+            color: #6c757d;
+            margin-top: 10px;
+            border-left: 3px solid #007bff;
+            padding-left: 10px;
+        }
+        /* New CSS for the floating button */
+        .fixed-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        /* CSS for the new radio button style */
+        .option {
+            margin-bottom: 10px;
+        }
+        .correct-feedback {
+            color: green;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .incorrect-feedback {
+            color: red;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5 text-center">
+        <h1 class="mb-4">Quiz Lessons</h1>
+        <button id="go-to-bottom" class="btn btn-primary fixed-button" onclick="goToBottom()">Go to Bottom</button>
+        <div class="row" id="lessons-container">
+            </div>
+        <div id="quiz-container" class="mt-5"></div>
+        <button id="back-button" class="btn btn-secondary mt-3" style="display: none;">Back to Lessons</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchLessons();
+        });
+
+        function fetchLessons() {
+            fetch('lessons_list.json')
+                .then(response => response.json())
+                .then(lessons => {
+                    const lessonsContainer = document.getElementById('lessons-container');
+                    lessonsContainer.innerHTML = '';
+                    lessons.forEach(lesson => {
+                        const buttonCol = document.createElement('div');
+                        buttonCol.className = 'col-12 mb-3';
+                        const lessonButton = document.createElement('button');
+                        lessonButton.className = 'btn btn-info btn-lg btn-block';
+                        lessonButton.textContent = lesson.title;
+                        lessonButton.onclick = () => loadQuiz(lesson.filename);
+                        buttonCol.appendChild(lessonButton);
+                        lessonsContainer.appendChild(buttonCol);
+                    });
+                })
+                .catch(error => console.error('Error fetching lessons:', error));
+        }
+
+        function loadQuiz(filename) {
+            document.getElementById('lessons-container').style.display = 'none';
+            document.getElementById('back-button').style.display = 'block';
             
-            form.addEventListener('change', (event) => {
-                const selectedInput = event.target;
-                const questionId = parseInt(selectedInput.name.replace('question', ''));
-                const questionData = data.questions.find(q => q.id === questionId);
+            fetch(filename)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Failed to load ${filename}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const quizContainer = document.getElementById('quiz-container');
+                    quizContainer.innerHTML = '';
+                    const quizTitle = document.createElement('h2');
+                    quizTitle.textContent = data.quizTitle;
+                    quizContainer.appendChild(quizTitle);
 
-                const userAnswer = selectedInput.value;
-                const correctAnswer = questionData.answer;
-                
-                const feedbackSpan = document.createElement('span');
-                feedbackSpan.id = feedback-${questionId};
+                    const form = document.createElement('form');
+                    quizContainer.appendChild(form);
 
-                const existingFeedback = document.getElementById(feedback-${questionId});
-                if (existingFeedback) {
-                    existingFeedback.remove();
-                }
+                    data.questions.forEach(q => {
+                        const questionDiv = document.createElement('div');
+                        questionDiv.classList.add('quiz-card', 'question-item');
+                        
+                        const questionText = document.createElement('h5');
+                        questionText.textContent = `${q.id}. ${q.question}`;
+                        questionDiv.appendChild(questionText);
+                        
+                        // Shuffle options
+                        const shuffledOptions = [...q.options].sort(() => Math.random() - 0.5);
 
-                if (userAnswer === correctAnswer) {
-                    feedbackSpan.textContent = '✅ Correct!';
-                    feedbackSpan.classList.add('correct-feedback');
-                } else {
-                    feedbackSpan.textContent = ❌ Incorrect. The correct answer is: ${correctAnswer};
-                    feedbackSpan.classList.add('incorrect-feedback');
-                }
-                
-                const questionDiv = selectedInput.closest('.question-item');
-                questionDiv.appendChild(feedbackSpan);
+                        shuffledOptions.forEach(option => {
+                            const optionDiv = document.createElement('div');
+                            optionDiv.classList.add('option');
+                            
+                            const input = document.createElement('input');
+                            input.type = 'radio';
+                            input.name = `question${q.id}`;
+                            input.value = option;
+                            input.id = `q${q.id}_${option.replace(/\s+/g, '')}`;
+                            
+                            const label = document.createElement('label');
+                            label.htmlFor = input.id;
+                            label.textContent = option;
+                            
+                            optionDiv.appendChild(input);
+                            optionDiv.appendChild(label);
+                            questionDiv.appendChild(optionDiv);
+                        });
+                        
+                        form.appendChild(questionDiv);
+                    });
+                    
+                    form.addEventListener('change', (event) => {
+                        const selectedInput = event.target;
+                        const questionId = parseInt(selectedInput.name.replace('question', ''));
+                        const questionData = data.questions.find(q => q.id === questionId);
+
+                        const userAnswer = selectedInput.value;
+                        const correctAnswer = questionData.answer;
+                        
+                        const feedbackSpan = document.createElement('span');
+                        feedbackSpan.id = `feedback-${questionId}`;
+
+                        const existingFeedback = document.getElementById(`feedback-${questionId}`);
+                        if (existingFeedback) {
+                            existingFeedback.remove();
+                        }
+
+                        if (userAnswer.trim() === correctAnswer.trim()) {
+                            feedbackSpan.textContent = '✅ Correct!';
+                            feedbackSpan.classList.add('correct-feedback');
+                        } else {
+                            feedbackSpan.textContent = `❌ Incorrect. The correct answer is: ${correctAnswer}`;
+                            feedbackSpan.classList.add('incorrect-feedback');
+                        }
+                        
+                        const questionDiv = selectedInput.closest('.question-item');
+                        questionDiv.appendChild(feedbackSpan);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading quiz:', error);
+                    document.getElementById('quiz-container').innerHTML = `<p class="text-danger">Failed to load quiz. Please check the filename in lessons_list.json.</p>`;
+                });
+        }
+        
+        document.getElementById('back-button').addEventListener('click', () => {
+            document.getElementById('lessons-container').style.display = 'flex';
+            document.getElementById('quiz-container').innerHTML = '';
+            document.getElementById('back-button').style.display = 'none';
+        });
+
+        function goToBottom() {
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: 'smooth'
             });
         }
     </script>
