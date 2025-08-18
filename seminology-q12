@@ -1,0 +1,161 @@
+{
+  "quizTitle": "Sémiologie Dr. Nay Leang & Dr. Seng Serey",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel est l'aspect typique d'un hématome extradural à la TDM sans injection de produit de contraste?",
+      "options": [
+        "En forme de croissant",
+        "En lentille biconvexe",
+        "Diffus dans l'ensemble de l'hémisphère",
+        "Hypodense par rapport au parenchyme cérébral",
+        "Ne se visualise pas en scanner"
+      ],
+      "answer": "En lentille biconvexe",
+      "key": "A typical epidural hematoma on a non-contrast CT scan appears as a biconvex lens-shaped mass."
+    },
+    {
+      "id": 2,
+      "question": "Quel est l'aspect typique d'un hématome sous-dural aigu au scanner sans injection de produit de contraste ?",
+      "options": [
+        "Hypodense, en forme de lentille biconvexe",
+        "Hyperdense, en croissant (concavo-convexe)",
+        "Iso-dense par rapport au parenchyme cérébral",
+        "Hyperdense, en forme de lentille biconvexe",
+        "Hypodense, en croissant"
+      ],
+      "answer": "Hyperdense, en croissant (concavo-convexe)",
+      "key": "On a non-contrast CT scan, an acute subdural hematoma typically appears as a hyperdense, crescent-shaped mass."
+    },
+    {
+      "id": 3,
+      "question": "Quel est l'aspect typique d'une hémorragie intracérébrale aiguë au scanner non injecté ?",
+      "options": [
+        "Hypodense par rapport au parenchyme cérébral",
+        "Iso-dense par rapport au parenchyme cérébral",
+        "Hyperdense par rapport au parenchyme cérébral",
+        "Non visible sans injection de produit de contraste",
+        "Difficile à différencier du liquide céphalorachidien (LCR)"
+      ],
+      "answer": "Hyperdense par rapport au parenchyme cérébral",
+      "key": "An acute intracerebral hemorrhage typically appears as a hyperdense area compared to the surrounding brain parenchyma on a non-contrast CT scan."
+    },
+    {
+      "id": 4,
+      "question": "In MRI, the signal from water is:",
+      "options": [
+        "Bright on T1, bright on T2",
+        "Bright on T1, dark on T2",
+        "Dark on T1, bright on T2",
+        "Dark on T1, dark on T2",
+        "Intermediate on both T1 and T2"
+      ],
+      "answer": "Dark on T1, bright on T2",
+      "key": "In MRI, the signal from water is typically dark on T1-weighted images and bright on T2-weighted images."
+    },
+    {
+      "id": 5,
+      "question": "Quelle est l'unité de densité en scanner?",
+      "options": [
+        "Gray (Gy)",
+        "Becquerel (Bq)",
+        "Sievert (Sv)",
+        "Hounsfield (UH)",
+        "Tesla (T)"
+      ],
+      "answer": "Hounsfield (UH)",
+      "key": "The unit of density used in CT scanning is the Hounsfield Unit (HU)."
+    },
+    {
+      "id": 6,
+      "question": "Quelle est la densité typique de l'eau en unité Hounsfield (UH) sur un scanner ?",
+      "options": [
+        "-1000 UH",
+        "-500 UH",
+        "0 UH",
+        "+500 UH",
+        "+1000 UH"
+      ],
+      "answer": "0 UH",
+      "key": "The typical Hounsfield density of water on a CT scan is 0 HU."
+    },
+    {
+      "id": 7,
+      "question": "How many layers of the cornea?",
+      "options": [
+        "01",
+        "02",
+        "3",
+        "04",
+        "5"
+      ],
+      "answer": "5",
+      "key": "The cornea has five layers: the epithelium, Bowman's layer, the stroma, Descemet's membrane, and the endothelium."
+    },
+    {
+      "id": 8,
+      "question": "The inner layer of the cornea:",
+      "options": [
+        "Stroma",
+        "Epithelium",
+        "Descemet membrane",
+        "Endothelium",
+        "Bowman layer"
+      ],
+      "answer": "Endothelium",
+      "key": "The endothelium is the innermost layer of the cornea, located closest to the anterior chamber."
+    },
+    {
+      "id": 9,
+      "question": "Normal intraocular pressure:",
+      "options": [
+        "1-10 mmHg",
+        "10-20 mmHg",
+        "15-25 mmHg",
+        "5-15 mmHg",
+        "10-30 mmHg"
+      ],
+      "answer": "10-20 mmHg",
+      "key": "A normal intraocular pressure typically falls within the range of 10-20 mmHg."
+    },
+    {
+      "id": 10,
+      "question": "How many layers of the tear film?",
+      "options": [
+        "05",
+        "02",
+        "01",
+        "3",
+        "04"
+      ],
+      "answer": "3",
+      "key": "The tear film is composed of three distinct layers: the lipid layer, the aqueous layer, and the mucin layer."
+    },
+    {
+      "id": 11,
+      "question": "Mucin layer of tear film is produced by:",
+      "options": [
+        "Meibomian Gland",
+        "Lacrimal gland",
+        "Conjunctiva Goblet Cell",
+        "Cornea",
+        "Salivary gland"
+      ],
+      "answer": "Conjunctiva Goblet Cell",
+      "key": "The mucin layer of the tear film is produced by goblet cells in the conjunctiva."
+    },
+    {
+      "id": 12,
+      "question": "The outer layer of retina:",
+      "options": [
+        "Ganglion cell layer",
+        "Retinal pigmented epithelium",
+        "Nerve fiber layer",
+        "Outer plexiform layer",
+        "Internal limiting membrane"
+      ],
+      "answer": "Retinal pigmented epithelium",
+      "key": "The outermost layer of the retina is the retinal pigmented epithelium, which lies against the choroid."
+    }
+  ]
+}
