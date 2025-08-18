@@ -23,7 +23,6 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
             width: 90%;
             max-width: 800px;
-            position: relative;
         }
         h1, h2 {
             text-align: center;
@@ -52,9 +51,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
-        .question-text:hover {
-            color: #0056b3;
         }
         .option {
             margin-bottom: 8px;
@@ -119,12 +115,16 @@
             margin-top: 25px;
             text-align: center;
         }
-        .quiz-controls-bottom {
+        .floating-controls {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
             display: flex;
-            justify-content: flex-end; /* Aligns to the right */
-            gap: 10px; /* Adds space between the buttons */
-            margin-top: 20px;
-            width: 100%;
+            gap: 10px;
+            z-index: 1000;
+        }
+        .floating-controls button {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -142,11 +142,23 @@
         </div>
     </div>
 
+    <div id="floating-controls" class="floating-controls" style="display:none;">
+        <button id="go-to-bottom-btn">Go to Bottom</button>
+        <button id="go-to-top-btn">Go to Top</button>
+    </div>
+
     <script>
         document.getElementById('redo-btn').addEventListener('click', redoQuiz);
         document.getElementById('back-btn').addEventListener('click', showLessonsList);
+        document.getElementById('go-to-bottom-btn').addEventListener('click', () => {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        });
+        document.getElementById('go-to-top-btn').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
         
         let originalLessonData = null;
+        let lastSelectedQuestion = null;
 
         window.onload = function() {
             showLessonsList();
@@ -159,6 +171,7 @@
             
             document.getElementById('redo-btn').style.display = 'none';
             document.getElementById('back-btn').style.display = 'none';
+            document.getElementById('floating-controls').style.display = 'none';
 
             fetch('lessons_list.json')
                 .then(response => response.json())
@@ -191,6 +204,7 @@
                     
                     document.getElementById('redo-btn').style.display = 'block';
                     document.getElementById('back-btn').style.display = 'block';
+                    document.getElementById('floating-controls').style.display = 'flex';
                 })
                 .catch(error => {
                     console.error('There has been a problem with your fetch operation:', error);
@@ -198,6 +212,7 @@
                     document.getElementById('quiz-container').innerHTML = "<p>Could not load the quiz questions. Please ensure the file is in the same folder and correctly formatted.</p>";
                     document.getElementById('redo-btn').style.display = 'none';
                     document.getElementById('back-btn').style.display = 'block';
+                    document.getElementById('floating-controls').style.display = 'none';
                 });
         }
 
@@ -253,7 +268,22 @@
                 };
 
                 questionDiv.addEventListener('click', () => {
+                    // Hide key for the last selected question
+                    if (lastSelectedQuestion && lastSelectedQuestion !== questionDiv) {
+                        const lastKeyButton = lastSelectedQuestion.querySelector('.key-button');
+                        const lastAnswerKey = lastSelectedQuestion.querySelector('.answer-key');
+                        if (lastKeyButton) {
+                            lastKeyButton.style.display = 'none';
+                            lastKeyButton.textContent = "Show Key";
+                        }
+                        if (lastAnswerKey) {
+                            lastAnswerKey.style.display = 'none';
+                        }
+                    }
+
+                    // Show key for the current question
                     keyButton.style.display = 'block';
+                    lastSelectedQuestion = questionDiv;
                 });
 
                 questionTextContainer.appendChild(keyButton);
@@ -287,22 +317,7 @@
                 
                 form.appendChild(questionDiv);
             });
-
-            const bottomControls = document.createElement('div');
-            bottomControls.classList.add('quiz-controls-bottom');
             
-            const bottomButton = document.createElement('button');
-            bottomButton.textContent = "Go to Bottom";
-            bottomButton.onclick = () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-            bottomControls.appendChild(bottomButton);
-
-            const topButton = document.createElement('button');
-            topButton.textContent = "Go to Top";
-            topButton.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-            bottomControls.appendChild(topButton);
-
-            quizContainer.appendChild(bottomControls);
-
             form.addEventListener('change', (event) => {
                 const selectedInput = event.target;
                 const questionId = parseInt(selectedInput.name.replace('question', ''));
