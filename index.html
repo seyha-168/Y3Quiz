@@ -3,347 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Central</title>
+    <title>Quiz Lessons</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #e6f7ff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
+            background-color: #f8f9fa;
         }
         .container {
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-            width: 90%;
             max-width: 800px;
         }
-        h1, h2 {
-            text-align: center;
-            color: #004d66;
-        }
-        #quiz-form {
-            text-align: left;
-        }
-        .question-item {
-            margin-bottom: 25px;
+        .quiz-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            border: 1px solid #cceeff;
-            border-radius: 10px;
-            background-color: #f0faff;
-            transition: transform 0.2s;
-            cursor: pointer;
+            margin-bottom: 20px;
         }
-        .question-item:hover {
-            transform: translateY(-5px);
-        }
-        .question-text {
-            font-weight: bold;
+        .option-button {
+            width: 100%;
+            text-align: left;
             margin-bottom: 10px;
-            color: #007bff;
-            transition: color 0.2s;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
         }
-        .option {
-            margin-bottom: 8px;
+        .correct {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
         }
-        .correct-feedback {
-            color: green;
-            font-weight: bold;
-            margin-left: 10px;
+        .incorrect {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
         }
-        .incorrect-feedback {
-            color: red;
-            font-weight: bold;
-            margin-left: 10px;
-        }
-        .key-button {
-            padding: 5px 10px;
-            font-size: 14px;
-            background-color: #28a745;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            display: none;
-        }
-        .key-button:hover {
-            background-color: #218838;
-        }
-        .answer-key {
-            margin-top: 15px;
+        .key-text {
             font-style: italic;
-            color: #333;
-            font-weight: bold;
-            display: none;
-            padding: 10px;
-            background-color: #e9f5ff;
-            border-radius: 5px;
-        }
-        .controls {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 20px;
-        }
-        button, .lesson-button {
-            padding: 12px 25px;
-            font-size: 16px;
-            background-color: #63bbf7;
-            color: #fff;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            margin: 0 5px 15px;
-            width: auto;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.2s, transform 0.2s;
-        }
-        button:hover, .lesson-button:hover {
-            background-color: #38a5e1;
-            transform: translateY(-2px);
-        }
-        #results-container {
-            margin-top: 25px;
-            text-align: center;
-        }
-        .floating-controls {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: flex;
-            gap: 10px;
-            z-index: 1000;
-        }
-        .floating-controls button {
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: #6c757d;
+            margin-top: 10px;
+            border-left: 3px solid #007bff;
+            padding-left: 10px;
         }
     </style>
 </head>
 <body>
-
-    <div class="container">
-        <h1 id="quiz-title">Quiz Central</h1>
-        
-        <div id="quiz-container">
+    <div class="container mt-5 text-center">
+        <h1 class="mb-4">Quiz Lessons</h1>
+        <button id="go-to-bottom" class="btn btn-primary mt-3" onclick="goToBottom()">Go to Bottom</button>
+        <div class="row" id="lessons-container">
             </div>
-
-        <div class="controls">
-            <button id="redo-btn" style="display:none;">Redo Quiz</button>
-            <button id="back-btn" style="display:none;">Back to Lessons</button>
-        </div>
+        <div id="quiz-container" class="mt-5"></div>
+        <button id="back-button" class="btn btn-secondary mt-3" style="display: none;">Back to Lessons</button>
     </div>
 
-    <div id="floating-controls" class="floating-controls" style="display:none;">
-        <button id="go-to-bottom-btn">Go to Bottom</button>
-        <button id="go-to-top-btn">Go to Top</button>
-    </div>
+    <div id="bottom-of-page"></div>
 
     <script>
-        // Place all event listeners inside window.onload to ensure elements exist
-        window.onload = function() {
-            showLessonsList();
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchLessons();
+        });
 
-            document.getElementById('redo-btn').addEventListener('click', redoQuiz);
-            document.getElementById('back-btn').addEventListener('click', showLessonsList);
-            
-            document.getElementById('go-to-bottom-btn').addEventListener('click', () => {
-                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-            });
-            document.getElementById('go-to-top-btn').addEventListener('click', () => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-        };
-        
-        let originalLessonData = null;
-        let lastSelectedQuestion = null;
-
-        function showLessonsList() {
-            const quizContainer = document.getElementById('quiz-container');
-            quizContainer.innerHTML = '';
-            document.getElementById('quiz-title').textContent = "Choose a Lesson";
-            
-            document.getElementById('redo-btn').style.display = 'none';
-            document.getElementById('back-btn').style.display = 'none';
-            document.getElementById('floating-controls').style.display = 'none';
-
+        function fetchLessons() {
             fetch('lessons_list.json')
                 .then(response => response.json())
                 .then(lessons => {
+                    const lessonsContainer = document.getElementById('lessons-container');
+                    lessonsContainer.innerHTML = ''; // Clear previous buttons
                     lessons.forEach(lesson => {
+                        const buttonCol = document.createElement('div');
+                        buttonCol.className = 'col-12 mb-3';
                         const lessonButton = document.createElement('button');
-                        lessonButton.classList.add('lesson-button');
+                        lessonButton.className = 'btn btn-info btn-lg btn-block';
                         lessonButton.textContent = lesson.title;
                         lessonButton.onclick = () => loadQuiz(lesson.filename);
-                        quizContainer.appendChild(lessonButton);
+                        buttonCol.appendChild(lessonButton);
+                        lessonsContainer.appendChild(buttonCol);
                     });
                 })
-                .catch(error => {
-                    console.error('Error loading lesson list:', error);
-                    quizContainer.innerHTML = "<p>Error loading lesson list. Please ensure 'lessons_list.json' is correctly formatted.</p>";
-                });
+                .catch(error => console.error('Error fetching lessons:', error));
         }
 
         function loadQuiz(filename) {
+            document.getElementById('lessons-container').style.display = 'none';
+            document.getElementById('back-button').style.display = 'block';
+            document.getElementById('go-to-bottom').style.display = 'none';
+            
             fetch(filename)
                 .then(response => {
                     if (!response.ok) {
-                        throw new Error('Network response was not ok');
+                        throw new Error(`Failed to load ${filename}`);
                     }
                     return response.json();
                 })
                 .then(data => {
-                    originalLessonData = data;
-                    buildQuiz(originalLessonData);
-                    
-                    document.getElementById('redo-btn').style.display = 'block';
-                    document.getElementById('back-btn').style.display = 'block';
-                    document.getElementById('floating-controls').style.display = 'flex';
+                    const quizContainer = document.getElementById('quiz-container');
+                    quizContainer.innerHTML = '';
+                    const quizTitle = document.createElement('h2');
+                    quizTitle.textContent = data.quizTitle;
+                    quizContainer.appendChild(quizTitle);
+
+                    data.questions.forEach(q => {
+                        const questionCard = document.createElement('div');
+                        questionCard.className = 'quiz-card';
+
+                        const questionText = document.createElement('h5');
+                        questionText.textContent = `${q.id}. ${q.question}`;
+                        questionCard.appendChild(questionText);
+
+                        q.options.forEach(optionText => {
+                            const button = document.createElement('button');
+                            button.className = 'btn btn-outline-primary option-button';
+                            button.textContent = optionText;
+                            button.onclick = () => checkAnswer(button, optionText, q.answer, questionCard, q.key);
+                            questionCard.appendChild(button);
+                        });
+
+                        quizContainer.appendChild(questionCard);
+                    });
+
+                    // Add a "Go to Top" button at the bottom of the quiz
+                    const goToTopButton = document.createElement('button');
+                    goToTopButton.id = 'go-to-top';
+                    goToTopButton.className = 'btn btn-primary mt-3';
+                    goToTopButton.textContent = 'Go to Top';
+                    goToTopButton.onclick = () => goToTop();
+                    quizContainer.appendChild(goToTopButton);
+
                 })
                 .catch(error => {
-                    console.error('There has been a problem with your fetch operation:', error);
-                    document.getElementById('quiz-title').textContent = "Error Loading Quiz";
-                    document.getElementById('quiz-container').innerHTML = "<p>Could not load the quiz questions. Please ensure the file is in the same folder and correctly formatted.</p>";
-                    document.getElementById('redo-btn').style.display = 'none';
-                    document.getElementById('back-btn').style.display = 'block';
-                    document.getElementById('floating-controls').style.display = 'none';
+                    console.error('Error loading quiz:', error);
+                    document.getElementById('quiz-container').innerHTML = `<p class="text-danger">Failed to load quiz. Please check the filename in lessons_list.json.</p>`;
                 });
         }
 
-        function redoQuiz() {
-            if (originalLessonData) {
-                const shuffledData = JSON.parse(JSON.stringify(originalLessonData));
-                shuffledData.questions = shuffleArray(shuffledData.questions);
-                buildQuiz(shuffledData);
+        function checkAnswer(button, selectedOption, correctAnswer, questionCard, keyText) {
+            const allButtons = questionCard.querySelectorAll('.option-button');
+            allButtons.forEach(btn => btn.disabled = true); // Disable all buttons after one is clicked
+
+            const keyContainer = document.createElement('p');
+            keyContainer.className = 'key-text';
+            keyContainer.textContent = keyText;
+            questionCard.appendChild(keyContainer);
+
+            if (selectedOption.trim() === correctAnswer.trim()) {
+                button.classList.add('correct');
+                button.classList.remove('btn-outline-primary');
+            } else {
+                button.classList.add('incorrect');
+                button.classList.remove('btn-outline-primary');
+                // Highlight the correct answer
+                allButtons.forEach(btn => {
+                    if (btn.textContent.trim() === correctAnswer.trim()) {
+                        btn.classList.add('correct');
+                        btn.classList.remove('btn-outline-primary');
+                    }
+                });
             }
         }
         
-        function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
-            }
-            return array;
+        document.getElementById('back-button').addEventListener('click', () => {
+            document.getElementById('lessons-container').style.display = 'flex';
+            document.getElementById('quiz-container').innerHTML = '';
+            document.getElementById('back-button').style.display = 'none';
+            document.getElementById('go-to-bottom').style.display = 'block';
+        });
+
+        function goToBottom() {
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: 'smooth'
+            });
         }
 
-        function buildQuiz(data) {
-            const quizContainer = document.getElementById('quiz-container');
-            quizContainer.innerHTML = '';
-            document.getElementById('quiz-title').textContent = data.quizTitle;
-            
-            const form = document.createElement('form');
-            form.id = 'quiz-form';
-            quizContainer.appendChild(form);
-            
-            data.questions.forEach((q, index) => {
-                const questionDiv = document.createElement('div');
-                questionDiv.classList.add('question-item');
-                
-                const questionTextContainer = document.createElement('p');
-                questionTextContainer.classList.add('question-text');
-                
-                const questionSpan = document.createElement('span');
-                questionSpan.textContent = `${index + 1}. ${q.question}`;
-                questionTextContainer.appendChild(questionSpan);
-                
-                const keyButton = document.createElement('button');
-                keyButton.type = "button";
-                keyButton.textContent = "Show Key";
-                keyButton.classList.add('key-button');
-                keyButton.onclick = (event) => {
-                    event.stopPropagation();
-                    const keyElement = questionDiv.querySelector('.answer-key');
-                    if (keyElement.style.display === 'none' || keyElement.style.display === '') {
-                        keyElement.style.display = 'block';
-                        keyButton.textContent = "Hide Key";
-                    } else {
-                        keyElement.style.display = 'none';
-                        keyButton.textContent = "Show Key";
-                    }
-                };
-
-                questionDiv.addEventListener('click', () => {
-                    if (lastSelectedQuestion && lastSelectedQuestion !== questionDiv) {
-                        const lastKeyButton = lastSelectedQuestion.querySelector('.key-button');
-                        const lastAnswerKey = lastSelectedQuestion.querySelector('.answer-key');
-                        if (lastKeyButton) {
-                            lastKeyButton.style.display = 'none';
-                            lastKeyButton.textContent = "Show Key";
-                        }
-                        if (lastAnswerKey) {
-                            lastAnswerKey.style.display = 'none';
-                        }
-                    }
-                    keyButton.style.display = 'block';
-                    lastSelectedQuestion = questionDiv;
-                });
-
-                questionTextContainer.appendChild(keyButton);
-                questionDiv.appendChild(questionTextContainer);
-
-                const answerKey = document.createElement('div');
-                answerKey.classList.add('answer-key');
-                answerKey.textContent = `Key: ${q.key}`;
-                questionDiv.appendChild(answerKey);
-                
-                const shuffledOptions = shuffleArray([...q.options]);
-
-                shuffledOptions.forEach(option => {
-                    const optionDiv = document.createElement('div');
-                    optionDiv.classList.add('option');
-                    
-                    const input = document.createElement('input');
-                    input.type = 'radio';
-                    input.name = `question${q.id}`;
-                    input.value = option;
-                    input.id = `q${q.id}_${option.replace(/\s+/g, '')}`;
-                    
-                    const label = document.createElement('label');
-                    label.htmlFor = input.id;
-                    label.textContent = option;
-                    
-                    optionDiv.appendChild(input);
-                    optionDiv.appendChild(label);
-                    questionDiv.appendChild(optionDiv);
-                });
-                
-                form.appendChild(questionDiv);
-            });
-            
-            form.addEventListener('change', (event) => {
-                const selectedInput = event.target;
-                const questionId = parseInt(selectedInput.name.replace('question', ''));
-                const questionData = data.questions.find(q => q.id === questionId);
-
-                const userAnswer = selectedInput.value;
-                const correctAnswer = questionData.answer;
-                
-                const feedbackSpan = document.createElement('span');
-                feedbackSpan.id = `feedback-${questionId}`;
-
-                const existingFeedback = document.getElementById(`feedback-${questionId}`);
-                if (existingFeedback) {
-                    existingFeedback.remove();
-                }
-
-                if (userAnswer === correctAnswer) {
-                    feedbackSpan.textContent = '✅ Correct!';
-                    feedbackSpan.classList.add('correct-feedback');
-                } else {
-                    feedbackSpan.textContent = `❌ Incorrect. The correct answer is: ${correctAnswer}`;
-                    feedbackSpan.classList.add('incorrect-feedback');
-                }
-                
-                const questionDiv = selectedInput.closest('.question-item');
-                questionDiv.appendChild(feedbackSpan);
+        function goToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
             });
         }
     </script>
