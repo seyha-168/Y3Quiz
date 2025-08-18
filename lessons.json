@@ -12,7 +12,7 @@
         "Clichée de face avec une pénétration suffisante et l’identification correcte"
       ],
       "answer": "Clichée de face en inspiration profonde avec une pénétration suffisante et l’identification correcte",
-      "key": "Face, inspiration profonde, pénétration suffisante"
+      "key": "RX Thorax: Face, Inspiration Profonde"
     },
     {
       "id": 2,
@@ -25,7 +25,7 @@
         "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord médial net, bord latéral net avec paroi thoracique"
       ],
       "answer": "Opacité périphérique, fusiforme, angle de raccordement en pente douce, bord médial net, bord latéral confondu avec paroi thoracique",
-      "key": "Périphérique, fusiforme, angle en pente douce, bord médial net"
+      "key": "Opacité Pariétale: Bord Net & Bord Confondu"
     },
     {
       "id": 3,
@@ -38,7 +38,7 @@
         "Opacité homogène de contour floue"
       ],
       "answer": "Opacité sans broncho- et alvéologramme aérien, la concavité vers le haut",
-      "key": "Sans bronchogramme, concavité vers le haut"
+      "key": "Epanchement Pleural: Concavité Supérieure"
     },
     {
       "id": 4,
@@ -51,7 +51,7 @@
         "Opacité médiastinale avec bronchogramme aérien"
       ],
       "answer": "Opacité médiastinale de bord externe convexe et nette, borde interne effacé",
-      "key": "Bord externe convexe et net"
+      "key": "Masse Médiastinale: Bord Externe Convexe"
     },
     {
       "id": 5,
@@ -64,7 +64,7 @@
         "Opacité médiastinale de bord externe convexe et nette, borde interne effacé"
       ],
       "answer": "Gros opacité solitaire ou cavitaire entouré par l’air pulmonaire avec angle de raccordements aigus",
-      "key": "Opacité solitaire, angle aigu"
+      "key": "Syndrome Parenchymateux: Grosse Opacité Solitaire"
     },
     {
       "id": 6,
@@ -77,7 +77,7 @@
         "Opacité de contour nette"
       ],
       "answer": "Opacité hétérogène systématisé, regroupé, de densité hydrique de borde floues",
-      "key": "Hétérogène, bord flou"
+      "key": "Syndrome Alvéolaire: Opacités Floues, Hétérogènes"
     },
     {
       "id": 7,
@@ -90,7 +90,7 @@
         "Opacité solitaire plus de 3cm"
       ],
       "answer": "Opacité micronodulaire, épaississement péribroncho-vasculaire et image en rayon de miel, sans bronchogramme aérien",
-      "key": "Micronodules, rayon de miel"
+      "key": "Syndrome Interstitiel: Rayon de Miel & Micronodules"
     },
     {
       "id": 8,
@@ -103,7 +103,7 @@
         "Opacité en verres dépolis"
       ],
       "answer": "Épaississement de la paroi bronchique et dilatation bronchique",
-      "key": "Épaississement et dilatation"
+      "key": "Syndrome Bronchique: Épaississement et Dilatation"
     },
     {
       "id": 9,
@@ -116,7 +116,7 @@
         "2 d < (D) ( < 0,1)"
       ],
       "answer": "2 d < (D) ( < 0,50)",
-      "key": "ICT < 0.50"
+      "key": "ICT: Inférieur à 0.50"
     },
     {
       "id": 10,
@@ -129,7 +129,7 @@
         "Tumeur pulmonaire"
       ],
       "answer": "Cardiomégalie et péricardite",
-      "key": "Cardiomégalie et péricardite"
+      "key": "Grosse Cour: Cardiomégalie & Péricardite"
     },
     {
       "id": 11,
@@ -142,7 +142,7 @@
         "Couché latéralement, inspiration normale"
       ],
       "answer": "Debout, en inspiration maximale",
-      "key": "Debout, inspiration maximale"
+      "key": "Position Patient: Debout, Inspiration Maximale"
     },
     {
       "id": 12,
@@ -155,7 +155,7 @@
         "Réduction du diamètre trachéal"
       ],
       "answer": "Opacité déclive à bord supérieur concave vers le haut",
-      "key": "Opacité déclive, concavité vers le haut"
+      "key": "Épanchement: Bord Supérieur Concave"
     },
     {
       "id": 13,
@@ -168,7 +168,7 @@
         "Un effacement complet de l’hile"
       ],
       "answer": "Une opacité floue avec bronchogramme aérique",
-      "key": "Opacité floue, bronchogramme aérique"
+      "key": "Opacité Alvéolaire: Bronchogramme Aérique"
     },
     {
       "id": 14,
@@ -181,7 +181,7 @@
         "Le bord diaphragmatique droit"
       ],
       "answer": "La scissure horizontale",
-      "key": "Scissure horizontale (non visible)"
+      "key": "Non Visible: Scissure Horizontale"
     },
     {
       "id": 15,
@@ -194,7 +194,7 @@
         "Silhouette cardiaque floue"
       ],
       "answer": "Hyperclarté périphérique sans trame vasculaire",
-      "key": "Hyperclarté sans trame vasculaire"
+      "key": "Pneumothorax: Hyperclarté sans Trame"
     },
     {
       "id": 16,
@@ -207,7 +207,7 @@
         "Remplacer le scanner thoracique"
       ],
       "answer": "Étudier les pathologies pulmonaires et pleuro-médiastinales",
-      "key": "Pathologies pulmonaires et pleuro-médiastinales"
+      "key": "Intérêt RX Thorax: Pathologies Pulmonaires"
     }
   ]
 }
