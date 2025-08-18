@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Quiz with Instant Feedback</title>
+    <title>Quiz Central</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -59,7 +59,7 @@
             justify-content: center;
             margin-top: 20px;
         }
-        button {
+        button, .lesson-button {
             padding: 12px 25px;
             font-size: 16px;
             background-color: #007BFF;
@@ -67,9 +67,11 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            margin: 0 10px;
+            margin: 0 10px 15px;
+            width: 100%;
+            max-width: 400px;
         }
-        button:hover {
+        button:hover, .lesson-button:hover {
             background-color: #0056b3;
         }
         #results-container {
@@ -81,26 +83,54 @@
 <body>
 
     <div class="container">
-        <h1 id="quiz-title">Dynamic Quiz with Instant Feedback</h1>
+        <h1 id="quiz-title">Quiz Central</h1>
         
         <div id="quiz-container">
             </div>
 
         <div class="controls">
-            <button id="redo-btn">Redo Quiz</button>
+            <button id="redo-btn" style="display:none;">Redo Quiz</button>
+            <button id="back-btn" style="display:none;">Back to Lessons</button>
         </div>
 
     </div>
 
     <script>
         document.getElementById('redo-btn').addEventListener('click', redoQuiz);
+        document.getElementById('back-btn').addEventListener('click', showLessonsList);
 
-        // Store the original lesson data to allow for redoing the quiz
         let originalLessonData = null;
 
-        // Fetch the JSON data automatically on page load
         window.onload = function() {
-            fetch('lessons.json')
+            showLessonsList();
+        };
+
+        function showLessonsList() {
+            const quizContainer = document.getElementById('quiz-container');
+            quizContainer.innerHTML = '';
+            document.getElementById('quiz-title').textContent = "Choose a Lesson";
+            document.getElementById('redo-btn').style.display = 'none';
+            document.getElementById('back-btn').style.display = 'none';
+
+            fetch('lessons_list.json')
+                .then(response => response.json())
+                .then(lessons => {
+                    lessons.forEach(lesson => {
+                        const lessonButton = document.createElement('button');
+                        lessonButton.classList.add('lesson-button');
+                        lessonButton.textContent = lesson.title;
+                        lessonButton.onclick = () => loadQuiz(lesson.filename);
+                        quizContainer.appendChild(lessonButton);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading lesson list:', error);
+                    quizContainer.innerHTML = "<p>Error loading lesson list. Please ensure 'lessons_list.json' is correctly formatted.</p>";
+                });
+        }
+
+        function loadQuiz(filename) {
+            fetch(filename)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
@@ -110,29 +140,29 @@
                 .then(data => {
                     originalLessonData = data;
                     buildQuiz(originalLessonData);
+                    document.getElementById('redo-btn').style.display = 'block';
+                    document.getElementById('back-btn').style.display = 'block';
                 })
                 .catch(error => {
                     console.error('There has been a problem with your fetch operation:', error);
                     document.getElementById('quiz-title').textContent = "Error Loading Quiz";
-                    document.getElementById('quiz-container').innerHTML = "<p>Could not load the quiz questions. Please ensure 'lessons.json' is in the same repository folder.</p>";
+                    document.getElementById('quiz-container').innerHTML = "<p>Could not load the quiz questions. Please ensure the file is in the same folder and correctly formatted.</p>";
                     document.getElementById('redo-btn').style.display = 'none';
                 });
-        };
+        }
 
         function redoQuiz() {
             if (originalLessonData) {
-                // Create a copy of the data before shuffling
                 const shuffledData = JSON.parse(JSON.stringify(originalLessonData));
                 shuffledData.questions = shuffleArray(shuffledData.questions);
                 buildQuiz(shuffledData);
             }
         }
         
-        // New function to shuffle an array
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+                [array[i], array[j]] = [array[j], array[i]];
             }
             return array;
         }
@@ -140,10 +170,8 @@
         function buildQuiz(data) {
             const quizContainer = document.getElementById('quiz-container');
             quizContainer.innerHTML = '';
-            
-            // Set the quiz title from the JSON file
             document.getElementById('quiz-title').textContent = data.quizTitle;
-
+            
             const form = document.createElement('form');
             form.id = 'quiz-form';
             quizContainer.appendChild(form);
@@ -157,7 +185,6 @@
                 questionText.textContent = `${index + 1}. ${q.question}`;
                 questionDiv.appendChild(questionText);
                 
-                // Shuffle options before displaying them
                 const shuffledOptions = shuffleArray([...q.options]);
 
                 shuffledOptions.forEach(option => {
@@ -182,7 +209,6 @@
                 form.appendChild(questionDiv);
             });
 
-            // Add an event listener to the form to check answers instantly
             form.addEventListener('change', (event) => {
                 const selectedInput = event.target;
                 const questionId = parseInt(selectedInput.name.replace('question', ''));
@@ -194,7 +220,6 @@
                 const feedbackSpan = document.createElement('span');
                 feedbackSpan.id = `feedback-${questionId}`;
 
-                // Remove any previous feedback for this question
                 const existingFeedback = document.getElementById(`feedback-${questionId}`);
                 if (existingFeedback) {
                     existingFeedback.remove();
@@ -208,7 +233,6 @@
                     feedbackSpan.classList.add('incorrect-feedback');
                 }
                 
-                // Append the feedback next to the question
                 const questionDiv = selectedInput.closest('.question-item');
                 questionDiv.appendChild(feedbackSpan);
             });
