@@ -3,372 +3,393 @@
   "questions": [
     {
       "id": 91,
-      "question": "Le terme opsonisation signifie :",
+      "question": "Citer la phrase qui est fausse à propos des molécules de co-stimulation CD80/CD86 et CD28:",
       "options": [
-        "l'activation de la phagocytose",
-        "la diminution de la phagocytose",
-        "la migration des polynucléaires",
-        "la migration des macrophages",
-        "la migration des lymphocytes"
+        "CD28 est exprimé à la surface des Lymphocytes T",
+        "CD80 et CD86 sont exprimés à la surface des cellules présentatrices de l'antigène",
+        "L'interaction entre CD28 et CD80/CD86 est un signal nécessaire pour l'activation des lymphocytes T",
+        "L'interaction entre CD28 et CD80/CD86 conduit à une réponse tolérante",
+        "L'interaction entre CD28 et CD80/CD86 est une étape de la coopération cellulaire"
       ],
-      "answer": "l'activation de la phagocytose",
-      "key": "Opsonisation : définition"
+      "answer": "L'interaction entre CD28 et CD80/CD86 conduit à une réponse tolérante",
+      "key": "Co-stimulation CD80/CD86 et CD28 : fausse affirmation"
     },
     {
       "id": 92,
-      "question": "Quels sont les cellules qui sont les plus souvent à l'origine d'une allergie ?",
+      "question": "Le terme tolérogène signifie :",
       "options": [
-        "lymphocytes B",
-        "mastocytes",
-        "macrophages",
-        "polynucléaires neutrophiles",
-        "polynucléaires éosinophiles"
+        "l'activation de la réponse immunitaire",
+        "l'inhibition de la réponse immunitaire",
+        "la prolifération des lymphocytes",
+        "la différenciation des lymphocytes",
+        "la production des cytokines"
       ],
-      "answer": "mastocytes",
-      "key": "Allergie : cellule d'origine"
+      "answer": "l'inhibition de la réponse immunitaire",
+      "key": "Tolérogène : définition"
     },
     {
       "id": 93,
-      "question": "L'immunité qui se met en place après la naissance est :",
+      "question": "L'organe lymphoïde secondaire qui se trouve dans l'abdomen est :",
       "options": [
-        "l'immunité naturelle",
-        "l'immunité adaptative",
-        "l'immunité innée",
-        "l'immunité passive",
-        "l'immunité active"
+        "ganglion lymphatique",
+        "plaque de Peyer",
+        "amygdale",
+        "rate",
+        "thymus"
       ],
-      "answer": "l'immunité adaptative",
-      "key": "Immunité après la naissance"
+      "answer": "rate",
+      "key": "Organe lymphoïde secondaire : abdomen"
     },
     {
       "id": 94,
-      "question": "La définition de l'immunité acquise ou adaptative est :",
+      "question": "L'organe lymphoïde primaire qui se trouve dans la poitrine est :",
       "options": [
-        "une réponse immunitaire rapide et non spécifique",
-        "une réponse immunitaire lente et non spécifique",
-        "une réponse immunitaire rapide et spécifique",
-        "une réponse immunitaire lente et spécifique",
-        "une réponse immunitaire lente et non spécifique"
+        "moelle osseuse",
+        "ganglion lymphatique",
+        "rate",
+        "thymus",
+        "plaque de Peyer"
       ],
-      "answer": "une réponse immunitaire lente et spécifique",
-      "key": "Immunité adaptative : définition"
+      "answer": "thymus",
+      "key": "Organe lymphoïde primaire : poitrine"
     },
     {
       "id": 95,
-      "question": "Citer la cellule qui est la plus importante pour la défense contre le cancer.",
+      "question": "Citer la phrase qui est fausse à propos du thymus:",
       "options": [
-        "lymphocyte T cytotoxique",
-        "lymphocyte T auxiliaire",
-        "lymphocyte B",
-        "macrophage",
-        "cellule dendritique"
+        "Est un organe lymphoïde primaire",
+        "Est un organe lymphoïde secondaire",
+        "Son rôle est la maturation des lymphocytes T",
+        "Est composé d'une cortex et d'une medulla",
+        "Son poids augmente à la naissance puis diminue avec l'âge"
       ],
-      "answer": "lymphocyte T cytotoxique",
-      "key": "Défense contre le cancer"
+      "answer": "Est un organe lymphoïde secondaire",
+      "key": "Thymus : fausse affirmation"
     },
     {
       "id": 96,
-      "question": "L'immunité à médiation humorale est :",
+      "question": "Le terme hématopoïèse signifie :",
       "options": [
-        "la sécrétion d'anticorps",
-        "la sécrétion de cytokines",
-        "la phagocytose",
-        "la migration des lymphocytes",
-        "la migration des macrophages"
+        "la formation des cellules sanguines",
+        "la destruction des cellules sanguines",
+        "la migration des cellules sanguines",
+        "la maturation des cellules sanguines",
+        "la prolifération des cellules sanguines"
       ],
-      "answer": "la sécrétion d'anticorps",
-      "key": "Immunité humorale : définition"
+      "answer": "la formation des cellules sanguines",
+      "key": "Hématopoïèse : définition"
     },
     {
       "id": 97,
-      "question": "Citer l'organe lymphoïde secondaire qui n'est pas juste.",
+      "question": "Le terme lymphocytes T naïfs signifie :",
       "options": [
-        "moelle osseuse",
-        "ganglions lymphatiques",
-        "plaque de Peyer",
-        "amygdales",
-        "rate"
+        "un lymphocyte T qui a déjà rencontré l'antigène",
+        "un lymphocyte T qui n'a jamais rencontré l'antigène",
+        "un lymphocyte T qui est activé",
+        "un lymphocyte T qui est différencié",
+        "un lymphocyte T qui est immature"
       ],
-      "answer": "moelle osseuse",
-      "key": "Organe lymphoïde secondaire : faux"
+      "answer": "un lymphocyte T qui n'a jamais rencontré l'antigène",
+      "key": "Lymphocytes T naïfs : définition"
     },
     {
       "id": 98,
-      "question": "Citer l'organe lymphoïde primaire qui n'est pas juste.",
+      "question": "Citer la phrase qui est fausse à propos de la mémoire immunologique :",
       "options": [
-        "moelle osseuse",
-        "thymus",
-        "ganglions lymphatiques",
-        "rate",
-        "plaque de Peyer"
+        "est un mécanisme de l'immunité adaptative",
+        "est un mécanisme de l'immunité innée",
+        "permet une réponse plus rapide et plus intense lors d'une 2ème exposition à l'antigène",
+        "les cellules de mémoire ont une longue durée de vie",
+        "la vaccination est un exemple de mémoire immunologique"
       ],
-      "answer": "ganglions lymphatiques",
-      "key": "Organe lymphoïde primaire : faux"
+      "answer": "est un mécanisme de l'immunité innée",
+      "key": "Mémoire immunologique : fausse affirmation"
     },
     {
       "id": 99,
-      "question": "Le rôle du thymus est :",
+      "question": "L'immunité humorale est médiée par :",
       "options": [
-        "la maturation des lymphocytes T",
-        "la maturation des lymphocytes B",
-        "la maturation des lymphocytes T et B",
-        "la production des lymphocytes T",
-        "la production des lymphocytes B"
+        "les lymphocytes T",
+        "les lymphocytes B",
+        "les macrophages",
+        "les polynucléaires",
+        "les cellules dendritiques"
       ],
-      "answer": "la maturation des lymphocytes T",
-      "key": "Thymus : rôle"
+      "answer": "les lymphocytes B",
+      "key": "Immunité humorale : médiation"
     },
     {
       "id": 100,
-      "question": "L'organe qui se trouve au niveau de l'abdomen et qui filtre le sang est :",
+      "question": "L'immunité cellulaire est médiée par :",
       "options": [
-        "la rate",
-        "le foie",
-        "le rein",
-        "le pancréas",
-        "la vésicule biliaire"
+        "les lymphocytes T",
+        "les lymphocytes B",
+        "les macrophages",
+        "les polynucléaires",
+        "les cellules dendritiques"
       ],
-      "answer": "la rate",
-      "key": "Organe : filtre le sang"
+      "answer": "les lymphocytes T",
+      "key": "Immunité cellulaire : médiation"
     },
     {
       "id": 101,
-      "question": "Le rôle de l'organe rate est :",
+      "question": "Citer la phrase qui est fausse à propos de l'antigène :",
       "options": [
-        "la maturation des lymphocytes T",
-        "la maturation des lymphocytes B",
-        "la production des lymphocytes T",
-        "la production des lymphocytes B",
-        "la filtration du sang"
+        "est une substance qui peut être reconnue par le système immunitaire",
+        "est une substance qui peut être reconnue par un anticorps",
+        "est une substance qui peut être reconnue par un récepteur des lymphocytes T",
+        "est une substance qui peut être une protéine, un glucide ou un lipide",
+        "est une substance qui ne peut pas déclencher une réponse immunitaire"
       ],
-      "answer": "la filtration du sang",
-      "key": "Rate : rôle"
+      "answer": "est une substance qui ne peut pas déclencher une réponse immunitaire",
+      "key": "Antigène : fausse affirmation"
     },
     {
       "id": 102,
-      "question": "Le rôle de la moelle osseuse est :",
+      "question": "Citer la phrase qui est fausse à propos de l'anticorps :",
       "options": [
-        "la production des lymphocytes T",
-        "la production des lymphocytes B",
-        "la maturation des lymphocytes T",
-        "la maturation des lymphocytes B",
-        "la production des hématies"
+        "est une protéine",
+        "est sécrété par les lymphocytes B",
+        "est sécrété par les plasmocytes",
+        "est capable de reconnaître spécifiquement un antigène",
+        "est un récepteur des lymphocytes T"
       ],
-      "answer": "la production des lymphocytes T et B",
-      "key": "Moelle osseuse : rôle"
+      "answer": "est un récepteur des lymphocytes T",
+      "key": "Anticorps : fausse affirmation"
     },
     {
       "id": 103,
-      "question": "Le rôle des ganglions lymphatiques est :",
+      "question": "Citer la phrase qui est fausse à propos du complexe majeur d'histocompatibilité (CMH):",
       "options": [
-        "la maturation des lymphocytes T",
-        "la maturation des lymphocytes B",
-        "la production des lymphocytes T",
-        "la production des lymphocytes B",
-        "la filtration de la lymphe"
+        "Le CMH de classe I est exprimé à la surface de toutes les cellules nucléées",
+        "Le CMH de classe II est exprimé à la surface des cellules présentatrices de l'antigène",
+        "Le CMH de classe I présente des peptides endogènes aux lymphocytes T CD8",
+        "Le CMH de classe II présente des peptides exogènes aux lymphocytes T CD4",
+        "Le CMH est une molécule qui ne varie pas d'un individu à un autre"
       ],
-      "answer": "la filtration de la lymphe",
-      "key": "Ganglions lymphatiques : rôle"
+      "answer": "Le CMH est une molécule qui ne varie pas d'un individu à un autre",
+      "key": "CMH : fausse affirmation"
     },
     {
       "id": 104,
-      "question": "L'hypersensibilité de type I est :",
+      "question": "Citer la phrase qui est fausse à propos de la cellule présentatrice de l'antigène (CPA):",
       "options": [
-        "allergie de contact",
-        "allergie alimentaire",
-        "allergie respiratoire",
-        "allergie médicamenteuse",
-        "allergie aux piqûres d'insectes"
+        "La cellule dendritique est la CPA la plus puissante",
+        "Le macrophage est une CPA",
+        "Le lymphocyte B est une CPA",
+        "La cellule dendritique, le macrophage et le lymphocyte B sont les seules CPA",
+        "La CPA présente des peptides aux lymphocytes T"
       ],
-      "answer": "allergie alimentaire",
-      "key": "Hypersensibilité type I"
+      "answer": "La cellule dendritique, le macrophage et le lymphocyte B sont les seules CPA",
+      "key": "CPA : fausse affirmation"
     },
     {
       "id": 105,
-      "question": "L'hypersensibilité de type II est :",
+      "question": "Citer la phrase qui est fausse à propos des cytokines:",
       "options": [
-        "allergie de contact",
-        "allergie alimentaire",
-        "allergie respiratoire",
-        "allergie médicamenteuse",
-        "allergie aux piqûres d'insectes"
+        "sont des molécules de signalisation",
+        "sont sécrétées par les cellules de l'immunité",
+        "sont des hormones",
+        "permettent la communication entre les cellules de l'immunité",
+        "régulent l'immunité, l'inflammation et l'hématopoïèse"
       ],
-      "answer": "allergie médicamenteuse",
-      "key": "Hypersensibilité type II"
+      "answer": "sont des hormones",
+      "key": "Cytokines : fausse affirmation"
     },
     {
       "id": 106,
-      "question": "L'hypersensibilité de type III est :",
+      "question": "Citer la phrase qui est fausse à propos des lymphocytes T auxiliaires (helper) CD4 :",
       "options": [
-        "allergie de contact",
-        "allergie alimentaire",
-        "allergie respiratoire",
-        "allergie médicamenteuse",
-        "allergie aux piqûres d'insectes"
+        "expriment le co-récepteur CD4",
+        "reconnaissent l'antigène présenté par le CMH de classe II",
+        "sont des cellules cytotoxiques",
+        "activent les lymphocytes B et les macrophages",
+        "participent à la coopération cellulaire"
       ],
-      "answer": "allergie respiratoire",
-      "key": "Hypersensibilité type III"
+      "answer": "sont des cellules cytotoxiques",
+      "key": "Lymphocytes T CD4 : fausse affirmation"
     },
     {
       "id": 107,
-      "question": "L'hypersensibilité de type IV est :",
+      "question": "Citer la phrase qui est fausse à propos des lymphocytes T cytotoxiques (CTL) CD8 :",
       "options": [
-        "allergie de contact",
-        "allergie alimentaire",
-        "allergie respiratoire",
-        "allergie médicamenteuse",
-        "allergie aux piqûres d'insectes"
+        "expriment le co-récepteur CD8",
+        "reconnaissent l'antigène présenté par le CMH de classe I",
+        "sont des cellules qui tuent d'autres cellules",
+        "activent les lymphocytes B et les macrophages",
+        "participent à l'élimination des cellules infectées par un virus"
       ],
-      "answer": "allergie de contact",
-      "key": "Hypersensibilité type IV"
+      "answer": "activent les lymphocytes B et les macrophages",
+      "key": "Lymphocytes T CD8 : fausse affirmation"
     },
     {
       "id": 108,
-      "question": "La définition de l'immunité passive est :",
+      "question": "Citer la phrase qui est fausse à propos de la sélection clonale :",
       "options": [
-        "la production d'anticorps par l'organisme",
-        "l'injection d'anticorps déjà produits",
-        "l'injection d'un antigène",
-        "la production de lymphocytes",
-        "la production de macrophages"
+        "est un mécanisme de l'immunité innée",
+        "est un mécanisme de l'immunité adaptative",
+        "est la prolifération et la différenciation des lymphocytes qui ont reconnu l'antigène",
+        "conduit à la formation de clones de lymphocytes",
+        "conduit à la formation de cellules effectrices et de cellules de mémoire"
       ],
-      "answer": "l'injection d'anticorps déjà produits",
-      "key": "Immunité passive : définition"
+      "answer": "est un mécanisme de l'immunité innée",
+      "key": "Sélection clonale : fausse affirmation"
     },
     {
       "id": 109,
-      "question": "La définition de l'immunité active est :",
+      "question": "L'hypersensibilité de type I est médiée par :",
       "options": [
-        "la production d'anticorps par l'organisme",
-        "l'injection d'anticorps déjà produits",
-        "l'injection d'un antigène",
-        "la production de lymphocytes",
-        "la production de macrophages"
+        "IgE",
+        "IgG",
+        "IgM",
+        "IgA",
+        "IgD"
       ],
-      "answer": "la production d'anticorps par l'organisme",
-      "key": "Immunité active : définition"
+      "answer": "IgE",
+      "key": "Hypersensibilité type I : médiation"
     },
     {
       "id": 110,
-      "question": "La définition de l'immunité naturelle est :",
+      "question": "L'hypersensibilité de type II est médiée par :",
       "options": [
-        "une immunité qui est acquise après la naissance",
-        "une immunité qui est présente à la naissance",
-        "une immunité qui est acquise après la vaccination",
-        "une immunité qui est acquise après une infection",
-        "une immunité qui est acquise après une transplantation"
+        "IgE",
+        "IgG",
+        "IgM",
+        "IgG et IgM",
+        "IgA"
       ],
-      "answer": "une immunité qui est présente à la naissance",
-      "key": "Immunité naturelle : définition"
+      "answer": "IgG et IgM",
+      "key": "Hypersensibilité type II : médiation"
     },
     {
       "id": 111,
-      "question": "La définition de l'immunité artificielle est :",
+      "question": "L'hypersensibilité de type III est médiée par :",
       "options": [
-        "une immunité qui est acquise après la vaccination",
-        "une immunité qui est acquise après une infection",
-        "une immunité qui est présente à la naissance",
-        "une immunité qui est acquise après une transplantation",
-        "une immunité qui est acquise après une transfusion sanguine"
+        "IgE",
+        "IgG",
+        "IgM",
+        "IgG et IgM",
+        "complexes immuns"
       ],
-      "answer": "une immunité qui est acquise après la vaccination",
-      "key": "Immunité artificielle : définition"
+      "answer": "complexes immuns",
+      "key": "Hypersensibilité type III : médiation"
     },
     {
       "id": 112,
-      "question": "La définition de l'immunité naturelle est :",
+      "question": "L'hypersensibilité de type IV est médiée par :",
       "options": [
-        "une immunité qui est acquise après la vaccination",
-        "une immunité qui est acquise après une infection",
-        "une immunité qui est présente à la naissance",
-        "une immunité qui est acquise après une transplantation",
-        "une immunité qui est acquise après une transfusion sanguine"
+        "IgE",
+        "IgG",
+        "IgM",
+        "IgG et IgM",
+        "lymphocytes T"
       ],
-      "answer": "une immunité qui est présente à la naissance",
-      "key": "Immunité naturelle : définition"
+      "answer": "lymphocytes T",
+      "key": "Hypersensibilité type IV : médiation"
     },
     {
       "id": 113,
-      "question": "La définition de l'immunité humorale est :",
+      "question": "Citer la phrase qui est fausse à propos des maladies auto-immunes :",
       "options": [
-        "la défense par les cellules",
-        "la défense par les anticorps",
-        "la défense par les lymphocytes T",
-        "la défense par les macrophages",
-        "la défense par les lymphocytes B"
+        "sont des maladies où le système immunitaire attaque les propres cellules de l'organisme",
+        "sont des maladies où le système immunitaire attaque les cellules étrangères",
+        "peuvent toucher n'importe quel organe",
+        "sont des maladies chroniques",
+        "sont des maladies qui ne sont pas transmissibles"
       ],
-      "answer": "la défense par les anticorps",
-      "key": "Immunité humorale : définition"
+      "answer": "sont des maladies où le système immunitaire attaque les cellules étrangères",
+      "key": "Maladies auto-immunes : fausse affirmation"
     },
     {
       "id": 114,
-      "question": "La définition de l'immunité cellulaire est :",
+      "question": "Citer la phrase qui est fausse à propos du SIDA (syndrome d'immunodéficience acquise) :",
       "options": [
-        "la défense par les cellules",
-        "la défense par les anticorps",
-        "la défense par les lymphocytes T",
-        "la défense par les macrophages",
-        "la défense par les lymphocytes B"
+        "est une maladie virale",
+        "est causée par le virus VIH",
+        "touche les lymphocytes T CD4",
+        "touche les lymphocytes B",
+        "conduit à une immunodéficience"
       ],
-      "answer": "la défense par les cellules",
-      "key": "Immunité cellulaire : définition"
+      "answer": "touche les lymphocytes B",
+      "key": "SIDA : fausse affirmation"
     },
     {
       "id": 115,
-      "question": "L'immunité croisée signifie :",
+      "question": "Citer la phrase qui est fausse à propos de la vaccination :",
       "options": [
-        "la production d'anticorps qui reconnaissent un antigène",
-        "la production d'anticorps qui reconnaissent un autre antigène",
-        "la production d'anticorps qui reconnaissent un autre antigène avec une structure similaire",
-        "la production d'anticorps qui reconnaissent un autre antigène avec une structure différente",
-        "la production d'anticorps qui reconnaissent un autre antigène avec une structure très différente"
+        "est un moyen de prévention contre les maladies infectieuses",
+        "consiste à injecter un antigène affaibli ou mort",
+        "stimule la réponse immunitaire adaptative",
+        "stimule la mémoire immunologique",
+        "ne protège pas contre les maladies infectieuses"
       ],
-      "answer": "la production d'anticorps qui reconnaissent un autre antigène avec une structure similaire",
-      "key": "Immunité croisée : définition"
+      "answer": "ne protège pas contre les maladies infectieuses",
+      "key": "Vaccination : fausse affirmation"
     },
     {
       "id": 116,
-      "question": "La définition du terme séropositivité est :",
+      "question": "Citer la phrase qui est fausse à propos de l'immunothérapie :",
       "options": [
-        "la présence de la charge virale",
-        "la présence de l'antigène",
-        "la présence d'anticorps",
-        "la présence des lymphocytes CD4",
-        "la présence des lymphocytes CD8"
+        "est un traitement qui stimule le système immunitaire",
+        "est un traitement qui inhibe le système immunitaire",
+        "est un traitement qui a pour but de lutter contre le cancer",
+        "est un traitement qui a pour but de lutter contre les maladies auto-immunes",
+        "est un traitement qui a pour but de lutter contre les allergies"
       ],
-      "answer": "la présence d'anticorps",
-      "key": "Séropositivité : définition"
+      "answer": "est un traitement qui inhibe le système immunitaire",
+      "key": "Immunothérapie : fausse affirmation"
     },
     {
       "id": 117,
-      "question": "La définition de la séro-conversion est :",
+      "question": "Citer la phrase qui est fausse à propos de l'adjuvant :",
       "options": [
-        "la diminution du nombre d'anticorps",
-        "l'apparition d'anticorps",
-        "la présence de l'antigène",
-        "la présence des lymphocytes CD4",
-        "la présence des lymphocytes CD8"
+        "est une substance qui est ajoutée à un vaccin",
+        "augmente la réponse immunitaire à l'antigène",
+        "est une substance qui inhibe la réponse immunitaire",
+        "permet de réduire la quantité d'antigène",
+        "permet d'obtenir une immunité plus durable"
       ],
-      "answer": "l'apparition d'anticorps",
-      "key": "Séro-conversion : définition"
+      "answer": "est une substance qui inhibe la réponse immunitaire",
+      "key": "Adjuvant : fausse affirmation"
     },
     {
       "id": 118,
-      "question": "La définition du terme tolérance immunitaire est :",
+      "question": "Citer la phrase qui est fausse à propos du sérum anti-tétanique :",
       "options": [
-        "la reconnaissance du soi et du non-soi",
-        "la non-reconnaissance du soi et du non-soi",
-        "l'absence de la reconnaissance du soi",
-        "l'absence de la reconnaissance du non-soi",
-        "la non-réponse du système immunitaire vis-à-vis d'un antigène"
+        "est un traitement curatif",
+        "est un traitement préventif",
+        "contient des anticorps",
+        "est une immunothérapie passive",
+        "est une immunothérapie active"
       ],
-      "answer": "la non-réponse du système immunitaire vis-à-vis d'un antigène",
-      "key": "Tolérance immunitaire : définition"
+      "answer": "est une immunothérapie active",
+      "key": "Sérum anti-tétanique : fausse affirmation"
     },
     {
       "id": 119,
-      "question": "La définition de l'immunité passive est :",
+      "question": "Citer la phrase qui est fausse à propos du vaccin anti-tétanique :",
       "options": [
-        "la production d'anticorps par l'organisme",
-        "l'injection d'anticorps déjà produits",
-        "l'injection d'un antigène
+        "est un traitement curatif",
+        "est un traitement préventif",
+        "contient des antigènes",
+        "est une immunothérapie active",
+        "stimule la mémoire immunologique"
+      ],
+      "answer": "est un traitement curatif",
+      "key": "Vaccin anti-tétanique : fausse affirmation"
+    },
+    {
+      "id": 120,
+      "question": "Citer la phrase qui est fausse à propos de l'interleukine 1 :",
+      "options": [
+        "est une cytokine pro-inflammatoire",
+        "est sécrétée par les macrophages",
+        "est sécrétée par les lymphocytes T",
+        "active les lymphocytes T",
+        "active les macrophages"
+      ],
+      "answer": "est sécrétée par les lymphocytes T",
+      "key": "Interleukine 1 : fausse affirmation"
+    }
+  ]
+}
