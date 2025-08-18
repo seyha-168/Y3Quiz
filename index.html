@@ -60,7 +60,7 @@
             font-style: italic;
             color: #007bff;
             font-weight: bold;
-            display: none;
+            display: none; /* Key is hidden by default */
         }
         .controls {
             display: flex;
@@ -210,7 +210,6 @@
                 questionTextContainer.classList.add('question-text');
                 questionTextContainer.textContent = `${index + 1}. ${q.question}`;
                 
-                // Add click listener to the question text itself
                 questionTextContainer.onclick = function() {
                     const keyElement = questionDiv.querySelector('.answer-key');
                     if (keyElement.style.display === 'none' || keyElement.style.display === '') {
@@ -222,7 +221,6 @@
 
                 questionDiv.appendChild(questionTextContainer);
 
-                // Add the answer key element, initially hidden
                 const answerKey = document.createElement('div');
                 answerKey.classList.add('answer-key');
                 answerKey.textContent = `Key: ${q.answer}`;
