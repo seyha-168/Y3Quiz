@@ -1,0 +1,390 @@
+{
+  "quizTitle": "Immunology Part 3 Q61-Q90",
+  "questions": [
+    {
+      "id": 61,
+      "question": "Citer la définition juste des anticorps monoclonaux ?",
+      "options": [
+        "Anticorps reconnaissent plusieurs épitopes sur un antigène donné.",
+        "Anticorps ne reconnaissant qu'un seul type déterminant antigénique pour un antigène donné.",
+        "Anticorps reconnaissent deux types épitopes sur un antigène donné.",
+        "Anticorps reconnaissent trois types épitopes sur un antigène donné.",
+        "Anticorps reconnaissent quatre types épitopes sur un antigène donné"
+      ],
+      "answer": "Anticorps ne reconnaissant qu'un seul type déterminant antigénique pour un antigène donné.",
+      "key": "Anticorps monoclonaux : définition"
+    },
+    {
+      "id": 62,
+      "question": "Au cours d’une réponse antigénique B, suite à la phase de prolifération, des lymphocytes B mémoires sont formés et laissés dans le site de l’inflammation. Est-ce qu’à ce moment-là, les 5 classes d’immunoglobulines de surface existent-elles sur les membranes de cellules B mémoires ?",
+      "options": [
+        "Il n’existe pas des immunoglobulines de surfaces car ce sont des lymphocytes aux stades de prolifération qui est sous des stress par des IL6 et IFN puis qui deviennent des cellules mémoires ;",
+        "Il doit exister normalement comme tous les lymphocytes B, les 5 classes d’immunoglobulines membranaires ;",
+        "Il existe seulement une seule classe Ig M sur les membranes de lymphocytes B mémoire;",
+        "Ils existent deux classes IgM et IgG",
+        "On ne peut pas savoir"
+      ],
+      "answer": "Ils existent deux classes IgM et IgG",
+      "key": "Lymphocytes B mémoires : immunoglobulines"
+    },
+    {
+      "id": 63,
+      "question": "Le terme suivant va designer la capacité de molécules qui sont immunogènes, citer une phrase juste ?",
+      "options": [
+        "Haptène est capable de produire des anticorps tout seul",
+        "Capacité d’induire la production des anticorps par des molécules immunogènes ;",
+        "Capacité de poussière d’induire la production des anticorps",
+        "Capacité immunogènes non cités pour les acides gras",
+        "On ne peut pas savoir sur les molécules inertes"
+      ],
+      "answer": "Capacité d’induire la production des anticorps par des molécules immunogènes ;",
+      "key": "Immunogène : capacité"
+    },
+    {
+      "id": 64,
+      "question": "Fonction importante d’immunoglobuline G, citer la phrase juste ?",
+      "options": [
+        "Pas de Défense anti-infectieux",
+        "Fonction immuno- modulatrice ;",
+        "Non élimination d’antigène",
+        "Fonction de coopération avec l’antigène",
+        "On ne peut pas savoir"
+      ],
+      "answer": "Fonction de coopération avec l’antigène",
+      "key": "Immunoglobuline G : fonction"
+    },
+    {
+      "id": 65,
+      "question": "Citer l’origine des IgA qui n’est pas juste ?",
+      "options": [
+        "Dans le colostrum",
+        "Dans les secrétions digestives",
+        "Dans les salives",
+        "Dans les larmes",
+        "Dans les urines"
+      ],
+      "answer": "Dans les urines",
+      "key": "IgA : fausse origine"
+    },
+    {
+      "id": 66,
+      "question": "Pour induire l’hypersensibilité il faut que les récepteur Fc (fragment constant) spécifique de IgE se sont liés avec les basophiles et les mastocytes, citer qui n’est pas juste ?",
+      "options": [
+        "Pas besoin de cette liaison car la dégranulation de l’histamine se fait de façon automatique",
+        "La dégranulation est immédiate à partir de cytoplasme de basophile",
+        "Lors d’une quantité très petite de IgE cette hypersensibilité se produit quand même",
+        "La dégranulation est immédiate à partir de cytoplasme de basophile + Lors d’une quantité très petite de IgE cette hypersensibilité se produit quand même",
+        "Les histamines et autres substances qui induire l’allergies sont déposés dans le site inflammatoire"
+      ],
+      "answer": "Pas besoin de cette liaison car la dégranulation de l’histamine se fait de façon automatique",
+      "key": "Hypersensibilité : fausse induction"
+    },
+    {
+      "id": 67,
+      "question": "Dans l’histoire naturelle de l’évolution de la maladie HIV/SIDA. Citer les différentes étapes de la maladie ? Cocher la phrase juste ?",
+      "options": [
+        "Phase asymptomatique, puis phage symptomatique qui témoigne la détérioration progressive de la charge virale en SIDA déclaré",
+        "Phase de traitement par les anti-diarrhéiques.",
+        "Phase de traitement par des médicaments antirétroviraux",
+        "Phase de traitement par les antituberculeux",
+        "Phase de traitement par les antibiotiques anti-méningites."
+      ],
+      "answer": "Phase asymptomatique, puis phage symptomatique qui témoigne la détérioration progressive de la charge virale en SIDA déclaré",
+      "key": "VIH/SIDA : étapes"
+    },
+    {
+      "id": 68,
+      "question": "Citer les différentes infections couramment associées à des infections à VIH au Cambodge, citer la phrase juste ?",
+      "options": [
+        "Les diarrhées",
+        "Les douleurs abdominales",
+        "Les vomissements",
+        "Les céphalées",
+        "Les douleurs de la jambe"
+      ],
+      "answer": "Les diarrhées",
+      "key": "VIH : infections associées"
+    },
+    {
+      "id": 69,
+      "question": "Citer la phrase juste, chez un patient atteint de SIDA, on constate souvent, lors du bilan clinique :",
+      "options": [
+        "Adénopathies bilatérales á toutes les ganglions corporelles",
+        "Dermatoses comme Malasseza furfural",
+        "Polynucléose",
+        "Leucopénie",
+        "Thrombopénie"
+      ],
+      "answer": "Leucopénie",
+      "key": "SIDA : bilan clinique"
+    },
+    {
+      "id": 70,
+      "question": "Quel est le mode principal de transmission du SIDA observé au Cambodge ?",
+      "options": [
+        "Au cours d’une opération chirurgicale",
+        "Par utilisation de seringues répétées des drogués",
+        "Transmission de mère á l’enfance",
+        "Utilisation des dons de sang contaminé",
+        "Mode de transmission par voie hétérosexuelle ."
+      ],
+      "answer": "Mode de transmission par voie hétérosexuelle .",
+      "key": "SIDA : mode de transmission"
+    },
+    {
+      "id": 71,
+      "question": "Parmi les items suivants, la phrase qui est un des modes de transmission du VIH ?",
+      "options": [
+        "Piqûre d’un moustique ;",
+        "Manger ensemble avec un malade VIH positif ;",
+        "Rapports sexuels par voie anale ;",
+        "Participation à un dîner ensemble avec les personnes séropositives ;",
+        "Parler avec une personne séropositive."
+      ],
+      "answer": "Rapports sexuels par voie anale ;",
+      "key": "VIH : mode de transmission"
+    },
+    {
+      "id": 72,
+      "question": "L’infection du VIH s’accompagne d’apparition dans le sérum du malade des anticorps dirigés contre l’ensemble des épitopes du virus, quelles sont vos recommandations lorsqu’une personne se présente pour se faire dépister de l’infection du SIDA, citer un seul item juste.",
+      "options": [
+        "Faire une sérologie de dépistage en utilisant un test immuno-enzymatique et donner les résultats positifs ou négatifs",
+        "Faire un test de confirmation par Western Blot",
+        "Recommander un test de numération de lymphocytes CD4",
+        "Faire une sérologie de dépistage en utilisant un test immuno-enzymatique et si le résultat est négatif demander de faire un autre test au bout de trois mois et de demander de s’abstenir de tout contact infectant",
+        "Recommander un test de dépistage en parallèle à un test de numération des lymphocytes CD4"
+      ],
+      "answer": "Faire une sérologie de dépistage en utilisant un test immuno-enzymatique et si le résultat est négatif demander de faire un autre test au bout de trois mois et de demander de s’abstenir de tout contact infectant",
+      "key": "VIH : recommandation de dépistage"
+    },
+    {
+      "id": 73,
+      "question": "Le traitement par les médicaments antiviraux des hépatites C (HCV) et le traitement des malades Covid 19 par Molnupiravir ou Paxlovid, se sont bien se passer et par de rechute. Les malades séropositives de l’infection du VIH est traité par les médicaments ARV (antirétroviral) á vie, pourquoi ce traitement doit durer toute la vie de la personne séropositive ? citer une phrase qui est fausse",
+      "options": [
+        "Parce que les virus VIH se cachent dans les sanctuaires comme les cellules de la rétine et les cellules de la verge de l’homme et les antirétroviraux ne traversent pas ces barrières.",
+        "La charge virale doit être faite tout les fois pour étudier la résistance aux antirétroviraux et accéder au traitement antirétroviral de 1ere ligne",
+        "Si la charge virale et fait et on voir que le nombre de virus a diminué, on doit procéder au traitement antirétroviral du 2eme ligne",
+        "Le test de numération de lymphocytes CD4 est aussi fait pour voir l’efficacité de traitement antirétroviral;",
+        "Recommander un test de dépistage en parallèle à un test de numération des lymphocytes CD4."
+      ],
+      "answer": "Si la charge virale et fait et on voir que le nombre de virus a diminué, on doit procéder au traitement antirétroviral du 2eme ligne",
+      "key": "VIH : traitement ARV, fausse affirmation"
+    },
+    {
+      "id": 74,
+      "question": "Citer ci- après les analyses pour le suivi au cours de l’infection à VIH qui permet aux médecins de prendre une décision á donner les antirétroviraux chez un malade. Citer l’item juste :",
+      "options": [
+        "Technique d’agglutination de particules de latex sensibilisée",
+        "Technique d’immuno-enzymatique ou ELISA",
+        "Technique de numération des lymphocytes T CD4",
+        "Technique de confirmation par Western Blot",
+        "Technique de la charge virale par PCR en temps réel"
+      ],
+      "answer": "Technique de la charge virale par PCR en temps réel",
+      "key": "VIH : analyse de suivi"
+    },
+    {
+      "id": 75,
+      "question": "Le portages de certain micro-organisme habituellement est commensal chez les cas humains, ces micro-organisme sont devenus virulent chez les malades",
+      "options": [
+        "immunocompétents",
+        "Immunodéficients",
+        "diabétiques",
+        "immunocompétents + diabétiques",
+        "immunodéficients + diabétiques"
+      ],
+      "answer": "Immunodéficients",
+      "key": "Micro-organismes commensaux : virulence"
+    },
+    {
+      "id": 76,
+      "question": "Indiquer la phase au cours d'une infection à VIH où la numération des lymphocytes CD4 est inférieur à 200/mm3.",
+      "options": [
+        "primo-infection",
+        "phase asymptomatique",
+        "phase d'incubation",
+        "SIDA déclaré",
+        "séro-conversion"
+      ],
+      "answer": "SIDA déclaré",
+      "key": "VIH : lymphocytes CD4 < 200"
+    },
+    {
+      "id": 77,
+      "question": "Parmi les propositions ci-dessous, citer la phrase fausse par rapport au dépistage et suivi d'un cas à VIH.",
+      "options": [
+        "Test de dépistage par des techniques immuno-enzymatiques de 4eme génération (antigène p24 + anticorps)",
+        "Les tests de dépistage rapide (trod)",
+        "Test de charge virale",
+        "Test de numération de lymphocytes CD4",
+        "Test de numération des lymphocytes CD8"
+      ],
+      "answer": "Test de numération des lymphocytes CD8",
+      "key": "VIH : faux dépistage/suivi"
+    },
+    {
+      "id": 78,
+      "question": "Le terme séropositivité à l'infection au VIH signifie :",
+      "options": [
+        "l'absence de la charge virale",
+        "la présence de la charge virale",
+        "la présence des lymphocytes CD4 > 500",
+        "la présence d'anticorps anti-VIH",
+        "l'absence d'anticorps anti-VIH"
+      ],
+      "answer": "la présence d'anticorps anti-VIH",
+      "key": "Séropositivité VIH : définition"
+    },
+    {
+      "id": 79,
+      "question": "La définition du complexe immun est :",
+      "options": [
+        "la liaison entre antigène et antigène",
+        "la liaison entre anticorps et anticorps",
+        "la liaison entre antigène et anticorps",
+        "la liaison entre antigène et un autre antigène",
+        "la liaison entre un anticorps et un autre anticorps"
+      ],
+      "answer": "la liaison entre antigène et anticorps",
+      "key": "Complexe immun : définition"
+    },
+    {
+      "id": 80,
+      "question": "Les facteurs de coagulation sont des molécules plasmatiques capables de neutraliser les complexes immuns?",
+      "options": [
+        "Vrai",
+        "Faux",
+        "on ne peut pas savoir"
+      ],
+      "answer": "Faux",
+      "key": "Facteurs de coagulation : neutralisation"
+    },
+    {
+      "id": 81,
+      "question": "Les complexes immuns sont capables de détruire les virus, citer un item qui est faux ?",
+      "options": [
+        "les complexes immuns peuvent détruire le virus",
+        "les complexes immuns sont incapable de détruire le virus",
+        "les complexes immuns peuvent activer les neutrophiles",
+        "les complexes immuns sont des petites molécules de liaison entre antigène et anticorps",
+        "les complexes immuns sont des grosses molécules de liaison entre antigène et anticorps"
+      ],
+      "answer": "les complexes immuns sont incapable de détruire le virus",
+      "key": "Complexes immuns : fausse capacité"
+    },
+    {
+      "id": 82,
+      "question": "A propos de la réponse immunitaire secondaire, citer un item qui est faux :",
+      "options": [
+        "il se passe rapidement lors d'une 2eme agression",
+        "les anticorps apparaissent immédiatement",
+        "on trouve la présence des IgM",
+        "on trouve la présence des IgG",
+        "la quantité d'IgG est en grande quantité que d'IgM"
+      ],
+      "answer": "on trouve la présence des IgM",
+      "key": "Réponse immunitaire secondaire : faux"
+    },
+    {
+      "id": 83,
+      "question": "L'immunité naturelle est :",
+      "options": [
+        "une réponse immunitaire lente",
+        "une réponse immunitaire rapide",
+        "non spécifique de l'antigène",
+        "spécifique de l'antigène",
+        "une réponse immunitaire lente et non spécifique de l'antigène"
+      ],
+      "answer": "non spécifique de l'antigène",
+      "key": "Immunité naturelle : définition"
+    },
+    {
+      "id": 84,
+      "question": "Au cours de la réponse immunitaire à la fois humorale et cellulaire, il est nécessaire qu'il existe une bonne coopération cellulaire entre :",
+      "options": [
+        "Macrophage",
+        "Lymphocytes B",
+        "Lymphocytes CD4",
+        "Lymphocytes CD8",
+        "Macrophage, lymphocytes B, lymphocytes CD4, lymphocytes CD8"
+      ],
+      "answer": "Macrophage, lymphocytes B, lymphocytes CD4, lymphocytes CD8",
+      "key": "Réponse immunitaire : coopération"
+    },
+    {
+      "id": 85,
+      "question": "Le terme cytokine est utilisé pour désigner l'ensemble des substances moléculaires sécrétées par les cellules immunitaires",
+      "options": [
+        "vrai",
+        "faux"
+      ],
+      "answer": "vrai",
+      "key": "Cytokine : définition"
+    },
+    {
+      "id": 86,
+      "question": "La définition de la cytokine est :",
+      "options": [
+        "substance moléculaire sécrétée par les lymphocytes B",
+        "substance moléculaire sécrétée par les cellules dendritiques",
+        "substance moléculaire sécrétée par les macrophages",
+        "toutes les cellules immunitaires peuvent sécréter des cytokines",
+        "un ensemble de substances moléculaires"
+      ],
+      "answer": "un ensemble de substances moléculaires",
+      "key": "Cytokine : définition"
+    },
+    {
+      "id": 87,
+      "question": "L'Interleukine 2 est une cytokine secrétée par :",
+      "options": [
+        "les lymphocytes T auxiliaires",
+        "les lymphocytes B",
+        "les macrophages",
+        "les cellules dendritiques",
+        "les lymphocytes T cytotoxiques"
+      ],
+      "answer": "les lymphocytes T auxiliaires",
+      "key": "Interleukine 2 : sécrétion"
+    },
+    {
+      "id": 88,
+      "question": "La définition de l'Interleukine 2 est :",
+      "options": [
+        "une substance qui inhibe la prolifération des lymphocytes",
+        "une substance qui est un facteur de croissance des lymphocytes T",
+        "une substance qui est un facteur de croissance des lymphocytes B",
+        "une substance qui est un facteur de croissance des lymphocytes T et B",
+        "une substance qui est un facteur de croissance des macrophages"
+      ],
+      "answer": "une substance qui est un facteur de croissance des lymphocytes T et B",
+      "key": "Interleukine 2 : définition"
+    },
+    {
+      "id": 89,
+      "question": "Un des rôles de l'Interleukine 2 est :",
+      "options": [
+        "l'inhibition de la prolifération des lymphocytes T",
+        "la prolifération des lymphocytes T",
+        "la prolifération des lymphocytes B",
+        "la prolifération des lymphocytes T et B",
+        "l'activation des macrophages"
+      ],
+      "answer": "la prolifération des lymphocytes T et B",
+      "key": "Interleukine 2 : rôle"
+    },
+    {
+      "id": 90,
+      "question": "L'Interleukine 1 est sécrétée par :",
+      "options": [
+        "les lymphocytes T",
+        "les lymphocytes B",
+        "les macrophages",
+        "les monocytes",
+        "les macrophages et les monocytes"
+      ],
+      "answer": "les macrophages et les monocytes",
+      "key": "Interleukine 1 : sécrétion"
+    }
+  ]
+}

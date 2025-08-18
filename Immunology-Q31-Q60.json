@@ -1,0 +1,395 @@
+{
+  "quizTitle": "Immunology Part 2 Q31-Q60",
+  "questions": [
+    {
+      "id": 31,
+      "question": "Citer la fonction immunologique des interférons produits par lymphocytes macrophage et lymphoblastes, citer une phrase qui est fausse :",
+      "options": [
+        "Inhibe la réplication virale",
+        "Par dégradation de l'ARN viral",
+        "Avoir la propriété de participer l'activation de l'histamine au cours d'une allergie;",
+        "Activation des macrophages",
+        "Activation des lymphocytes"
+      ],
+      "answer": "Avoir la propriété de participer l'activation de l'histamine au cours d'une allergie;",
+      "key": "Interférons : fausse fonction"
+    },
+    {
+      "id": 32,
+      "question": "L'immunité naturelle qui fait intervenir quelques-uns des composants cellulaires du système immunitaire. Citer une phrase qui est fausse:",
+      "options": [
+        "Les hématies ayant pour rôle dans l'immunité naturelle",
+        "Les macrophages ayant pour rôle dans l'immunité naturelle",
+        "Les polynucléaires neutrophiles ayant pour rôle dans l'immunité naturelle",
+        "Les cellules dendritiques ayant pour rôle dans l'immunité naturelle",
+        "Les mastocytes ayant pour rôle dans l'immunité naturelle;"
+      ],
+      "answer": "Les hématies ayant pour rôle dans l'immunité naturelle",
+      "key": "Immunité naturelle : fausse cellule"
+    },
+    {
+      "id": 33,
+      "question": "Citer une phrase qui est juste, une des différentes phases de la phagocytose est :",
+      "options": [
+        "Elimination",
+        "Adhérence",
+        "Interférence",
+        "Inclusion",
+        "Libération"
+      ],
+      "answer": "Adhérence",
+      "key": "Phagocytose : phase exacte"
+    },
+    {
+      "id": 34,
+      "question": "Citer une phrase qui est fausse. Les interférons ont comme principales sources:",
+      "options": [
+        "Les lymphocytes",
+        "Les fibroblastes",
+        "Les hématies",
+        "Les macrophages",
+        "Les lymphocytes B et T"
+      ],
+      "answer": "Les hématies",
+      "key": "Interférons : fausse source"
+    },
+    {
+      "id": 35,
+      "question": "Citer les différents types de cellules mettant en jeu dans l'immunité non spécifique ou immunité naturelle ? Citer l'item juste ?",
+      "options": [
+        "Les lymphocytes CD8",
+        "Les lymphocytes CD4",
+        "Les macrophage",
+        "Les cellules tumorales",
+        "Les plasmocytes."
+      ],
+      "answer": "Les macrophage",
+      "key": "Immunité non spécifique : cellule"
+    },
+    {
+      "id": 36,
+      "question": "Citer les différents types de cellules mettant en jeu dans l'immunité spécifique type immunité cellulaires cytotoxiques? Citer la phrase juste ?",
+      "options": [
+        "Les lymphocytes T CD8",
+        "Les polynucléaires neutrophiles",
+        "Les plasmocytes",
+        "Les cellules souches",
+        "Les plaquettes."
+      ],
+      "answer": "Les lymphocytes T CD8",
+      "key": "Immunité cytotoxique : cellule"
+    },
+    {
+      "id": 37,
+      "question": "Citer les différents types de cellules mettant en jeu dans l'immunité spécifique type immunité humorale? Citer la phrase juste ?",
+      "options": [
+        "Les lymphocytes CD4",
+        "Les polynucléaires neutrophiles",
+        "Les lymphocytes CD8",
+        "Les lymphocytes B",
+        "Les plaquettes."
+      ],
+      "answer": "Les lymphocytes B",
+      "key": "Immunité humorale : cellule"
+    },
+    {
+      "id": 38,
+      "question": "Citer la phrase juste. A propos des réactions allergiques dépendantes des IgE (ou hypersensibilité de type I), on peut affirmer que :",
+      "options": [
+        "Elles entraînent des manifestions cliniques lors d'un premier contact avec l'antigène.",
+        "Elles impliquent l'activation des macrophages.",
+        "Elles peuvent être provoquées par la tuberculine",
+        "Leur diagnostic fait appel à des tests de cultures de bactéries",
+        "L'hérédité joue un rôle important dans la survenue du phénomènes allergiques"
+      ],
+      "answer": "L'hérédité joue un rôle important dans la survenue du phénomènes allergiques",
+      "key": "Réactions allergiques : rôle de l'hérédité"
+    },
+    {
+      "id": 39,
+      "question": "Quelle est la proposition exacte de l'interleukine 2",
+      "options": [
+        "Est sécrétée par des lymphocytes et monocytes",
+        "Est une cytokine sécrétée par les mastocytes",
+        "Est sécrétée par les monocytes présentant l'antigène",
+        "Est activatrice des lymphocytes pro B venant de moelle",
+        "Ne possède pas d'activités antivirales"
+      ],
+      "answer": "Est activatrice des lymphocytes pro B venant de moelle",
+      "key": "Interleukine 2 : rôle exact"
+    },
+    {
+      "id": 40,
+      "question": "Parmi les cellules suivantes, indiquer celles qui sont le support de la \"mémoire immunologique\"?",
+      "options": [
+        "Les lymphocytes helper CD4",
+        "Les cellules tumorales",
+        "Les plaquettes",
+        "Les hépatocytes",
+        "Les hématies"
+      ],
+      "answer": "Les lymphocytes helper CD4",
+      "key": "Mémoire immunologique : cellule"
+    },
+    {
+      "id": 41,
+      "question": "Parmi les propositions suivantes une seule est exacte. Laquelle? l'immunité à médiation cellulaire peut être représenter par:",
+      "options": [
+        "Les plaquettes",
+        "Les lymphocytes B",
+        "Les polynucléaires basophiles",
+        "Les lymphocytes T CD8 cytotoxique",
+        "Les monocytes"
+      ],
+      "answer": "Les lymphocytes T CD8 cytotoxique",
+      "key": "Immunité cellulaire : représentation"
+    },
+    {
+      "id": 42,
+      "question": "Quel est le mode d'absorbation de virus Covid 19 par les êtres humains ?",
+      "options": [
+        "Via l'aérosol par voie respiratoire",
+        "Tenir la main avec une personne non positives par Covid 19",
+        "Manger ensemble avec d'autres personnes non positives par Covid 19",
+        "Soigner les malades muni de précautions (port de gant, masque etc....)",
+        "Fait le sport ensemble avec d'autres personnes non Covid"
+      ],
+      "answer": "Via l'aérosol par voie respiratoire",
+      "key": "Transmission du Covid 19"
+    },
+    {
+      "id": 43,
+      "question": "Le rôle de lymphocyte CD4 au cours d'une réponse immunitaire, citer l'item qui est juste :",
+      "options": [
+        "Rôle cytotoxique (CTL) càd il sécrète une substance capable de lyser les organismes étrangers;",
+        "Rôle de régulation au cours d'une réponse naturelle",
+        "Rôle de régulation au cours d'une réponse à la fois cellulaire et humorale;",
+        "Rôle d'éliminer les corps étrangers par sécrétion des chimiokines",
+        "Rôle de présentatrice de l'antigène aux autres cellules du système immunitaire."
+      ],
+      "answer": "Rôle de régulation au cours d'une réponse à la fois cellulaire et humorale;",
+      "key": "Lymphocyte CD4 : rôle de régulation"
+    },
+    {
+      "id": 44,
+      "question": "Citer les caractéristiques de la fonction immunitaire de lymphocytes CD4, qui est juste :",
+      "options": [
+        "Reconnaissance de l'antigène spécifique par le récepteur BCR",
+        "Régulation de la réponse immune á la fois cellulaire et humorale.",
+        "Fonction effectrice.",
+        "Présentatrice de peptides.",
+        "Pas de mémoire immunologique"
+      ],
+      "answer": "Régulation de la réponse immune á la fois cellulaire et humorale.",
+      "key": "Lymphocyte CD4 : fonction"
+    },
+    {
+      "id": 45,
+      "question": "Au cours de la réponse immunitaire, citer une phrase qui est juste :",
+      "options": [
+        "Les hématies ne peuvent pas sécréter des quantités importantes de cytokines",
+        "La réponse cellulaire T et B sont deux mécanismes totalement indépendants",
+        "La coopération cellulaire entre CD4 et CD8 peut aboutir à une réponse immunitaire non efficace",
+        "La cellule dendritique est un élément non réactif à l'interface entre immunité innée et adaptative",
+        "Une interaction par coopération cellulaire est apparue entre immunité naturelle et immunité adaptative"
+      ],
+      "answer": "Une interaction par coopération cellulaire est apparue entre immunité naturelle et immunité adaptative",
+      "key": "Réponse immunitaire : interaction"
+    },
+    {
+      "id": 46,
+      "question": "Fonction des cellules dendritiques? une phrase qui est fausse ?",
+      "options": [
+        "Prennent source dans la moelle",
+        "Sont en première lignes pour capturer les antigènes,",
+        "Participer comme interface entre l'immunité humorale et cellulaire",
+        "Agit en particulier avec les lymphocytes B et T",
+        "Agit en particulier avec les hématies"
+      ],
+      "answer": "Agit en particulier avec les hématies",
+      "key": "Cellules dendritiques : fausse fonction"
+    },
+    {
+      "id": 47,
+      "question": "Nature chimique d'un antigène? Citer une phrase qui est fausse ?",
+      "options": [
+        "Protéine.",
+        "Polysaccharides",
+        "Polypeptides",
+        "Acide aminé",
+        "Acide lactique"
+      ],
+      "answer": "Acide lactique",
+      "key": "Antigène : fausse nature chimique"
+    },
+    {
+      "id": 48,
+      "question": "Citer la définition de l'épitope ou déterminant antigénique qui est fausse :",
+      "options": [
+        "Muni de structures complexes multi-épitopiques",
+        "Existe à la partie externe et interne du virus ou bactérie",
+        "Peut être utilisé pour produire des tests de diagnostic au laboratoire",
+        "Est incapable de stimuler une réponse immunitaire",
+        "Est neutralisé par les cytokines"
+      ],
+      "answer": "Est incapable de stimuler une réponse immunitaire",
+      "key": "Épitope : fausse définition"
+    },
+    {
+      "id": 49,
+      "question": "La définition de l'antigène et l'haptène par rapport au corps infectant. Citer l'items qui est juste :",
+      "options": [
+        "L'antigène et l'haptène sont les constituants d'un antigène",
+        "L 'haptène constitue tout seul le corps infectant;",
+        "Les macrophages présentent seul l'haptène aux autres cellules du système immunitaires.",
+        "Les macrophages, les polynucléaires, les monocytes présentent seul l'haptène aux autres cellules du système immunitaire dans l'organe lymphoïde secondaire.",
+        "L'antigène constitue lui seul le corps infectant;"
+      ],
+      "answer": "L 'haptène constitue tout seul le corps infectant;",
+      "key": "Haptène : définition"
+    },
+    {
+      "id": 50,
+      "question": "Quels sont les immunoglobulines qui apparaissent en dernier lors de la réponse immunitaire au cours d'une infection quelconque (champignon, parasites, bactéries, virus)? Citer la phrase qui est juste :",
+      "options": [
+        "Ig G",
+        "Ig D",
+        "Ig E",
+        "Ig A",
+        "Ig M"
+      ],
+      "answer": "Ig G",
+      "key": "Immunoglobulines : apparition tardive"
+    },
+    {
+      "id": 51,
+      "question": "A propos des réactions allergiques dépendantes des IgE (ou hypersensibilité de type I), on peut affirmer que :",
+      "options": [
+        "Elles entraînent des manifestions cliniques lors d'un premier contact avec l'antigène.",
+        "Elles impliquent l'activation des macrophages.",
+        "Elles peuvent être provoquées par la tuberculine",
+        "Leur diagnostic fait appel à des tests de cultures de bactéries",
+        "L'hérédité joue un rôle important dans la survenue de l'état allergique"
+      ],
+      "answer": "L'hérédité joue un rôle important dans la survenue de l'état allergique",
+      "key": "Hypersensibilité type I : hérédité"
+    },
+    {
+      "id": 52,
+      "question": "Parmi les propositions suivantes, indiquer laquelle est exacte pour les Ig D:",
+      "options": [
+        "Sont responsables des phénomènes anaphylactiques",
+        "Ont des fonction inconnues",
+        "Agit spécifiquement en présence de IgM",
+        "Sont des immunoglobulines membranaire",
+        "Assemblage de deux chaîne lourde et deux chaîne légères"
+      ],
+      "answer": "Sont des immunoglobulines membranaire",
+      "key": "Immunoglobulines D : caractéristique"
+    },
+    {
+      "id": 53,
+      "question": "Indiquez la réponse exacte. Le diagnostic sérologique précoce d'une infection virale repose sur la mise en évidence chez le patient :",
+      "options": [
+        "D'un titre élevé de complément",
+        "D'une séroconversion non spécifique",
+        "D'une ascension significative du titre des anticorps non spécifiques",
+        "IgM spécifiques",
+        "IgG spécifiques"
+      ],
+      "answer": "IgM spécifiques",
+      "key": "Diagnostic sérologique précoce"
+    },
+    {
+      "id": 54,
+      "question": "Les immunoglobulines ou anticorps sont libérés dans l'organe lymphoïde secondaire par :",
+      "options": [
+        "Les hématies;",
+        "Les lymphocytes B activés ou plasmocytes;",
+        "Les macrophages;",
+        "Les lymphocytes T activés;",
+        "Les polynucléaires neutrophiles"
+      ],
+      "answer": "Les lymphocytes B activés ou plasmocytes;",
+      "key": "Anticorps : cellules de libération"
+    },
+    {
+      "id": 55,
+      "question": "Qu'est-ce que c'est qu'une mémoire immunologique du système immunitaire ? Citer l'item qui est faux ?",
+      "options": [
+        "Capacité que les anticorps ne reconnaissent pas les antigènes après une 2ème agression",
+        "Capacité que les anticorps et les cellules spécialisées du système immunitaire reconnaissent les antigènes à la 2ème agression",
+        "Capacité de répondre du système immunitaire pour une 2ème agression du même antigène",
+        "On utilise cette qualité du système immunitaire pour la vaccination",
+        "La mémoire immunologique est assurée par les lignées B mémoires et T mémoires."
+      ],
+      "answer": "Capacité que les anticorps ne reconnaissent pas les antigènes après une 2ème agression",
+      "key": "Mémoire immunologique : fausse définition"
+    },
+    {
+      "id": 56,
+      "question": "Citer l'items qui est faux, les molécules d'immunoglobulines sont sécrétées dans ?",
+      "options": [
+        "Le système osseux",
+        "Les tissus",
+        "Les organes lymphoïdes secondaires",
+        "Les organes lymphoïdes diffus dans les tissus",
+        "Les systèmes sanguins"
+      ],
+      "answer": "Le système osseux",
+      "key": "Immunoglobulines : fausse sécrétion"
+    },
+    {
+      "id": 57,
+      "question": "Quels sont les immunoglobulines qui apparaissent en premier lieu lors de la réponse immunitaire au cours d'une infection (champignon, parasites, bactéries, virus)? Citer l'item qui est juste :",
+      "options": [
+        "Ig M",
+        "Ig D",
+        "Ig E",
+        "Ig G",
+        "Ig A"
+      ],
+      "answer": "Ig M",
+      "key": "Immunoglobulines : apparition précoce"
+    },
+    {
+      "id": 58,
+      "question": "Parmi les immunoglobulines sous mentionnées, quelle sont celles qui inhibent l'adhérence des micro-organismes aux muqueuses intestinaux ?",
+      "options": [
+        "Ig A",
+        "Ig D",
+        "Ig E",
+        "Ig G",
+        "Ig M"
+      ],
+      "answer": "Ig A",
+      "key": "Immunoglobulines : adhérence muqueuses"
+    },
+    {
+      "id": 59,
+      "question": "Parmi les immunoglobulines sous mentionnées, quelles sont celles qui signent l'allergie par la présence de parasites dans l'organe humain ?",
+      "options": [
+        "Ig A",
+        "Ig D",
+        "Ig E",
+        "Ig G",
+        "Ig M"
+      ],
+      "answer": "Ig E",
+      "key": "Immunoglobulines : allergie/parasites"
+    },
+    {
+      "id": 60,
+      "question": "Les immunoglobulines de surface du lymphocyte B ont un rôle spécifique, citer la phrase juste dans:",
+      "options": [
+        "La reconnaissance de l’antigène",
+        "La dégranulation du basophile",
+        "L`activation du polynucléaire basophile",
+        "L’activation des hématies",
+        "L’activation de l’histamine"
+      ],
+      "answer": "La reconnaissance de l’antigène",
+      "key": "Immunoglobulines de surface : rôle"
+    }
+  ]
+}

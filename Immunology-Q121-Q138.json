@@ -1,0 +1,239 @@
+{
+  "quizTitle": "Immunology Part 5 Q121-Q138",
+  "questions": [
+    {
+      "id": 121,
+      "question": "Un des rôles de l'Interleukine 2 est :",
+      "options": [
+        "l'inhibition de la prolifération des lymphocytes T",
+        "la prolifération des lymphocytes T",
+        "la prolifération des lymphocytes B",
+        "la prolifération des lymphocytes T et B",
+        "l'activation des macrophages"
+      ],
+      "answer": "la prolifération des lymphocytes T et B",
+      "key": "Interleukine 2 : rôle"
+    },
+    {
+      "id": 122,
+      "question": "L'Interleukine 1 est sécrétée par :",
+      "options": [
+        "les lymphocytes T",
+        "les lymphocytes B",
+        "les macrophages",
+        "les monocytes",
+        "les macrophages et les monocytes"
+      ],
+      "answer": "les macrophages et les monocytes",
+      "key": "Interleukine 1 : sécrétion"
+    },
+    {
+      "id": 123,
+      "question": "Le terme opsonisation signifie :",
+      "options": [
+        "l'activation de la phagocytose",
+        "la diminution de la phagocytose",
+        "la migration des polynucléaires",
+        "la migration des macrophages",
+        "la migration des lymphocytes"
+      ],
+      "answer": "l'activation de la phagocytose",
+      "key": "Opsonisation : définition"
+    },
+    {
+      "id": 124,
+      "question": "Quels sont les cellules qui sont les plus souvent à l'origine d'une allergie ?",
+      "options": [
+        "lymphocytes B",
+        "mastocytes",
+        "macrophages",
+        "polynucléaires neutrophiles",
+        "polynucléaires éosinophiles"
+      ],
+      "answer": "mastocytes",
+      "key": "Allergie : cellule d'origine"
+    },
+    {
+      "id": 125,
+      "question": "L'immunité qui se met en place après la naissance est :",
+      "options": [
+        "l'immunité naturelle",
+        "l'immunité adaptative",
+        "l'immunité innée",
+        "l'immunité passive",
+        "l'immunité active"
+      ],
+      "answer": "l'immunité adaptative",
+      "key": "Immunité après la naissance"
+    },
+    {
+      "id": 126,
+      "question": "La définition de l'immunité acquise ou adaptative est :",
+      "options": [
+        "une réponse immunitaire rapide et non spécifique",
+        "une réponse immunitaire lente et non spécifique",
+        "une réponse immunitaire rapide et spécifique",
+        "une réponse immunitaire lente et spécifique",
+        "une réponse immunitaire lente et non spécifique"
+      ],
+      "answer": "une réponse immunitaire lente et spécifique",
+      "key": "Immunité adaptative : définition"
+    },
+    {
+      "id": 127,
+      "question": "Citer la cellule qui est la plus importante pour la défense contre le cancer.",
+      "options": [
+        "lymphocyte T cytotoxique",
+        "lymphocyte T auxiliaire",
+        "lymphocyte B",
+        "macrophage",
+        "cellule dendritique"
+      ],
+      "answer": "lymphocyte T cytotoxique",
+      "key": "Défense contre le cancer"
+    },
+    {
+      "id": 128,
+      "question": "L'immunité à médiation humorale est :",
+      "options": [
+        "la sécrétion d'anticorps",
+        "la sécrétion de cytokines",
+        "la phagocytose",
+        "la migration des lymphocytes",
+        "la migration des macrophages"
+      ],
+      "answer": "la sécrétion d'anticorps",
+      "key": "Immunité humorale : définition"
+    },
+    {
+      "id": 129,
+      "question": "Citer l'organe lymphoïde secondaire qui n'est pas juste.",
+      "options": [
+        "moelle osseuse",
+        "ganglions lymphatiques",
+        "plaque de Peyer",
+        "amygdales",
+        "rate"
+      ],
+      "answer": "moelle osseuse",
+      "key": "Organe lymphoïde secondaire : faux"
+    },
+    {
+      "id": 130,
+      "question": "Citer l'organe lymphoïde primaire qui n'est pas juste.",
+      "options": [
+        "moelle osseuse",
+        "thymus",
+        "ganglions lymphatiques",
+        "rate",
+        "plaque de Peyer"
+      ],
+      "answer": "ganglions lymphatiques",
+      "key": "Organe lymphoïde primaire : faux"
+    },
+    {
+      "id": 131,
+      "question": "Le rôle du thymus est :",
+      "options": [
+        "la maturation des lymphocytes T",
+        "la maturation des lymphocytes B",
+        "la maturation des lymphocytes T et B",
+        "la production des lymphocytes T",
+        "la production des lymphocytes B"
+      ],
+      "answer": "la maturation des lymphocytes T",
+      "key": "Thymus : rôle"
+    },
+    {
+      "id": 132,
+      "question": "L'organe qui se trouve au niveau de l'abdomen et qui filtre le sang est :",
+      "options": [
+        "la rate",
+        "le foie",
+        "le rein",
+        "le pancréas",
+        "la vésicule biliaire"
+      ],
+      "answer": "la rate",
+      "key": "Organe : filtre le sang"
+    },
+    {
+      "id": 133,
+      "question": "Le rôle de l'organe rate est :",
+      "options": [
+        "la maturation des lymphocytes T",
+        "la maturation des lymphocytes B",
+        "la production des lymphocytes T",
+        "la production des lymphocytes B",
+        "la filtration du sang"
+      ],
+      "answer": "la filtration du sang",
+      "key": "Rate : rôle"
+    },
+    {
+      "id": 134,
+      "question": "Le rôle de la moelle osseuse est :",
+      "options": [
+        "la production des lymphocytes T",
+        "la production des lymphocytes B",
+        "la maturation des lymphocytes T",
+        "la maturation des lymphocytes B",
+        "la production des hématies"
+      ],
+      "answer": "la production des lymphocytes T et B",
+      "key": "Moelle osseuse : rôle"
+    },
+    {
+      "id": 135,
+      "question": "Le rôle des ganglions lymphatiques est :",
+      "options": [
+        "la maturation des lymphocytes T",
+        "la maturation des lymphocytes B",
+        "la production des lymphocytes T",
+        "la production des lymphocytes B",
+        "la filtration de la lymphe"
+      ],
+      "answer": "la filtration de la lymphe",
+      "key": "Ganglions lymphatiques : rôle"
+    },
+    {
+      "id": 136,
+      "question": "L'hypersensibilité de type I est :",
+      "options": [
+        "allergie de contact",
+        "allergie alimentaire",
+        "allergie respiratoire",
+        "allergie médicamenteuse",
+        "allergie aux piqûres d'insectes"
+      ],
+      "answer": "allergie alimentaire",
+      "key": "Hypersensibilité type I"
+    },
+    {
+      "id": 137,
+      "question": "L'hypersensibilité de type II est :",
+      "options": [
+        "allergie de contact",
+        "allergie alimentaire",
+        "allergie respiratoire",
+        "allergie médicamenteuse",
+        "allergie aux piqûres d'insectes"
+      ],
+      "answer": "allergie médicamenteuse",
+      "key": "Hypersensibilité type II"
+    },
+    {
+      "id": 138,
+      "question": "L'hypersensibilité de type III est :",
+      "options": [
+        "allergie de contact",
+        "allergie alimentaire",
+        "allergie respiratoire",
+        "allergie médicamenteuse",
+        "allergie aux piqûres d'insectes"
+      ],
+      "answer": "allergie respiratoire",
+      "key": "Hypersensibilité type III"
+    }
+  ]
+}
