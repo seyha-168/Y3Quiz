@@ -248,7 +248,7 @@
                 questionTextContainer.appendChild(questionSpan);
                 
                 const keyButton = document.createElement('button');
-                keyButton.type = "button"; // The fix: prevents form submission
+                keyButton.type = "button";
                 keyButton.textContent = "Show Key";
                 keyButton.classList.add('key-button');
                 keyButton.onclick = (event) => {
@@ -341,18 +341,16 @@
         }
         
         function setupFloatingControls() {
-            const floatingControls = document.getElementById('floating-controls');
-            const container = document.querySelector('.container');
+            const goToBottomBtn = document.getElementById('go-to-bottom-btn');
+            const goToTopBtn = document.getElementById('go-to-top-btn');
+            const quizContainer = document.getElementById('quiz-container');
 
-            window.addEventListener('scroll', () => {
-                const containerBottom = container.offsetTop + container.offsetHeight;
-                const windowBottom = window.scrollY + window.innerHeight;
-
-                if (windowBottom > containerBottom) {
-                    floatingControls.style.display = 'none';
-                } else {
-                    floatingControls.style.display = 'flex';
-                }
+            goToBottomBtn.addEventListener('click', () => {
+                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            });
+            
+            goToTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             });
         }
     </script>
