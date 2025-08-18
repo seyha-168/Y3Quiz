@@ -150,12 +150,6 @@
     <script>
         document.getElementById('redo-btn').addEventListener('click', redoQuiz);
         document.getElementById('back-btn').addEventListener('click', showLessonsList);
-        document.getElementById('go-to-bottom-btn').addEventListener('click', () => {
-            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-        });
-        document.getElementById('go-to-top-btn').addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
         
         let originalLessonData = null;
         let lastSelectedQuestion = null;
@@ -205,6 +199,7 @@
                     document.getElementById('redo-btn').style.display = 'block';
                     document.getElementById('back-btn').style.display = 'block';
                     document.getElementById('floating-controls').style.display = 'flex';
+                    setupFloatingControls();
                 })
                 .catch(error => {
                     console.error('There has been a problem with your fetch operation:', error);
@@ -268,7 +263,6 @@
                 };
 
                 questionDiv.addEventListener('click', () => {
-                    // Hide key for the last selected question
                     if (lastSelectedQuestion && lastSelectedQuestion !== questionDiv) {
                         const lastKeyButton = lastSelectedQuestion.querySelector('.key-button');
                         const lastAnswerKey = lastSelectedQuestion.querySelector('.answer-key');
@@ -280,8 +274,6 @@
                             lastAnswerKey.style.display = 'none';
                         }
                     }
-
-                    // Show key for the current question
                     keyButton.style.display = 'block';
                     lastSelectedQuestion = questionDiv;
                 });
@@ -344,6 +336,23 @@
                 
                 const questionDiv = selectedInput.closest('.question-item');
                 questionDiv.appendChild(feedbackSpan);
+            });
+        }
+        
+        function setupFloatingControls() {
+            const floatingControls = document.getElementById('floating-controls');
+            const container = document.querySelector('.container');
+
+            window.addEventListener('scroll', () => {
+                const containerBottom = container.offsetTop + container.offsetHeight;
+                const windowBottom = window.scrollY + window.innerHeight;
+
+                // Hide floating buttons if the user scrolls past the quiz container
+                if (windowBottom > containerBottom) {
+                    floatingControls.style.display = 'none';
+                } else {
+                    floatingControls.style.display = 'flex';
+                }
             });
         }
     </script>
