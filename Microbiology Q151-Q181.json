@@ -1,0 +1,377 @@
+{
+  "quizTitle": "Microbiology Part Q151-Q181",
+  "questions": [
+    {
+      "id": 151,
+      "question": "Quels sont les modes de transmission de l’hépatite D?",
+      "options": [
+        "L’hépatite D se propage par contact avec du sang et d’autres fluides corporels (par activité sexuelle)",
+        "L’hépatite D se contamine par voie fécale orale",
+        "L’hépatite D se contamine par voie parentérale",
+        "On fait la consultation avec le médecin"
+      ],
+      "answer": "L’hépatite D se propage par contact avec du sang et d’autres fluides corporels (par activité sexuelle)",
+      "key": "Hépatite D : transmission"
+    },
+    {
+      "id": 152,
+      "question": "Quel virus on a utilisé pour préparer le vaccin contre la variole ?",
+      "options": [
+        "C’est le virus de la vaccine",
+        "C’est le poxvirus",
+        "On a utilisé le cowpox",
+        "On a utilisé le virus du même genre"
+      ],
+      "answer": "C’est le virus de la vaccine",
+      "key": "Vaccin Variole : virus"
+    },
+    {
+      "id": 153,
+      "question": "Quel prélèvement on a utilisé pour faire le diagnostic de la variole ?",
+      "options": [
+        "On a utilisé les croûtes",
+        "On a utilisé les prélèvements cutanés, les prélèvements vésiculeux ou pustuleux",
+        "On fait plusieurs prélèvements",
+        "On a utilisé les macules"
+      ],
+      "answer": "On a utilisé les prélèvements cutanés, les prélèvements vésiculeux ou pustuleux",
+      "key": "Variole : prélèvement diagnostic"
+    },
+    {
+      "id": 154,
+      "question": "Quel médicament on a utilisé pour le traitement du molluscum contagiosum habituel ?",
+      "options": [
+        "On utilise les antiviraux",
+        "On utilise le cidofovir en gel dermique 1% ou 3%",
+        "On utilise le Vistide",
+        "On utilise le cidofovir par voie i.v."
+      ],
+      "answer": "On utilise le cidofovir en gel dermique 1% ou 3%",
+      "key": "Molluscum contagiosum : traitement habituel"
+    },
+    {
+      "id": 155,
+      "question": "Quel médicament on a utilisé pour le traitement du molluscum contagiosum chez des malades atteints du SIDA ?",
+      "options": [
+        "On utilise les antiviraux",
+        "On utilise le cidofovir en gel dermique 1% ou 3%",
+        "On utilise le Vistide",
+        "On utilise le cidofovir par voie i.v."
+      ],
+      "answer": "On utilise le cidofovir par voie i.v.",
+      "key": "Molluscum contagiosum : traitement SIDA"
+    },
+    {
+      "id": 156,
+      "question": "Quelle est la conséquence de la variole ?",
+      "options": [
+        "Il existe 2 formes épidémiologiques de la variole",
+        "La variole majeure provoque la mort par œdème aigu du poumon",
+        "La variole provoque une éruption cutanée",
+        "Le malade reste contagieux depuis le 1er jour de l’éruption"
+      ],
+      "answer": "La variole majeure provoque la mort par œdème aigu du poumon",
+      "key": "Variole : conséquence"
+    },
+    {
+      "id": 157,
+      "question": "Quelle famille appartient le virus de la variole ?",
+      "options": [
+        "La famille Rhabdoviridae",
+        "La famille Picornaviridae",
+        "La famille Poxviridae",
+        "La famille Filoviridae"
+      ],
+      "answer": "La famille Poxviridae",
+      "key": "Variole : famille"
+    },
+    {
+      "id": 158,
+      "question": "Pourquoi on prend le virus de la vaccine pour faire le vaccin contre la variole ?",
+      "options": [
+        "Le virus de la vaccine est plus virulent avec les animaux de laboratoire",
+        "Le virus de la vaccine induit des larges vésicules",
+        "Les gènes se trouvent dans la partie centrale du génome",
+        "Le virus de la vaccine est apparenté génétiquement et antigéniquement que le poxvirus"
+      ],
+      "answer": "Le virus de la vaccine est apparenté génétiquement et antigéniquement que le poxvirus",
+      "key": "Vaccine : raison d'utilisation"
+    },
+    {
+      "id": 159,
+      "question": "Quelle est la morphologie du poxvirus ?",
+      "options": [
+        "Le virion a la forme d’une petite brique ou d’une petite savonnette",
+        "Le virus a une grande enveloppe",
+        "Le virus a un génome ADN",
+        "Le virus a une morphologie particulière"
+      ],
+      "answer": "Le virion a la forme d’une petite brique ou d’une petite savonnette",
+      "key": "Poxvirus : morphologie"
+    },
+    {
+      "id": 160,
+      "question": "Est-ce qu’on peut guérir de la rage ?",
+      "options": [
+        "Il n’existe pas de traitement contre la rage",
+        "On fait la vaccination antirabique après la morsure d’un animal",
+        "On lave les blessures avec l’eau savonneuse",
+        "On utilise la solution désinfectante Betadine"
+      ],
+      "answer": "Il n’existe pas de traitement contre la rage",
+      "key": "Rage : guérison"
+    },
+    {
+      "id": 161,
+      "question": "Que faites vous si le chien est suspect de rage ?",
+      "options": [
+        "On fait la vaccination antirabique",
+        "On doit suivre la santé de l’animal",
+        "On doit consulter le vétérinaire",
+        "On doit écarter de l’animal en suspicion et ne lui nourrit pas"
+      ],
+      "answer": "On doit suivre la santé de l’animal",
+      "key": "Chien suspect de rage : conduite à tenir"
+    },
+    {
+      "id": 162,
+      "question": "Est-ce que vous tuez le chien qui a mordu un être humain ?",
+      "options": [
+        "Non, on va consulter le vétérinaire",
+        "On fait la biopsie cutanée",
+        "Non, on fait plusieurs visites",
+        "On envoie l’animal au laboratoire"
+      ],
+      "answer": "Non, on va consulter le vétérinaire",
+      "key": "Morsure de chien : conduite à tenir"
+    },
+    {
+      "id": 163,
+      "question": "Comment les Anciens ont fait après la morsure de l’animal pour éviter la rage?",
+      "options": [
+        "Les Anciens ont réduit l’inoculum",
+        "Les Anciens ont lave les blessures",
+        "Ils ont envoyé l’animal au laboratoire",
+        "Les Anciens ont cautérisé la plaie au fer rouge"
+      ],
+      "answer": "Les Anciens ont cautérisé la plaie au fer rouge",
+      "key": "Rage : méthode ancienne de prévention"
+    },
+    {
+      "id": 164,
+      "question": "Quand vous pensez trop tard pour traiter la rage ?",
+      "options": [
+        "On fait la vaccination antirabique après la morsure",
+        "Lorsque les symptômes se déclarent; pour éviter la rage, on doit faire la vaccination antirabique après la morsure",
+        "Lorsqu’il y a l’hydrophobie",
+        "Lorsque la convulsion apparaȋt"
+      ],
+      "answer": "Lorsque les symptômes se déclarent; pour éviter la rage, on doit faire la vaccination antirabique après la morsure",
+      "key": "Rage : traitement trop tardif"
+    },
+    {
+      "id": 165,
+      "question": "Qu’est-ce qu’il y a après la morsure d’un animal suspect de rage si les symptômes apparaissent ?",
+      "options": [
+        "Les mesures de réanimation ne font que retarder la mort",
+        "Le décès est inévitable",
+        "Il faut faire la vaccination antirabique",
+        "Il faut consulter le vétérinaire"
+      ],
+      "answer": "Le décès est inévitable",
+      "key": "Rage : symptômes apparents"
+    },
+    {
+      "id": 166,
+      "question": "Comment on reconnaȋt un animal qui a la rage ?",
+      "options": [
+        "Il y a un changement de comportement, …",
+        "Il faut envoyer l’animal au service vétérinaire",
+        "On fait plusieurs visites",
+        "On fait une vaccination antirabique à l’animal"
+      ],
+      "answer": "Il y a un changement de comportement, …",
+      "key": "Rage : symptômes chez l'animal"
+    },
+    {
+      "id": 167,
+      "question": "Est-il possible d’avoir des syndromes post-poliomyélitiques chez le malade infecté par le poliovirus ?",
+      "options": [
+        "Il y a une phase d’atrophie musculaire pendant des décennies plus tard",
+        "Il y a une douleur et une faiblesse des muscles",
+        "Il y a une infection rhinopharyngée",
+        "Il y a une fièvre"
+      ],
+      "answer": "Il y a une douleur et une faiblesse des muscles",
+      "key": "Syndrome post-polio : symptômes"
+    },
+    {
+      "id": 168,
+      "question": "Quel est le réservoir des entérovirus ?",
+      "options": [
+        "Le réservoir est l’animal",
+        "Le réservoir est humain",
+        "On doit laver les mains avant manger",
+        "On doit respecter les règles d’hygiène universelle"
+      ],
+      "answer": "Le réservoir est humain",
+      "key": "Entérovirus : réservoir"
+    },
+    {
+      "id": 169,
+      "question": "Combien de sérotypes y-a-t-il pour le poliovirus ?",
+      "options": [
+        "Il y a un seul sérotype",
+        "Il y a 2 sérotypes différents",
+        "Il y a 3 sérotypes différents",
+        "Il y a 5 sérotypes différents"
+      ],
+      "answer": "Il y a 3 sérotypes différents",
+      "key": "Poliovirus : sérotypes"
+    },
+    {
+      "id": 170,
+      "question": "Quel vaccin on a utilisé pour avoir une immunité locale intestinale contre la poliomyélite?",
+      "options": [
+        "On utilise le vaccin vivant",
+        "On utilise le vaccin inactivé",
+        "On utilise le vaccin par voie parentérale",
+        "On utilise le vaccin par voie orale"
+      ],
+      "answer": "On utilise le vaccin vivant",
+      "key": "Poliomyélite : immunité locale"
+    },
+    {
+      "id": 171,
+      "question": "Parmi le genre Enterovirus, quand surviennent les infections par les entérovirus non poliomyélitiques ?",
+      "options": [
+        "Les infections surviennent dans l’hôpital",
+        "Les infections surviennent chez le nouveau-né",
+        "Pendant la saison chaude et la saison froide",
+        "Toute l’année dans les pays tropicaux et subtropicaux"
+      ],
+      "answer": "Toute l’année dans les pays tropicaux et subtropicaux",
+      "key": "Entérovirus non-polio : saisonnalité"
+    },
+    {
+      "id": 172,
+      "question": "Combien de tests Elisa pour détecter les anticorps VIH et pour dire une infection ?",
+      "options": [
+        "Il faut 2 tests Elisa positifs pour dire une infection",
+        "Il faut 1 test Elisa positif pour dire une infection",
+        "Il a besoin un test de confirmation",
+        "Il a besoin un prélèvement particulier"
+      ],
+      "answer": "Il faut 2 tests Elisa positifs pour dire une infection",
+      "key": "VIH : diagnostic ELISA"
+    },
+    {
+      "id": 173,
+      "question": "Quels sont les antirétroviraux on a utilisé pour le traitement de l’infection par VIH ?",
+      "options": [
+        "Ce sont les analogues nucléosidiques et nucléotidiques inhibiteurs de la transcriptase inverse, INTI",
+        "Ce sont les inhibiteurs non nucléosidiques de la transcriptase inverse, INNTI",
+        "Ce sont les inhibiteurs de la protéase, IP",
+        "Tous cités au-dessus"
+      ],
+      "answer": "Tous cités au-dessus",
+      "key": "VIH : antirétroviraux"
+    },
+    {
+      "id": 174,
+      "question": "Que faites-vous pour éviter une infection chez le nouveau-né, après accouchement, si une femme enceinte présente une séropositivité avec VIH ?",
+      "options": [
+        "Eviter l’exposition post-natale par recours à l’allaitement artificiel",
+        "On fait la césarienne programmée",
+        "On utilise de Zidovudine , AZT",
+        "On utilise de lamivudine , 3TC"
+      ],
+      "answer": "Eviter l’exposition post-natale par recours à l’allaitement artificiel",
+      "key": "VIH : prévention transmission mère-enfant"
+    },
+    {
+      "id": 175,
+      "question": "Pourquoi il y a de l’infection à VIH chez l’homme ?",
+      "options": [
+        "Les animaux sont chassés et utilisés comme animaux de compagnie",
+        "Parce qu’il y a l’introduction chez l’homme de rétrovirus simien, SIV",
+        "L’infection à VIH chez l’homme peut provoquer par la morsure par le singe",
+        "L’infection à VIH chez l’homme peut provoquer par les blessures par le singe"
+      ],
+      "answer": "Parce qu’il y a l’introduction chez l’homme de rétrovirus simien, SIV",
+      "key": "VIH : origine"
+    },
+    {
+      "id": 176,
+      "question": "Quel est le nombre estimé de la transmission de la mère à l’enfant au moment de l’accouchement chez la mère présentant une séropositivité avec VIH ?",
+      "options": [
+        "Le nombre estimé de la transmission est de 20%",
+        "Le nombre estimé de la transmission est de ⅓ des cas",
+        "Le nombre estimé de la transmission est de ⅔ des cas",
+        "Le nombre estimé de la transmission est de 10%"
+      ],
+      "answer": "Le nombre estimé de la transmission est de 20%",
+      "key": "VIH : taux de transmission mère-enfant"
+    },
+    {
+      "id": 177,
+      "question": "Pour quel but on mesure la charge virale de l’infection par VIH ?",
+      "options": [
+        "Pour savoir le principe du test",
+        "Pour faire le diagnostic de l’infection",
+        "Pour mieux comprendre la maladie",
+        "Pour le suivi virologique d’un patient infecté"
+      ],
+      "answer": "Pour le suivi virologique d’un patient infecté",
+      "key": "VIH : mesure de la charge virale"
+    },
+    {
+      "id": 178,
+      "question": "Quel est le but d’utiliser HAART pour l’infection à VIH ?",
+      "options": [
+        "Pour éviter la résistance aux antirétrovaux",
+        "Diminuer la charge virale au-dessous 50/ml, permettre aux lymphocytes T CD4 de fonctionner normalement",
+        "C’est un traitement préférentiel",
+        "Pour éviter l’antagoniste"
+      ],
+      "answer": "Diminuer la charge virale au-dessous 50/ml, permettre aux lymphocytes T CD4 de fonctionner normalement",
+      "key": "HAART : but"
+    },
+    {
+      "id": 179,
+      "question": "How does Covid-19 transmit from person to others ?",
+      "options": [
+        "By the droplets of respiratory tract",
+        "By eating or talking with the infected patients",
+        "By traveling with the infected patients or by aerosol",
+        "All are correct"
+      ],
+      "answer": "All are correct",
+      "key": "Covid-19 : transmission"
+    },
+    {
+      "id": 180,
+      "question": "Which methods are used to diagnose Covid-19 ?",
+      "options": [
+        "Look for virus by testing specimens from nose or mouth",
+        "Polymerase Chain Reaction (PCR) tests to detect the virus or antigen tests",
+        "Do the chest x-ray",
+        "Do one PCR test"
+      ],
+      "answer": "Polymerase Chain Reaction (PCR) tests to detect the virus or antigen tests",
+      "key": "Covid-19 : diagnostic"
+    },
+    {
+      "id": 181,
+      "question": "Which antiviral drug do we use to treat Covid-19 ?",
+      "options": [
+        "Molnupiravir 200mg",
+        "Nirmatrelvir with Ritonavir",
+        "Lamivudine",
+        "Chloroquine"
+      ],
+      "answer": "Nirmatrelvir with Ritonavir",
+      "key": "Covid-19 : traitement"
+    }
+  ]
+}
