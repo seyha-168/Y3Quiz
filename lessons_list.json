@@ -14,5 +14,25 @@
   {
     "title": "Sémiologie Dr. Teng Vannara Q21",
     "filename": "seminology-q21.json"
+  },
+  {
+    "title": "Y3_Immunologie_Pr. Kruy Sunlay Q1-Q30",
+    "filename": "Immunology-Q1-Q30.json"
+  },
+  {
+    "title": "Immunology Part 2 Q31-Q60",
+    "filename": "Immunology-Q31-Q60.json"
+  },
+  {
+    "title": "Immunology Part 2 Q61-Q90",
+    "filename": "Immunology-Q61-Q90.json"
+  },
+  {
+    "title": "Immunology Part 2 Q91-Q120",
+    "filename": "Immunology-Q91-Q120.json"
+  },
+  {
+    "title": "Immunology Part 2 Q121-Q138",
+    "filename": "Immunology-Q121-Q138.json"
   }
 ]
