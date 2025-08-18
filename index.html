@@ -40,9 +40,7 @@
         .question-text {
             font-weight: bold;
             margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            cursor: pointer;
         }
         .option {
             margin-bottom: 5px;
@@ -57,22 +55,12 @@
             font-weight: bold;
             margin-left: 10px;
         }
-        .key-button {
-            padding: 5px 10px;
-            font-size: 14px;
-            background-color: lightgray;
-            color: black;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .key-button:hover {
-            background-color: gray;
-        }
         .answer-key {
             margin-top: 10px;
             font-style: italic;
-            color: #333;
+            color: #007bff;
+            font-weight: bold;
+            display: none;
         }
         .controls {
             display: flex;
@@ -131,24 +119,6 @@
         window.onload = function() {
             showLessonsList();
         };
-
-        function showAnswerKey(questionId, key) {
-            const feedbackElementId = `key-${questionId}`;
-            let keyElement = document.getElementById(feedbackElementId);
-
-            if (keyElement) {
-                // If the key is already visible, hide it
-                keyElement.remove();
-            } else {
-                // Otherwise, show the key
-                keyElement = document.createElement('div');
-                keyElement.id = feedbackElementId;
-                keyElement.classList.add('answer-key');
-                keyElement.textContent = `Key: ${key}`;
-                const questionDiv = document.querySelector(`.question-item:nth-of-type(${questionId})`);
-                questionDiv.appendChild(keyElement);
-            }
-        }
 
         function showLessonsList() {
             const quizContainer = document.getElementById('quiz-container');
@@ -238,19 +208,25 @@
                 
                 const questionTextContainer = document.createElement('p');
                 questionTextContainer.classList.add('question-text');
+                questionTextContainer.textContent = `${index + 1}. ${q.question}`;
                 
-                const questionSpan = document.createElement('span');
-                questionSpan.textContent = `${index + 1}. ${q.question}`;
-                questionTextContainer.appendChild(questionSpan);
-                
-                // Pass the 'key' to the showAnswerKey function
-                const keyButton = document.createElement('button');
-                keyButton.textContent = "Show Key";
-                keyButton.classList.add('key-button');
-                keyButton.onclick = () => showAnswerKey(q.id, q.key);
-                questionTextContainer.appendChild(keyButton);
+                // Add click listener to the question text itself
+                questionTextContainer.onclick = function() {
+                    const keyElement = questionDiv.querySelector('.answer-key');
+                    if (keyElement.style.display === 'none' || keyElement.style.display === '') {
+                        keyElement.style.display = 'block';
+                    } else {
+                        keyElement.style.display = 'none';
+                    }
+                };
 
                 questionDiv.appendChild(questionTextContainer);
+
+                // Add the answer key element, initially hidden
+                const answerKey = document.createElement('div');
+                answerKey.classList.add('answer-key');
+                answerKey.textContent = `Key: ${q.answer}`;
+                questionDiv.appendChild(answerKey);
                 
                 const shuffledOptions = shuffleArray([...q.options]);
 
