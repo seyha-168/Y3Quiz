@@ -1,0 +1,135 @@
+{
+  "quizTitle": "Immunology Quiz Q161-190",
+  "questions": [
+    {
+      "id": 161,
+      "question": "What type of immunity is provided by a vaccine?",
+      "options": [
+        "Passive natural immunity",
+        "Active artificial immunity",
+        "Passive artificial immunity",
+        "Active natural immunity",
+        "Innate immunity"
+      ],
+      "answer": "Active artificial immunity",
+      "key": "Vaccine Immunity Type"
+    },
+    {
+      "id": 162,
+      "question": "Which of the following diseases is commonly treated with monoclonal antibodies?",
+      "options": [
+        "Diabetes",
+        "Rheumatoid arthritis",
+        "Tuberculosis",
+        "Influenza",
+        "Malaria"
+      ],
+      "answer": "Rheumatoid arthritis",
+      "key": "Monoclonal Antibody Treatment"
+    },
+    {
+      "id": 163,
+      "question": "Which immunotherapy is most commonly used for allergies?",
+      "options": [
+        "Vaccination",
+        "Monoclonal antibody therapy",
+        "Antihistamines",
+        "Allergen immunotherapy (desensitization)",
+        "Chemotherapy"
+      ],
+      "answer": "Allergen immunotherapy (desensitization)",
+      "key": "Allergy Immunotherapy"
+    },
+    {
+      "id": 164,
+      "question": "What is the major benefit of active immunotherapy over passive immunotherapy?",
+      "options": [
+        "It works immediately",
+        "It provides lifelong immunity",
+        "It requires fewer doses",
+        "It is effective against all diseases",
+        "It does not involve the immune system"
+      ],
+      "answer": "It provides lifelong immunity",
+      "key": "Active Immunotherapy Benefit"
+    },
+    {
+      "id": 165,
+      "question": "What is a major risk of passive immunotherapy?",
+      "options": [
+        "Autoimmune response",
+        "Immune suppression",
+        "Antibody rejection or allergic reactions",
+        "Overproduction of white blood cells",
+        "Increased risk of genetic mutation"
+      ],
+      "answer": "Antibody rejection or allergic reactions",
+      "key": "Passive Immunotherapy Risk"
+    },
+    {
+      "id": 166,
+      "question": "What kind of immunity does a newborn receive from breast milk?",
+      "options": [
+        "Passive natural immunity",
+        "Active natural immunity",
+        "Active artificial immunity",
+        "Passive artificial immunity",
+        "Innate immunity"
+      ],
+      "answer": "Passive natural immunity",
+      "key": "Newborn Immunity from Breast Milk"
+    },
+    {
+      "id": 167,
+      "question": "Which of the following therapies is NOT considered an immunotherapy?",
+      "options": [
+        "Checkpoint inhibitors",
+        "Chemotherapy",
+        "Cancer vaccines",
+        "Monoclonal antibodies",
+        "Adoptive cell therapy"
+      ],
+      "answer": "Chemotherapy",
+      "key": "Not an Immunotherapy"
+    },
+    {
+      "id": 168,
+      "question": "What is the primary function of immune checkpoint inhibitors?",
+      "options": [
+        "To block immune suppression by tumors",
+        "To provide passive antibodies",
+        "To eliminate all white blood cells",
+        "To enhance bacterial infections",
+        "To replace damaged organs"
+      ],
+      "answer": "To block immune suppression by tumors",
+      "key": "Immune Checkpoint Inhibitor Function"
+    },
+    {
+      "id": 169,
+      "question": "Which of the following best defines active immunotherapy?",
+      "options": [
+        "Administration of pre-made antibodies",
+        "The body produces its own immune response",
+        "Temporary immunity",
+        "Immediate immune protection",
+        "Treatment with antivenom"
+      ],
+      "answer": "The body produces its own immune response",
+      "key": "Active Immunotherapy Definition"
+    },
+    {
+      "id": 170,
+      "question": "What is the primary mechanism of action of passive immunotherapy?",
+      "options": [
+        "Stimulating the immune system to produce antibodies",
+        "Directly providing antibodies or immune cells",
+        "Enhancing the immune system's ability to recognize pathogens",
+        "Boosting the production of immune cells",
+        "Inhibiting viral replication"
+      ],
+      "answer": "Directly providing antibodies or immune cells",
+      "key": "Passive Immunotherapy Mechanism"
+    }
+  ]
+}

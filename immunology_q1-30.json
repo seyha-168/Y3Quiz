@@ -1,0 +1,395 @@
+{
+  "quizTitle": "Immunology Quiz Q1-30",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary function of the immune system?",
+      "options": [
+        "Transport oxygen",
+        "Digest food",
+        "Protect the body from infections",
+        "Produce energy",
+        "Regulate body temperature"
+      ],
+      "answer": "Protect the body from infections",
+      "key": "Immune System Function"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is not a type of immunity?",
+      "options": [
+        "Innate immunity",
+        "Adaptive immunity",
+        "Artificial immunity",
+        "Passive immunity",
+        "Metabolic immunity"
+      ],
+      "answer": "Metabolic immunity",
+      "key": "Types of Immunity"
+    },
+    {
+      "id": 3,
+      "question": "The immune system consists mainly of which type of blood cells?",
+      "options": [
+        "Red blood cells",
+        "White blood cells",
+        "Platelets",
+        "Plasma cells",
+        "Stem cells"
+      ],
+      "answer": "White blood cells",
+      "key": "Immune Cells"
+    },
+    {
+      "id": 4,
+      "question": "Which organ is responsible for the production of all blood cells?",
+      "options": [
+        "Thymus",
+        "Spleen",
+        "Liver",
+        "Bone marrow",
+        "Lymph nodes"
+      ],
+      "answer": "Bone marrow",
+      "key": "Hematopoiesis"
+    },
+    {
+      "id": 5,
+      "question": "The immune system can distinguish between:",
+      "options": [
+        "Food and water",
+        "Harmful and harmless substances",
+        "DNA and RNA",
+        "Oxygen and carbon dioxide",
+        "Acids and base"
+      ],
+      "answer": "Harmful and harmless substances",
+      "key": "Immune Recognition"
+    },
+    {
+      "id": 6,
+      "question": "Where do T cells mature?",
+      "options": [
+        "Spleen",
+        "Liver",
+        "Thymus",
+        "Bone marrow",
+        "Lymph nodes"
+      ],
+      "answer": "Thymus",
+      "key": "T Cell Maturation"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is not a lymphoid organ?",
+      "options": [
+        "Spleen",
+        "Bone marrow",
+        "Pancreas",
+        "Lymph nodes",
+        "Thymus"
+      ],
+      "answer": "Pancreas",
+      "key": "Lymphoid Organs"
+    },
+    {
+      "id": 8,
+      "question": "The spleen plays a major role in:",
+      "options": [
+        "Digesting proteins",
+        "Filtering blood and removing pathogens",
+        "Producing digestive enzymes",
+        "Breaking down fats",
+        "Producing insulin"
+      ],
+      "answer": "Filtering blood and removing pathogens",
+      "key": "Spleen Function"
+    },
+    {
+      "id": 9,
+      "question": "The tonsils help protect against:",
+      "options": [
+        "Digestive enzymes",
+        "Airborne pathogens",
+        "Bone diseases",
+        "Blood clotting disorders",
+        "High blood pressure"
+      ],
+      "answer": "Airborne pathogens",
+      "key": "Tonsil Function"
+    },
+    {
+      "id": 10,
+      "question": "Lymph nodes contain large numbers of:",
+      "options": [
+        "Red blood cells",
+        "Neurons",
+        "White blood cells",
+        "Platelets",
+        "Cartilage cells"
+      ],
+      "answer": "White blood cells",
+      "key": "Lymph Node Composition"
+    },
+    {
+      "id": 11,
+      "question": "The first line of defense in the immune system is:",
+      "options": [
+        "T cells",
+        "B cells",
+        "Skin and mucous membranes",
+        "Macrophages",
+        "Antibodies"
+      ],
+      "answer": "Skin and mucous membranes",
+      "key": "First Line of Defense"
+    },
+    {
+      "id": 12,
+      "question": "Which immune cell is responsible for phagocytosis?",
+      "options": [
+        "B cells",
+        "Helper T cells",
+        "Macrophages",
+        "Plasma cells",
+        "Erythrocytes"
+      ],
+      "answer": "Macrophages",
+      "key": "Phagocytosis"
+    },
+    {
+      "id": 13,
+      "question": "Which immune cells produce antibodies?",
+      "options": [
+        "Macrophages",
+        "B cells",
+        "Neutrophils",
+        "Cytotoxic T cells",
+        "Platelets"
+      ],
+      "answer": "B cells",
+      "key": "Antibody Production"
+    },
+    {
+      "id": 14,
+      "question": "Natural Killer (NK) cells are part of the:",
+      "options": [
+        "Innate immune system",
+        "Adaptive immune system",
+        "Digestive system",
+        "Nervous system",
+        "Circulatory system"
+      ],
+      "answer": "Innate immune system",
+      "key": "NK Cells"
+    },
+    {
+      "id": 15,
+      "question": "Helper T cells (CD4+) primarily function to:",
+      "options": [
+        "Directly kill infected cells",
+        "Help activate other immune cells",
+        "Produce insulin",
+        "Secrete digestive enzymes",
+        "Form blood clots"
+      ],
+      "answer": "Help activate other immune cells",
+      "key": "Helper T Cells"
+    },
+    {
+      "id": 16,
+      "question": "Antibodies are also called:",
+      "options": [
+        "Immunoglobulins",
+        "Cytokines",
+        "Macrophages",
+        "Toxins",
+        "Neutrophils"
+      ],
+      "answer": "Immunoglobulins",
+      "key": "Antibody Terminology"
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is not an antibody type?",
+      "options": [
+        "IgG",
+        "IgA",
+        "IgE",
+        "IgX",
+        "IgM"
+      ],
+      "answer": "IgX",
+      "key": "Antibody Classes"
+    },
+    {
+      "id": 18,
+      "question": "Cytokines function as:",
+      "options": [
+        "Antibodies",
+        "Signaling molecules in immune response",
+        "Digestive enzymes",
+        "Hormones for growth",
+        "Structural proteins"
+      ],
+      "answer": "Signaling molecules in immune response",
+      "key": "Cytokine Function"
+    },
+    {
+      "id": 19,
+      "question": "Interferons are primarily involved in:",
+      "options": [
+        "Bacterial infections",
+        "Virus defense",
+        "Breaking down carbohydrates",
+        "Blood clotting",
+        "Producing antibodies"
+      ],
+      "answer": "Virus defense",
+      "key": "Interferon Function"
+    },
+    {
+      "id": 20,
+      "question": "Which type of immunity is acquired after an infection?",
+      "options": [
+        "Passive",
+        "Innate",
+        "Adaptive",
+        "Autoimmune",
+        "Artificial"
+      ],
+      "answer": "Adaptive",
+      "key": "Adaptive Immunity"
+    },
+    {
+      "id": 21,
+      "question": "Which disease is an autoimmune disorder?",
+      "options": [
+        "Tuberculosis",
+        "Diabetes Type 1",
+        "Malaria",
+        "Measles",
+        "Influenza"
+      ],
+      "answer": "Diabetes Type 1",
+      "key": "Autoimmune Disorders"
+    },
+    {
+      "id": 22,
+      "question": "What is an allergen?",
+      "options": [
+        "A pathogen",
+        "A harmless substance that triggers an immune response",
+        "A type of virus",
+        "A blood clotting factor",
+        "A neurotransmitter"
+      ],
+      "answer": "A harmless substance that triggers an immune response",
+      "key": "Allergen Definition"
+    },
+    {
+      "id": 23,
+      "question": "What is an example of a primary immunodeficiency?",
+      "options": [
+        "AIDS",
+        "Leukemia",
+        "Severe Combined Immunodeficiency (SCID)",
+        "Rheumatoid arthritis",
+        "Asthma"
+      ],
+      "answer": "Severe Combined Immunodeficiency (SCID)",
+      "key": "Primary Immunodeficiency"
+    },
+    {
+      "id": 24,
+      "question": "Which immune response is faster but non-specific?",
+      "options": [
+        "Innate immunity",
+        "Adaptive immunity",
+        "Autoimmunity",
+        "Passive immunity",
+        "Humoral immunity"
+      ],
+      "answer": "Innate immunity",
+      "key": "Innate Immunity Characteristics"
+    },
+    {
+      "id": 25,
+      "question": "What is the first line of defense in the immune system?",
+      "options": [
+        "B cells",
+        "T cells",
+        "Skin and mucous membranes",
+        "Antibodies",
+        "Plasma cells"
+      ],
+      "answer": "Skin and mucous membranes",
+      "key": "First Line of Defense"
+    },
+    {
+      "id": 26,
+      "question": "Which molecule presents antigens to T cells?",
+      "options": [
+        "Antibodies",
+        "Cytokines",
+        "Major histocompatibility complex (MHC)",
+        "Histamines",
+        "Chemokines"
+      ],
+      "answer": "Major histocompatibility complex (MHC)",
+      "key": "Antigen Presentation"
+    },
+    {
+      "id": 27,
+      "question": "What is the role of Helper T cells (CD4+)?",
+      "options": [
+        "Destroy infected cells",
+        "Produce antibodies",
+        "Activate other immune cells",
+        "Suppress immune response",
+        "Engulf pathogens"
+      ],
+      "answer": "Activate other immune cells",
+      "key": "Helper T Cell Function"
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is NOT part of the innate immune system?",
+      "options": [
+        "Macrophages",
+        "Neutrophils",
+        "Antibodies",
+        "Natural killer cells",
+        "Complement proteins"
+      ],
+      "answer": "Antibodies",
+      "key": "Innate Immunity Components"
+    },
+    {
+      "id": 29,
+      "question": "What type of immune cell directly attacks infected cells?",
+      "options": [
+        "B cells",
+        "Plasma cells",
+        "Helper T cells",
+        "Cytotoxic T cells",
+        "Mast cells"
+      ],
+      "answer": "Cytotoxic T cells",
+      "key": "Cytotoxic T Cells"
+    },
+    {
+      "id": 30,
+      "question": "What is the role of cytokines in the immune response?",
+      "options": [
+        "Kill pathogens",
+        "Present antigens",
+        "Mediate communication between immune cells",
+        "Act as antibodies",
+        "Transport oxygen"
+      ],
+      "answer": "Mediate communication between immune cells",
+      "key": "Cytokine Role"
+    }
+  ]
+}

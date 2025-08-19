@@ -1,0 +1,395 @@
+{
+  "quizTitle": "Immunology Quiz Q171-200",
+  "questions": [
+    {
+      "id": 171,
+      "question": "Which of the following is an example of passive immunotherapy?",
+      "options": [
+        "CAR-T cell therapy",
+        "HPV vaccine",
+        "Rituximab (monoclonal antibody)",
+        "Immune checkpoint inhibitors",
+        "Cancer vaccines"
+      ],
+      "answer": "Rituximab (monoclonal antibody)",
+      "key": "Passive Immunotherapy Example"
+    },
+    {
+      "id": 172,
+      "question": "What is a common use of active immunotherapy in cancer treatment?",
+      "options": [
+        "To directly kill cancer cells using monoclonal antibodies",
+        "To stimulate the immune system to recognize and attack cancer cells",
+        "To provide immediate immune support in cancer patients",
+        "To supply antibodies directly to the bloodstream",
+        "To neutralize toxins produced by cancer cells"
+      ],
+      "answer": "To stimulate the immune system to recognize and attack cancer cells",
+      "key": "Active Immunotherapy for Cancer"
+    },
+    {
+      "id": 173,
+      "question": "Which of the following is a limitation of passive immunotherapy?",
+      "options": [
+        "It provides long-term immunity",
+        "It requires the patient’s immune system to be activated",
+        "It can cause allergic reactions or immune responses against the antibodies",
+        "It stimulates the production of immune cells",
+        "It works best in patients with strong immune systems"
+      ],
+      "answer": "It can cause allergic reactions or immune responses against the antibodies",
+      "key": "Passive Immunotherapy Limitation"
+    },
+    {
+      "id": 174,
+      "question": "Which of the following is NOT a characteristic of active immunotherapy?",
+      "options": [
+        "Long-lasting immune responses",
+        "Stimulation of the body’s immune system",
+        "Immediate immune protection",
+        "Creation of immune memory",
+        "Used in cancer and infectious disease treatments"
+      ],
+      "answer": "Immediate immune protection",
+      "key": "Not a Characteristic of Active Immunotherapy"
+    },
+    {
+      "id": 175,
+      "question": "Which of the following types of therapy is based on providing temporary immunity by administering antibodies from another source?",
+      "options": [
+        "Vaccination",
+        "Passive immunotherapy",
+        "Active immunotherapy",
+        "Chemotherapy",
+        "Immunosuppression therapy"
+      ],
+      "answer": "Passive immunotherapy",
+      "key": "Temporary Immunity via Antibodies"
+    },
+    {
+      "id": 176,
+      "question": "What is the primary goal of immunosuppression therapy?",
+      "options": [
+        "To boost the immune system",
+        "To prevent rejection of transplanted organs",
+        "To stimulate an allergic reaction",
+        "To create immune memory",
+        "To fight bacterial infections"
+      ],
+      "answer": "To prevent rejection of transplanted organs",
+      "key": "Immunosuppression Therapy Goal"
+    },
+    {
+      "id": 177,
+      "question": "Which of the following is an immunosuppressive drug?",
+      "options": [
+        "Penicillin",
+        "Cyclosporine",
+        "Insulin",
+        "Aspirin",
+        "Epinephrine"
+      ],
+      "answer": "Cyclosporine",
+      "key": "Immunosuppressive Drug Example"
+    },
+    {
+      "id": 178,
+      "question": "Why are immunosuppressive drugs necessary for organ transplantation?",
+      "options": [
+        "To prevent viral infections",
+        "To increase blood flow to the new organ",
+        "To prevent the recipient's immune system from attacking the new organ",
+        "To promote tissue growth",
+        "To reduce inflammation"
+      ],
+      "answer": "To prevent the recipient's immune system from attacking the new organ",
+      "key": "Immunosuppression in Organ Transplantation"
+    },
+    {
+      "id": 179,
+      "question": "What is the primary mechanism of action of corticosteroids as immunosuppressants?",
+      "options": [
+        "Blocking T cell activation",
+        "Inhibiting B cell proliferation",
+        "Inducing apoptosis in immune cells",
+        "Blocking the production of inflammatory cytokines",
+        "Stimulating antibody production"
+      ],
+      "answer": "Blocking the production of inflammatory cytokines",
+      "key": "Corticosteroid Mechanism"
+    },
+    {
+      "id": 180,
+      "question": "Which of the following is a common side effect of long-term immunosuppressant use?",
+      "options": [
+        "Increased risk of infection",
+        "Heightened immune response",
+        "Decreased risk of cancer",
+        "Rapid wound healing",
+        "Lower blood pressure"
+      ],
+      "answer": "Increased risk of infection",
+      "key": "Immunosuppressant Side Effect"
+    },
+    {
+      "id": 181,
+      "question": "What type of therapy is used to treat autoimmune diseases by suppressing the overactive immune system?",
+      "options": [
+        "Active immunotherapy",
+        "Passive immunotherapy",
+        "Immunosuppression therapy",
+        "Vaccination",
+        "Gene therapy"
+      ],
+      "answer": "Immunosuppression therapy",
+      "key": "Therapy for Autoimmune Diseases"
+    },
+    {
+      "id": 182,
+      "question": "What is the function of immune checkpoint inhibitors?",
+      "options": [
+        "To suppress the immune system",
+        "To block T-cell activity",
+        "To release the 'brakes' on the immune system to allow it to attack cancer cells",
+        "To directly kill cancer cells",
+        "To replace damaged immune cells"
+      ],
+      "answer": "To release the 'brakes' on the immune system to allow it to attack cancer cells",
+      "key": "Immune Checkpoint Inhibitor Function"
+    },
+    {
+      "id": 183,
+      "question": "Which type of vaccine uses weakened or attenuated pathogens to trigger an immune response?",
+      "options": [
+        "Killed/inactivated vaccine",
+        "Subunit vaccine",
+        "Live-attenuated vaccine",
+        "Toxoid vaccine",
+        "mRNA vaccine"
+      ],
+      "answer": "Live-attenuated vaccine",
+      "key": "Vaccine Type: Weakened Pathogens"
+    },
+    {
+      "id": 184,
+      "question": "Which type of vaccine uses a piece of genetic material (like mRNA or DNA) to teach the body how to make a protein that triggers an immune response?",
+      "options": [
+        "Toxoid vaccine",
+        "Live-attenuated vaccine",
+        "mRNA/DNA vaccine",
+        "Conjugate vaccine",
+        "Whole-cell vaccine"
+      ],
+      "answer": "mRNA/DNA vaccine",
+      "key": "Vaccine Type: Genetic Material"
+    },
+    {
+      "id": 185,
+      "question": "Which of the following is a key component of a subunit vaccine?",
+      "options": [
+        "The whole, live pathogen",
+        "The whole, killed pathogen",
+        "A piece of the pathogen, like a protein",
+        "A weakened toxin",
+        "Genetic material"
+      ],
+      "answer": "A piece of the pathogen, like a protein",
+      "key": "Subunit Vaccine Component"
+    },
+    {
+      "id": 186,
+      "question": "How do vaccines provide long-term immunity?",
+      "options": [
+        "By directly neutralizing pathogens",
+        "By suppressing the immune system",
+        "By producing memory cells that can recognize the pathogen in the future",
+        "By providing a constant supply of antibodies",
+        "By inhibiting viral replication"
+      ],
+      "answer": "By producing memory cells that can recognize the pathogen in the future",
+      "key": "Vaccine Mechanism for Long-term Immunity"
+    },
+    {
+      "id": 187,
+      "question": "What is herd immunity?",
+      "options": [
+        "Immunity that develops after a person has had an infection",
+        "Immunity provided by a vaccine",
+        "Protection from a disease that occurs when a large percentage of a population is immune",
+        "Immunity transferred from mother to child",
+        "Immunity against all types of pathogens"
+      ],
+      "answer": "Protection from a disease that occurs when a large percentage of a population is immune",
+      "key": "Herd Immunity Definition"
+    },
+    {
+      "id": 188,
+      "question": "Which of the following is an example of an inactivated vaccine?",
+      "options": [
+        "Measles, Mumps, Rubella (MMR)",
+        "Polio (Salk vaccine)",
+        "Varicella (chickenpox)",
+        "Tetanus toxoid",
+        "Smallpox vaccine"
+      ],
+      "answer": "Polio (Salk vaccine)",
+      "key": "Inactivated Vaccine Example"
+    },
+    {
+      "id": 189,
+      "question": "What is the function of an adjuvant in a vaccine?",
+      "options": [
+        "To kill the pathogen",
+        "To prevent allergic reactions",
+        "To enhance the immune response to the antigen",
+        "To make the vaccine last longer",
+        "To reduce pain at the injection site"
+      ],
+      "answer": "To enhance the immune response to the antigen",
+      "key": "Adjuvant Function"
+    },
+    {
+      "id": 190,
+      "question": "Which of the following is a limitation of live-attenuated vaccines?",
+      "options": [
+        "They are expensive to produce",
+        "They do not provide long-term immunity",
+        "They can sometimes revert to a virulent form",
+        "They are not effective for most diseases",
+        "They require multiple doses"
+      ],
+      "answer": "They can sometimes revert to a virulent form",
+      "key": "Live-Attenuated Vaccine Limitation"
+    },
+    {
+      "id": 191,
+      "question": "What is the primary function of a toxoid vaccine?",
+      "options": [
+        "To induce an immune response against a viral protein",
+        "To stimulate an immune response against a bacterial toxin",
+        "To kill bacteria directly",
+        "To prevent a virus from replicating",
+        "To suppress the immune system"
+      ],
+      "answer": "To stimulate an immune response against a bacterial toxin",
+      "key": "Toxoid Vaccine Function"
+    },
+    {
+      "id": 192,
+      "question": "Which type of vaccine is most suitable for immunocompromised individuals?",
+      "options": [
+        "Live-attenuated vaccines",
+        "Inactivated or subunit vaccines",
+        "Toxoid vaccines",
+        "mRNA vaccines",
+        "DNA vaccines"
+      ],
+      "answer": "Inactivated or subunit vaccines",
+      "key": "Vaccine for Immunocompromised"
+    },
+    {
+      "id": 193,
+      "question": "What is a major advantage of mRNA vaccines?",
+      "options": [
+        "They are easy to store and transport",
+        "They can be produced quickly and in large quantities",
+        "They use a weakened virus",
+        "They are effective against all types of diseases",
+        "They do not require a cold chain"
+      ],
+      "answer": "They can be produced quickly and in large quantities",
+      "key": "mRNA Vaccine Advantage"
+    },
+    {
+      "id": 194,
+      "question": "Which of the following is an example of a toxoid vaccine?",
+      "options": [
+        "Polio (Salk)",
+        "Measles",
+        "Tetanus",
+        "Hepatitis B",
+        "Influenza"
+      ],
+      "answer": "Tetanus",
+      "key": "Toxoid Vaccine Example"
+    },
+    {
+      "id": 195,
+      "question": "How does a conjugate vaccine work?",
+      "options": [
+        "It uses a live, weakened pathogen",
+        "It attaches a weak antigen to a strong protein carrier to improve the immune response",
+        "It uses a whole, killed pathogen",
+        "It uses mRNA to produce a protein antigen",
+        "It uses a bacterial toxin"
+      ],
+      "answer": "It attaches a weak antigen to a strong protein carrier to improve the immune response",
+      "key": "Conjugate Vaccine Mechanism"
+    },
+    {
+      "id": 196,
+      "question": "What is the primary goal of cancer vaccines?",
+      "options": [
+        "To provide immediate protection against cancer cells",
+        "To stimulate the immune system to recognize and attack cancer cells",
+        "To replace chemotherapy as a treatment",
+        "To prevent all types of cancer",
+        "To suppress the immune system to prevent cancer growth"
+      ],
+      "answer": "To stimulate the immune system to recognize and attack cancer cells",
+      "key": "Cancer Vaccine Goal"
+    },
+    {
+      "id": 197,
+      "question": "What is the main challenge in developing cancer vaccines?",
+      "options": [
+        "The immune system is not able to recognize cancer cells as foreign",
+        "Cancer cells are all identical",
+        "It is too expensive to produce them",
+        "They are not effective against any type of cancer",
+        "Cancer vaccines do not induce a memory response"
+      ],
+      "answer": "The immune system is not able to recognize cancer cells as foreign",
+      "key": "Cancer Vaccine Challenge"
+    },
+    {
+      "id": 198,
+      "question": "Which of the following is NOT an advantage of subunit vaccines?",
+      "options": [
+        "They are safe for immunocompromised individuals",
+        "They cannot cause the disease",
+        "They are easy to produce",
+        "They can cause strong, long-lasting immunity",
+        "They contain only a few antigens"
+      ],
+      "answer": "They can cause strong, long-lasting immunity",
+      "key": "Not an Advantage of Subunit Vaccines"
+    },
+    {
+      "id": 199,
+      "question": "What is the purpose of therapeutic cancer vaccines?",
+      "options": [
+        "To prevent cancer in healthy individuals",
+        "To treat existing cancer by stimulating an anti-tumor immune response",
+        "To provide passive immunity against cancer",
+        "To prevent the spread of cancer to other parts of the body",
+        "To directly kill cancer cells"
+      ],
+      "answer": "To treat existing cancer by stimulating an anti-tumor immune response",
+      "key": "Therapeutic Cancer Vaccine Purpose"
+    },
+    {
+      "id": 200,
+      "question": "Which of the following is an example of an mRNA vaccine?",
+      "options": [
+        "Polio vaccine",
+        "Tetanus vaccine",
+        "Hepatitis B vaccine",
+        "Pfizer-BioNTech COVID-19 vaccine",
+        "MMR vaccine"
+      ],
+      "answer": "Pfizer-BioNTech COVID-19 vaccine",
+      "key": "mRNA Vaccine Example"
+    }
+  ]
+}

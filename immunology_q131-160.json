@@ -1,0 +1,395 @@
+{
+  "quizTitle": "Immunology Quiz Q131-160",
+  "questions": [
+    {
+      "id": 131,
+      "question": "What is the role of CD8+ T cells in HIV infection?",
+      "options": [
+        "They produce antibodies against HIV.",
+        "They assist in the replication of HIV.",
+        "They help activate CD4+ T cells.",
+        "They directly kill HIV-infected cells.",
+        "They are the primary cells infected by HIV."
+      ],
+      "answer": "They directly kill HIV-infected cells.",
+      "key": "CD8+ T Cell Role in HIV"
+    },
+    {
+      "id": 132,
+      "question": "Which of the following infections is common in HIV-infected individuals with weakened immune systems?",
+      "options": [
+        "Pneumocystis pneumonia",
+        "Chickenpox",
+        "Hepatitis B",
+        "Hepatitis C",
+        "Influenza"
+      ],
+      "answer": "Pneumocystis pneumonia",
+      "key": "HIV Opportunistic Infection"
+    },
+    {
+      "id": 133,
+      "question": "Which cytokine is most associated with HIV-induced immune activation?",
+      "options": [
+        "IL-1",
+        "IL-2",
+        "IL-4",
+        "IL-6",
+        "TNF-alpha"
+      ],
+      "answer": "TNF-alpha",
+      "key": "HIV-Induced Cytokine"
+    },
+    {
+      "id": 134,
+      "question": "Which of the following cells is primarily responsible for the production of antibodies in response to HIV?",
+      "options": [
+        "Macrophages",
+        "CD8+ T cells",
+        "B cells",
+        "Dendritic cells",
+        "NK cells"
+      ],
+      "answer": "B cells",
+      "key": "Antibody Production in HIV"
+    },
+    {
+      "id": 135,
+      "question": "What is the normal range for CD4+ T cells in a healthy individual?",
+      "options": [
+        "0-200 cells/microliter",
+        "200-500 cells/microliter",
+        "500-1200 cells/microliter",
+        "1200-1500 cells/microliter",
+        "1500-2000 cells/microliter"
+      ],
+      "answer": "500-1200 cells/microliter",
+      "key": "Normal CD4+ T Cell Range"
+    },
+    {
+      "id": 136,
+      "question": "Which of the following is a common opportunistic infection associated with AIDS?",
+      "options": [
+        "Herpes simplex virus (HSV) infection",
+        "Mycobacterium tuberculosis",
+        "Hepatitis A",
+        "Influenza",
+        "Measles"
+      ],
+      "answer": "Mycobacterium tuberculosis",
+      "key": "AIDS Opportunistic Infection"
+    },
+    {
+      "id": 137,
+      "question": "Which of the following is true about HIV transmission?",
+      "options": [
+        "HIV can be transmitted through casual contact.",
+        "HIV can be transmitted via respiratory droplets.",
+        "HIV is primarily transmitted through sexual contact and blood.",
+        "HIV cannot be transmitted via blood.",
+        "HIV cannot be transmitted through shared needles."
+      ],
+      "answer": "HIV is primarily transmitted through sexual contact and blood.",
+      "key": "HIV Transmission"
+    },
+    {
+      "id": 138,
+      "question": "What type of immune cells are predominantly found in the lymphoid tissues during acute HIV infection?",
+      "options": [
+        "Neutrophils",
+        "CD8+ T cells",
+        "B cells",
+        "Dendritic cells",
+        "CD4+ T cells"
+      ],
+      "answer": "CD8+ T cells",
+      "key": "Immune Cells in Acute HIV"
+    },
+    {
+      "id": 139,
+      "question": "Which of the following is the most likely outcome in a person with an undetectable viral load after long-term ART treatment?",
+      "options": [
+        "Complete eradication of HIV",
+        "Immune system recovery",
+        "Development of AIDS",
+        "Uncontrolled viral replication",
+        "Infection of CD8+ T cells"
+      ],
+      "answer": "Immune system recovery",
+      "key": "ART Treatment Outcome"
+    },
+    {
+      "id": 140,
+      "question": "Which type of HIV test is commonly used to monitor viral load?",
+      "options": [
+        "PCR (Polymerase Chain Reaction)",
+        "ELISA (Enzyme-Linked Immunosorbent Assay)",
+        "Western blot",
+        "Rapid antibody test",
+        "Skin test"
+      ],
+      "answer": "PCR (Polymerase Chain Reaction)",
+      "key": "HIV Viral Load Test"
+    },
+    {
+      "id": 141,
+      "question": "What does ART stand for in the context of HIV treatment?",
+      "options": [
+        "Antibody Recombination Therapy",
+        "Antiretroviral Therapy",
+        "Active Reverse Therapy",
+        "Anti-Retrovirus Therapy",
+        "Acute Retroviral Treatment"
+      ],
+      "answer": "Antiretroviral Therapy",
+      "key": "ART Definition"
+    },
+    {
+      "id": 142,
+      "question": "Which of the following is NOT a feature of AIDS?",
+      "options": [
+        "Severe immunosuppression",
+        "Increased susceptibility to opportunistic infections",
+        "High CD4+ T cell count",
+        "Development of certain cancers",
+        "Progressive depletion of CD4+ T cells"
+      ],
+      "answer": "High CD4+ T cell count",
+      "key": "Not an AIDS Feature"
+    },
+    {
+      "id": 143,
+      "question": "Which of the following is a potential complication of chronic HIV infection?",
+      "options": [
+        "Heart disease",
+        "Tuberculosis",
+        "Arthritis",
+        "Parkinson's disease",
+        "Stroke"
+      ],
+      "answer": "Heart disease",
+      "key": "Chronic HIV Complication"
+    },
+    {
+      "id": 144,
+      "question": "Which HIV strain is most common worldwide?",
+      "options": [
+        "HIV-1",
+        "HIV-2",
+        "HIV-3",
+        "HIV-4",
+        "HIV-5"
+      ],
+      "answer": "HIV-1",
+      "key": "Most Common HIV Strain"
+    },
+    {
+      "id": 145,
+      "question": "How does the immune system typically respond to acute HIV infection?",
+      "options": [
+        "With a strong, specific immune response that clears the virus",
+        "With a mild response that allows the virus to replicate easily",
+        "By producing no detectable antibodies",
+        "With an overwhelming inflammatory response",
+        "By completely shutting down immune activity"
+      ],
+      "answer": "With a strong, specific immune response that clears the virus",
+      "key": "Acute HIV Immune Response"
+    },
+    {
+      "id": 146,
+      "question": "Which of the following best describes the mechanism of action of protease inhibitors?",
+      "options": [
+        "They inhibit the replication of HIV by targeting reverse transcriptase.",
+        "They prevent the viral RNA from being integrated into the host genome.",
+        "They block the HIV virus from entering the host cell.",
+        "They prevent the maturation of new HIV virions by inhibiting protease activity.",
+        "They neutralize the HIV virus in the bloodstream."
+      ],
+      "answer": "They prevent the maturation of new HIV virions by inhibiting protease activity.",
+      "key": "Protease Inhibitors Action"
+    },
+    {
+      "id": 147,
+      "question": "Which of the following is a feature of HIV-2 compared to HIV-1?",
+      "options": [
+        "HIV-2 is more easily transmitted.",
+        "HIV-2 causes AIDS more rapidly than HIV-1.",
+        "HIV-2 has a longer asymptomatic phase.",
+        "HIV-2 infects a broader range of cells.",
+        "HIV-2 is resistant to all treatments."
+      ],
+      "answer": "HIV-2 has a longer asymptomatic phase.",
+      "key": "HIV-2 Features"
+    },
+    {
+      "id": 148,
+      "question": "What happens during HIV’s \"acute retroviral syndrome\" (ARS)?",
+      "options": [
+        "The virus becomes dormant in the body.",
+        "The immune system clears the virus completely.",
+        "The individual experiences flu-like symptoms as the immune system responds.",
+        "There is a long asymptomatic period.",
+        "HIV causes neurological damage."
+      ],
+      "answer": "The individual experiences flu-like symptoms as the immune system responds.",
+      "key": "Acute Retroviral Syndrome"
+    },
+    {
+      "id": 149,
+      "question": "Which of the following is a major concern for HIV-positive pregnant women?",
+      "options": [
+        "Increased risk of autoimmune disease",
+        "Risk of transmitting HIV to the baby",
+        "Reduced viral load due to pregnancy hormones",
+        "Increased immunity to other diseases",
+        "Inability to breastfeed"
+      ],
+      "answer": "Risk of transmitting HIV to the baby",
+      "key": "HIV in Pregnancy"
+    },
+    {
+      "id": 150,
+      "question": "Which of the following is NOT an opportunistic infection associated with AIDS?",
+      "options": [
+        "Tuberculosis",
+        "Pneumocystis pneumonia",
+        "Candida albicans infection",
+        "Herpes simplex virus reactivation",
+        "Rheumatic fever"
+      ],
+      "answer": "Rheumatic fever",
+      "key": "Not an AIDS Opportunistic Infection"
+    },
+    {
+      "id": 151,
+      "question": "What is the main goal of active immunotherapy?",
+      "options": [
+        "To provide immediate immunity",
+        "To stimulate the body's own immune system",
+        "To transfer pre-formed antibodies",
+        "To use antibiotics to fight infections",
+        "To replace damaged immune cells"
+      ],
+      "answer": "To stimulate the body's own immune system",
+      "key": "Active Immunotherapy Goal"
+    },
+    {
+      "id": 152,
+      "question": "Which of the following is an example of active immunotherapy?",
+      "options": [
+        "Rabies immunoglobulin injection",
+        "Monoclonal antibody therapy",
+        "Cancer vaccines",
+        "Antivenom for snake bites",
+        "Convalescent plasma therapy"
+      ],
+      "answer": "Cancer vaccines",
+      "key": "Active Immunotherapy Example"
+    },
+    {
+      "id": 153,
+      "question": "Passive immunotherapy provides:",
+      "options": [
+        "Long-term immune memory",
+        "Immediate but short-lived immunity",
+        "Complete protection against all infections",
+        "A response that takes weeks to develop",
+        "A permanent cure for autoimmune diseases"
+      ],
+      "answer": "Immediate but short-lived immunity",
+      "key": "Passive Immunotherapy Characteristics"
+    },
+    {
+      "id": 154,
+      "question": "Which of the following is NOT a form of passive immunotherapy?",
+      "options": [
+        "Convalescent plasma therapy",
+        "Monoclonal antibody therapy",
+        "Administration of antitoxins",
+        "mRNA vaccines",
+        "Intravenous immunoglobulin (IVIG)"
+      ],
+      "answer": "mRNA vaccines",
+      "key": "Not Passive Immunotherapy"
+    },
+    {
+      "id": 155,
+      "question": "Which statement about active immunotherapy is TRUE?",
+      "options": [
+        "It involves injecting pre-formed antibodies",
+        "It provides instant immunity",
+        "It includes vaccines",
+        "It is only used for cancer treatment",
+        "It does not generate immune memory"
+      ],
+      "answer": "It includes vaccines",
+      "key": "Active Immunotherapy True Statement"
+    },
+    {
+      "id": 156,
+      "question": "A key advantage of active immunotherapy is:",
+      "options": [
+        "Immediate immune protection",
+        "Short-term effectiveness",
+        "Generation of immune memory",
+        "No need for the immune system to respond",
+        "It is only useful against bacterial infections"
+      ],
+      "answer": "Generation of immune memory",
+      "key": "Active Immunotherapy Advantage"
+    },
+    {
+      "id": 157,
+      "question": "Which of the following is an example of passive immunotherapy?",
+      "options": [
+        "BCG vaccine",
+        "Diphtheria antitoxin",
+        "Cancer peptide vaccine",
+        "Tuberculosis screening test",
+        "mRNA vaccine for COVID-19"
+      ],
+      "answer": "Diphtheria antitoxin",
+      "key": "Passive Immunotherapy Example"
+    },
+    {
+      "id": 158,
+      "question": "How are monoclonal antibodies produced?",
+      "options": [
+        "By genetically modifying white blood cells",
+        "By cloning specific immune cells in a lab",
+        "By extracting plasma from vaccinated individuals",
+        "By synthesizing proteins in a lab",
+        "By using the CRISPR-Cas9 system to edit genes"
+      ],
+      "answer": "By cloning specific immune cells in a lab",
+      "key": "Monoclonal Antibody Production"
+    },
+    {
+      "id": 159,
+      "question": "Which of the following is a disadvantage of passive immunotherapy?",
+      "options": [
+        "It requires multiple doses for a long-term effect.",
+        "It does not generate long-term immunity.",
+        "It is slow to act.",
+        "It is highly specific to a single antigen.",
+        "It is only effective for viral infections."
+      ],
+      "answer": "It does not generate long-term immunity.",
+      "key": "Passive Immunotherapy Disadvantage"
+    },
+    {
+      "id": 160,
+      "question": "What is the main purpose of convalescent plasma therapy?",
+      "options": [
+        "To provide a long-term cure for chronic infections.",
+        "To boost the body's ability to produce antibodies.",
+        "To provide specific antibodies against an infection.",
+        "To suppress the inflammatory response.",
+        "To stimulate the production of new immune cells."
+      ],
+      "answer": "To provide specific antibodies against an infection.",
+      "key": "Convalescent Plasma Therapy"
+    }
+  ]
+}

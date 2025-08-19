@@ -1,0 +1,135 @@
+{
+  "quizTitle": "Immunology Quiz Q91-100",
+  "questions": [
+    {
+      "id": 91,
+      "question": "Which is the first antibody class produced in response to an infection?",
+      "options": [
+        "IgA",
+        "IgD",
+        "IgM",
+        "IgE",
+        "IgG"
+      ],
+      "answer": "IgM",
+      "key": "First Antibody Class"
+    },
+    {
+      "id": 92,
+      "question": "What is an epitope?",
+      "options": [
+        "A part of an antigen that is recognized by antibodies or T cells",
+        "A type of antibody",
+        "A protein that activates the immune system",
+        "A receptor on B cells",
+        "A molecule produced by helper T cells"
+      ],
+      "answer": "A part of an antigen that is recognized by antibodies or T cells",
+      "key": "Epitope Definition"
+    },
+    {
+      "id": 93,
+      "question": "What is the function of the Fc region of an antibody?",
+      "options": [
+        "Bind to the antigen",
+        "Bind to T cell receptors",
+        "Bind to the complement system or immune cells",
+        "Activate macrophages",
+        "Neutralize toxins"
+      ],
+      "answer": "Bind to the complement system or immune cells",
+      "key": "Fc Region Function"
+    },
+    {
+      "id": 94,
+      "question": "What is the main characteristic of an antigen?",
+      "options": [
+        "It is produced by the body",
+        "It induces an immune response",
+        "It is always harmful",
+        "It neutralizes pathogens",
+        "It is a type of antibody"
+      ],
+      "answer": "It induces an immune response",
+      "key": "Antigen Characteristics"
+    },
+    {
+      "id": 95,
+      "question": "Which immunoglobulin is the most abundant in the blood and extracellular fluid?",
+      "options": [
+        "IgE",
+        "IgD",
+        "IgA",
+        "IgM",
+        "IgG"
+      ],
+      "answer": "IgG",
+      "key": "Most Abundant Immunoglobulin"
+    },
+    {
+      "id": 96,
+      "question": "Where are B cell receptors (BCRs) located?",
+      "options": [
+        "On the surface of T cells",
+        "On the surface of B cells",
+        "Inside macrophages",
+        "On dendritic cells",
+        "On the surface of infected cells"
+      ],
+      "answer": "On the surface of B cells",
+      "key": "BCR Location"
+    },
+    {
+      "id": 97,
+      "question": "Which of the following statements is true about IgA antibodies?",
+      "options": [
+        "They are found primarily in the blood",
+        "They are involved in allergic reactions",
+        "They are found primarily in mucosal areas like the respiratory and digestive tracts",
+        "They activate the complement system",
+        "They are the first antibodies produced in an immune response"
+      ],
+      "answer": "They are found primarily in mucosal areas like the respiratory and digestive tracts",
+      "key": "IgA Characteristics"
+    },
+    {
+      "id": 98,
+      "question": "What is the function of memory B cells?",
+      "options": [
+        "Produce antibodies during the first exposure to an antigen",
+        "Recognize and bind antigens",
+        "Persist in the body to respond to future infections by the same pathogen",
+        "Directly kill infected cells",
+        "Activate helper T cells"
+      ],
+      "answer": "Persist in the body to respond to future infections by the same pathogen",
+      "key": "Memory B Cell Function"
+    },
+    {
+      "id": 99,
+      "question": "Which of the following molecules is involved in the activation of cytotoxic T cells?",
+      "options": [
+        "IgM",
+        "MHC Class I",
+        "IgG",
+        "Complement proteins",
+        "IgE"
+      ],
+      "answer": "MHC Class I",
+      "key": "Cytotoxic T Cell Activation"
+    },
+    {
+      "id": 100,
+      "question": "What is the primary function of antibodies in neutralization?",
+      "options": [
+        "Bind to toxins or pathogens and prevent them from interacting with host cells",
+        "Activate cytotoxic T cells",
+        "Phagocytose pathogens",
+        "Release histamine",
+        "Activate the complement system"
+      ],
+      "answer": "Bind to toxins or pathogens and prevent them from interacting with host cells",
+      "key": "Antibody Neutralization"
+    }
+  ]
+}

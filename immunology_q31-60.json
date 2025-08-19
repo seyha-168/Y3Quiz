@@ -1,0 +1,395 @@
+{
+  "quizTitle": "Immunology Quiz Q31-60",
+  "questions": [
+    {
+      "id": 31,
+      "question": "Which antibody is the first responder in an infection?",
+      "options": [
+        "IgA",
+        "IgE",
+        "IgM",
+        "IgG",
+        "IgD"
+      ],
+      "answer": "IgM",
+      "key": "IgM Antibody"
+    },
+    {
+      "id": 32,
+      "question": "What is opsonization?",
+      "options": [
+        "Direct pathogen killing",
+        "Marking pathogens for phagocytosis",
+        "Antibody production",
+        "Immune suppression",
+        "T-cell activation"
+      ],
+      "answer": "Marking pathogens for phagocytosis",
+      "key": "Opsonization"
+    },
+    {
+      "id": 33,
+      "question": "Which immune cells act as antigen-presenting cells (APCs)?",
+      "options": [
+        "Natural killer cells",
+        "Macrophages",
+        "Plasma cells",
+        "Mast cells",
+        "Eosinophils"
+      ],
+      "answer": "Macrophages",
+      "key": "Antigen-Presenting Cells"
+    },
+    {
+      "id": 34,
+      "question": "What is an epitope?",
+      "options": [
+        "A type of immune cell",
+        "A whole antigen",
+        "The specific part of an antigen recognized by antibodies",
+        "A chemical released during inflammation",
+        "A cytokine"
+      ],
+      "answer": "The specific part of an antigen recognized by antibodies",
+      "key": "Epitope Definition"
+    },
+    {
+      "id": 35,
+      "question": "What is the function of memory B cells?",
+      "options": [
+        "Kill infected cells",
+        "Suppress immune response",
+        "Provide long-term immunity",
+        "Release histamine",
+        "Activate the complement system"
+      ],
+      "answer": "Provide long-term immunity",
+      "key": "Memory B Cells"
+    },
+    {
+      "id": 36,
+      "question": "Which of the following is an autoimmune disease?",
+      "options": [
+        "Tuberculosis",
+        "HIV",
+        "Rheumatoid arthritis",
+        "Malaria",
+        "Influenza"
+      ],
+      "answer": "Rheumatoid arthritis",
+      "key": "Autoimmune Disease"
+    },
+    {
+      "id": 37,
+      "question": "What type of immunity involves antibodies?",
+      "options": [
+        "Cell-mediated immunity",
+        "Innate immunity",
+        "Humoral immunity",
+        "Inflammatory response",
+        "Passive immunity"
+      ],
+      "answer": "Humoral immunity",
+      "key": "Humoral Immunity"
+    },
+    {
+      "id": 38,
+      "question": "What is the function of Natural Killer (NK) cells?",
+      "options": [
+        "Phagocytosis",
+        "Antibody production",
+        "Killing virus-infected cells",
+        "Presenting antigens",
+        "Stimulating B cells"
+      ],
+      "answer": "Killing virus-infected cells",
+      "key": "NK Cell Function"
+    },
+    {
+      "id": 39,
+      "question": "Which is a primary lymphoid organ?",
+      "options": [
+        "Liver",
+        "Spleen",
+        "Bone marrow",
+        "Lymph nodes",
+        "Appendix"
+      ],
+      "answer": "Bone marrow",
+      "key": "Primary Lymphoid Organ"
+    },
+    {
+      "id": 40,
+      "question": "What is the main function of regulatory T cells (Tregs)?",
+      "options": [
+        "Suppress immune response",
+        "Activate B cells",
+        "Kill infected cells",
+        "Release histamine",
+        "Stimulate inflammation"
+      ],
+      "answer": "Suppress immune response",
+      "key": "Regulatory T Cells"
+    },
+    {
+      "id": 41,
+      "question": "What process allows antibodies to mark pathogens for destruction?",
+      "options": [
+        "Neutralization",
+        "Agglutination",
+        "Opsonization",
+        "Inflammation",
+        "Phagocytosis"
+      ],
+      "answer": "Opsonization",
+      "key": "Opsonization"
+    },
+    {
+      "id": 42,
+      "question": "What is the function of histamines in an allergic response?",
+      "options": [
+        "Destroy antigens",
+        "Reduce inflammation",
+        "Increase vascular permeability",
+        "Activate B cells",
+        "Stimulate memory cells"
+      ],
+      "answer": "Increase vascular permeability",
+      "key": "Histamine Function"
+    },
+    {
+      "id": 43,
+      "question": "What type of immunity is transferred from mother to child via breast milk?",
+      "options": [
+        "Active artificial",
+        "Passive natural",
+        "Active natural",
+        "Passive artificial",
+        "Cell-mediated immunity"
+      ],
+      "answer": "Passive natural",
+      "key": "Passive Natural Immunity"
+    },
+    {
+      "id": 44,
+      "question": "What is the final stage of the immune response?",
+      "options": [
+        "Activation",
+        "Recognition",
+        "Resolution",
+        "Memory formation",
+        "Inflammation"
+      ],
+      "answer": "Resolution",
+      "key": "Immune Response Stages"
+    },
+    {
+      "id": 45,
+      "question": "What triggers inflammation?",
+      "options": [
+        "B cell activation",
+        "T cell suppression",
+        "Release of cytokines and histamines",
+        "Antibody production",
+        "Memory cell formation"
+      ],
+      "answer": "Release of cytokines and histamines",
+      "key": "Inflammation Triggers"
+    },
+    {
+      "id": 46,
+      "question": "What is the primary role of macrophages?",
+      "options": [
+        "Produce antibodies",
+        "Kill virus-infected cells",
+        "Engulf and digest pathogens",
+        "Secrete histamines",
+        "Activate the complement system"
+      ],
+      "answer": "Engulf and digest pathogens",
+      "key": "Macrophage Function"
+    },
+    {
+      "id": 47,
+      "question": "What is a key characteristic of adaptive immunity?",
+      "options": [
+        "Immediate response",
+        "Non-specific defense",
+        "Immunological memory",
+        "Physical barriers",
+        "Inflammation"
+      ],
+      "answer": "Immunological memory",
+      "key": "Adaptive Immunity Characteristics"
+    },
+    {
+      "id": 48,
+      "question": "What is the first step in initiating an immune response?",
+      "options": [
+        "Activation of B cells",
+        "Recognition of an antigen by immune cells",
+        "Production of antibodies",
+        "Memory cell formation",
+        "Activation of the complement system"
+      ],
+      "answer": "Recognition of an antigen by immune cells",
+      "key": "Immune Response Initiation"
+    },
+    {
+      "id": 49,
+      "question": "Which immune cells first recognize pathogens?",
+      "options": [
+        "T cells",
+        "B cells",
+        "Natural Killer (NK) cells",
+        "Antigen-presenting cells (APCs)",
+        "Plasma cells"
+      ],
+      "answer": "Antigen-presenting cells (APCs)",
+      "key": "Pathogen Recognition"
+    },
+    {
+      "id": 50,
+      "question": "Which cells act as Antigen-Presenting Cells (APCs)?",
+      "options": [
+        "Plasma cells",
+        "Cytotoxic T cells",
+        "Macrophages, dendritic cells, and B cells",
+        "Red blood cells",
+        "Mast cells"
+      ],
+      "answer": "Macrophages, dendritic cells, and B cells",
+      "key": "APCs"
+    },
+    {
+      "id": 51,
+      "question": "Which molecules do APCs use to present antigens to T cells?",
+      "options": [
+        "Cytokines",
+        "Toll-like receptors",
+        "Antibodies",
+        "Major Histocompatibility Complex (MHC)",
+        "Chemokines"
+      ],
+      "answer": "Major Histocompatibility Complex (MHC)",
+      "key": "MHC Molecules"
+    },
+    {
+      "id": 52,
+      "question": "What type of T cell is activated by MHC-II molecules?",
+      "options": [
+        "Cytotoxic T cells (CD8+)",
+        "Helper T cells (CD4+)",
+        "Natural Killer cells",
+        "Memory T cells",
+        "Regulatory T cells"
+      ],
+      "answer": "Helper T cells (CD4+)",
+      "key": "MHC-II Activation"
+    },
+    {
+      "id": 53,
+      "question": "What type of T cell is activated by MHC-I molecules?",
+      "options": [
+        "Helper T cells (CD4+)",
+        "Cytotoxic T cells (CD8+)",
+        "Plasma cells",
+        "B cells",
+        "Neutrophils"
+      ],
+      "answer": "Cytotoxic T cells (CD8+)",
+      "key": "MHC-I Activation"
+    },
+    {
+      "id": 54,
+      "question": "What do Helper T cells (CD4+) release to activate other immune cells?",
+      "options": [
+        "Antibodies",
+        "Cytokines",
+        "Histamines",
+        "Lysozymes",
+        "Perforins"
+      ],
+      "answer": "Cytokines",
+      "key": "Helper T Cell Release"
+    },
+    {
+      "id": 55,
+      "question": "Where does antigen presentation to T cells mainly occur?",
+      "options": [
+        "Bone marrow",
+        "Thymus",
+        "Lymph nodes",
+        "Liver",
+        "Skin"
+      ],
+      "answer": "Lymph nodes",
+      "key": "Antigen Presentation Location"
+    },
+    {
+      "id": 56,
+      "question": "Which immune cells are responsible for killing virus-infected cells?",
+      "options": [
+        "B cells",
+        "Helper T cells",
+        "Cytotoxic T cells (CD8+)",
+        "Macrophages",
+        "Basophils"
+      ],
+      "answer": "Cytotoxic T cells (CD8+)",
+      "key": "Killing Infected Cells"
+    },
+    {
+      "id": 57,
+      "question": "Which of the following is part of the innate immune response?",
+      "options": [
+        "Antibody production",
+        "Memory cell formation",
+        "Phagocytosis by macrophages",
+        "Activation of T cells",
+        "Clonal selection of B cells"
+      ],
+      "answer": "Phagocytosis by macrophages",
+      "key": "Innate Immune Response"
+    },
+    {
+      "id": 58,
+      "question": "What happens after a B cell is activated?",
+      "options": [
+        "It becomes a macrophage",
+        "It secretes cytokines",
+        "It differentiates into plasma cells",
+        "It undergoes apoptosis",
+        "It becomes a cytotoxic T cell"
+      ],
+      "answer": "It differentiates into plasma cells",
+      "key": "B Cell Activation"
+    },
+    {
+      "id": 59,
+      "question": "What do Memory B cells do?",
+      "options": [
+        "Suppress immune responses",
+        "Present antigens to T cells",
+        "Recognize antigens from previous infections",
+        "Attack infected cells",
+        "Destroy pathogens"
+      ],
+      "answer": "Recognize antigens from previous infections",
+      "key": "Memory B Cell Function"
+    },
+    {
+      "id": 60,
+      "question": "What is the role of dendritic cells?",
+      "options": [
+        "Produce antibodies",
+        "Directly kill pathogens",
+        "Act as antigen-presenting cells (APCs)",
+        "Suppress immune responses",
+        "Activate the complement system"
+      ],
+      "answer": "Act as antigen-presenting cells (APCs)",
+      "key": "Dendritic Cell Role"
+    }
+  ]
+}

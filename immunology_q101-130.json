@@ -1,0 +1,394 @@
+{
+  "quizTitle": "Immunology Quiz Q101-130",
+  "questions": [
+    {
+      "id": 101,
+      "question": "What is an autoimmune response?",
+      "options": [
+        "When the immune system fails to respond to infections",
+        "When antibodies are produced against the body’s own cells",
+        "When pathogens are neutralized by antibodies",
+        "When T cells kill infected cells",
+        "When B cells are activated without an infection"
+      ],
+      "answer": "When antibodies are produced against the body’s own cells",
+      "key": "Autoimmune Response Definition"
+    },
+    {
+      "id": 102,
+      "question": "Which antibody class is involved in activating the classical pathway of the complement system?",
+      "options": [
+        "IgA",
+        "IgM",
+        "IgE",
+        "IgD",
+        "IgG"
+      ],
+      "answer": "IgM and IgG",
+      "key": "Complement System Activation"
+    },
+    {
+      "id": 103,
+      "question": "Which of the following is a feature of IgG antibodies?",
+      "options": [
+        "They are produced during the initial immune response",
+        "They are the most abundant in mucosal surfaces",
+        "They can cross the placenta to provide immunity to the fetus",
+        "They are involved in allergic reactions",
+        "They are the least abundant in the blood"
+      ],
+      "answer": "They can cross the placenta to provide immunity to the fetus",
+      "key": "IgG Features"
+    },
+    {
+      "id": 104,
+      "question": "Which type of immune cell directly presents antigens to T cells?",
+      "options": [
+        "Macrophages",
+        "B cells",
+        "Dendritic cells",
+        "Neutrophils",
+        "Eosinophils"
+      ],
+      "answer": "Macrophages, B cells, and Dendritic cells",
+      "key": "Antigen Presentation"
+    },
+    {
+      "id": 105,
+      "question": "What is the characteristic feature of the secondary immune response?",
+      "options": [
+        "It is slower than the primary response",
+        "It involves only IgM antibodies",
+        "It is stronger and faster than the primary response",
+        "It involves a higher number of neutrophils",
+        "It does not involve memory cells"
+      ],
+      "answer": "It is stronger and faster than the primary response",
+      "key": "Secondary Immune Response"
+    },
+    {
+      "id": 106,
+      "question": "What does opsonization refer to in the immune system?",
+      "options": [
+        "The destruction of pathogens by natural killer cells",
+        "The process by which antibodies enhance the ability of phagocytes to engulf pathogens",
+        "The production of memory cells",
+        "The activation of T cell receptors",
+        "The killing of infected cells by cytotoxic T cells"
+      ],
+      "answer": "The process by which antibodies enhance the ability of phagocytes to engulf pathogens",
+      "key": "Opsonization"
+    },
+    {
+      "id": 107,
+      "question": "What is the role of IgD antibodies in the immune system?",
+      "options": [
+        "Neutralizing toxins",
+        "Activating complement",
+        "Involved in allergic reactions",
+        "Serving as a receptor on the surface of B cells to help in their activation",
+        "Cross-linking antigens"
+      ],
+      "answer": "Serving as a receptor on the surface of B cells to help in their activation",
+      "key": "IgD Role"
+    },
+    {
+      "id": 108,
+      "question": "What is the primary difference between MHC Class I and MHC Class II molecules?",
+      "options": [
+        "MHC Class I presents antigens to helper T cells, while MHC Class II presents antigens to cytotoxic T cells",
+        "MHC Class I presents extracellular antigens, while MHC Class II presents intracellular antigens",
+        "MHC Class I is found on all nucleated cells, while MHC Class II is found only on antigen presenting cells",
+        "MHC Class I activates B cells, while MHC Class II activates T cells",
+        "MHC Class I is involved in autoimmune responses"
+      ],
+      "answer": "MHC Class I is found on all nucleated cells, while MHC Class II is found only on antigen presenting cells",
+      "key": "MHC Class I vs. II"
+    },
+    {
+      "id": 109,
+      "question": "Which of the following is true about haptens?",
+      "options": [
+        "They are small molecules that can induce an immune response only when bound to larger molecules",
+        "They are large proteins that can act as antigens without a carrier",
+        "They are always part of bacteria",
+        "They activate T cells directly without requiring a larger carrier molecule",
+        "They can only bind to IgE antibodies"
+      ],
+      "answer": "They are small molecules that can induce an immune response only when bound to larger molecules",
+      "key": "Hapten Characteristics"
+    },
+    {
+      "id": 110,
+      "question": "Which of the following best describes the function of the \"constant region\" of an antibody?",
+      "options": [
+        "It binds to the antigen",
+        "It determines the antibody's isotype (IgA, IgG, etc.)",
+        "It activates T cells",
+        "It neutralizes toxins",
+        "It increases the specificity of the antibody"
+      ],
+      "answer": "It determines the antibody's isotype (IgA, IgG, etc.)",
+      "key": "Antibody Constant Region"
+    },
+    {
+      "id": 111,
+      "question": "What triggers the primary immune response?",
+      "options": [
+        "Exposure to a pathogen for the second time",
+        "Activation of memory B cells",
+        "Exposure to a new pathogen or antigen",
+        "Natural killer cell activity",
+        "Release of cytokines by T cells"
+      ],
+      "answer": "Exposure to a new pathogen or antigen",
+      "key": "Primary Immune Response"
+    },
+    {
+      "id": 112,
+      "question": "Which of the following antibodies is most commonly found in breast milk, helping protect infants?",
+      "options": [
+        "IgM",
+        "IgE",
+        "IgA",
+        "IgD",
+        "IgG"
+      ],
+      "answer": "IgA",
+      "key": "Antibodies in Breast Milk"
+    },
+    {
+      "id": 113,
+      "question": "What does opsonization refer to in the immune response?",
+      "options": [
+        "Directly destroying pathogens",
+        "Coating pathogens with molecules to enhance phagocytosis",
+        "Production of antibodies",
+        "Activation of T cells",
+        "Apoptosis of infected cells"
+      ],
+      "answer": "Coating pathogens with molecules to enhance phagocytosis",
+      "key": "Opsonization"
+    },
+    {
+      "id": 114,
+      "question": "What is the role of CD4+ T cells in adaptive immunity?",
+      "options": [
+        "Directly kill infected cells",
+        "Recognize antigens on MHC Class I",
+        "Produce cytokines that help activate other immune cells",
+        "Present antigens to B cells",
+        "Destroy pathogens through phagocytosis"
+      ],
+      "answer": "Produce cytokines that help activate other immune cells",
+      "key": "CD4+ T Cell Role"
+    },
+    {
+      "id": 115,
+      "question": "Which molecule is used by T cells to recognize antigens?",
+      "options": [
+        "MHC",
+        "Antibody",
+        "TCR (T cell receptor)",
+        "BCR (B cell receptor)",
+        "Complement"
+      ],
+      "answer": "TCR (T cell receptor)",
+      "key": "Antigen Recognition"
+    },
+    {
+      "id": 116,
+      "question": "What is the role of memory B cells in adaptive immunity?",
+      "options": [
+        "Produce antibodies during the initial immune response",
+        "Carry out phagocytosis of pathogens",
+        "Provide long-term immunity by responding to future infections",
+        "Activate cytotoxic T cells",
+        "Present antigens to helper T cells"
+      ],
+      "answer": "Provide long-term immunity by responding to future infections",
+      "key": "Memory B Cell Function"
+    },
+    {
+      "id": 117,
+      "question": "What happens when a T cell receptor binds to its specific antigen on MHC molecules?",
+      "options": [
+        "It activates the complement system",
+        "It induces apoptosis of the infected cell",
+        "It initiates T cell activation and differentiation",
+        "It stimulates antibody production",
+        "It promotes phagocytosis of the antigen"
+      ],
+      "answer": "It initiates T cell activation and differentiation",
+      "key": "TCR Binding"
+    },
+    {
+      "id": 118,
+      "question": "Which immune cells are primarily involved in the clearance of pathogens during a viral infection?",
+      "options": [
+        "Eosinophils",
+        "Neutrophils",
+        "T cells and B cells",
+        "Macrophages and natural killer cells",
+        "Mast cells"
+      ],
+      "answer": "T cells and B cells",
+      "key": "Viral Infection"
+    },
+    {
+      "id": 119,
+      "question": "Which is a characteristic of the humoral immune response?",
+      "options": [
+        "Involves the activation of cytotoxic T cells",
+        "Involves the production of antibodies by B cells",
+        "Involves the destruction of infected cells",
+        "Involves the activation of macrophages"
+      ],
+      "answer": "Involves the production of antibodies by B cells",
+      "key": "Humoral Immune Response"
+    },
+    {
+      "id": 120,
+      "question": "Which of the following is a key characteristic of T helper cells?",
+      "options": [
+        "Directly kill infected cells",
+        "Help activate other immune cells via cytokine release",
+        "Produce antibodies",
+        "Detect intracellular pathogens",
+        "Phagocytose pathogens"
+      ],
+      "answer": "Help activate other immune cells via cytokine release",
+      "key": "T Helper Cell Function"
+    },
+    {
+      "id": 121,
+      "question": "Which immune molecule is primarily responsible for forming a protective barrier in mucosal tissues?",
+      "options": [
+        "IgG",
+        "IgM",
+        "IgA",
+        "IgE",
+        "C3b"
+      ],
+      "answer": "IgA",
+      "key": "Mucosal Immunity"
+    },
+    {
+      "id": 122,
+      "question": "The major difference between innate and adaptive immunity is:",
+      "options": [
+        "The speed of response",
+        "The specificity of the response",
+        "The involvement of B cells",
+        "The involvement of antibodies",
+        "The involvement of cytokines"
+      ],
+      "answer": "The specificity of the response",
+      "key": "Innate vs. Adaptive Immunity"
+    },
+    {
+      "id": 123,
+      "question": "What is the primary target cell of HIV?",
+      "options": [
+        "B lymphocytes",
+        "CD8+ T cells",
+        "Macrophages",
+        "CD4+ T cells",
+        "Neutrophils"
+      ],
+      "answer": "CD4+ T cells",
+      "key": "HIV Target Cell"
+    },
+    {
+      "id": 124,
+      "question": "Which protein on the HIV virus binds to the CD4 receptor of host cells?",
+      "options": [
+        "gp41",
+        "gp120",
+        "Reverse transcriptase",
+        "Integrase",
+        "Protease"
+      ],
+      "answer": "gp120",
+      "key": "HIV Binding Protein"
+    },
+    {
+      "id": 125,
+      "question": "What is the main enzyme that allows HIV to convert its RNA into DNA?",
+      "options": [
+        "Protease",
+        "Integrase",
+        "Reverse transcriptase",
+        "DNA polymerase",
+        "RNA polymerase"
+      ],
+      "answer": "Reverse transcriptase",
+      "key": "HIV Reverse Transcriptase"
+    },
+    {
+      "id": 126,
+      "question": "Which of the following is a hallmark of AIDS?",
+      "options": [
+        "Decrease in CD8+ T cells",
+        "Increase in viral load",
+        "Increase in CD4+ T cells",
+        "Decrease in CD4+ T cells",
+        "Decrease in viral load"
+      ],
+      "answer": "Decrease in CD4+ T cells",
+      "key": "AIDS Hallmark"
+    },
+    {
+      "id": 127,
+      "question": "Which co-receptors does HIV use to enter host cells?",
+      "options": [
+        "CCR5 and CXCR4",
+        "CD4 and CXCR4",
+        "CD8 and CCR5",
+        "CCR7 and CD4",
+        "CCR5 and CD8"
+      ],
+      "answer": "CCR5 and CXCR4",
+      "key": "HIV Co-receptors"
+    },
+    {
+      "id": 128,
+      "question": "What is the viral load in an untreated person with AIDS typically associated with?",
+      "options": [
+        "Low viral replication",
+        "High immune function",
+        "High replication rate of HIV",
+        "Complete viral suppression",
+        "Viral clearance"
+      ],
+      "answer": "High replication rate of HIV",
+      "key": "AIDS Viral Load"
+    },
+    {
+      "id": 129,
+      "question": "Which class of drugs is commonly used in antiretroviral therapy (ART) to inhibit reverse transcription?",
+      "options": [
+        "Protease inhibitors",
+        "Integrase inhibitors",
+        "Nucleoside reverse transcriptase inhibitors",
+        "Non-nucleoside reverse transcriptase inhibitors",
+        "Fusion inhibitors"
+      ],
+      "answer": "Nucleoside reverse transcriptase inhibitors",
+      "key": "ART Drug Class"
+    },
+    {
+      "id": 130,
+      "question": "What type of virus is HIV classified as?",
+      "options": [
+        "Retrovirus",
+        "Picornavirus",
+        "Herpesvirus",
+        "Adenovirus",
+        "Flavivirus"
+      ],
+      "answer": "Retrovirus",
+      "key": "HIV Virus Classification"
+    }
+  ]
+}

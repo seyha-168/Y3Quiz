@@ -1,0 +1,395 @@
+{
+  "quizTitle": "Immunology Quiz Q61-90",
+  "questions": [
+    {
+      "id": 61,
+      "question": "What happens during clonal selection?",
+      "options": [
+        "B and T cells with receptors specific to an antigen are activated",
+        "All immune cells attack randomly",
+        "Macrophages engulf all foreign substances",
+        "Complement proteins destroy healthy cells",
+        "Natural Killer (NK) cells suppress immune response"
+      ],
+      "answer": "B and T cells with receptors specific to an antigen are activated",
+      "key": "Clonal Selection"
+    },
+    {
+      "id": 62,
+      "question": "Which immune cells recognize antigens without prior exposure?",
+      "options": [
+        "Memory B cells",
+        "Macrophages",
+        "Dendritic cells",
+        "Natural Killer (NK) cells",
+        "Plasma cells"
+      ],
+      "answer": "Natural Killer (NK) cells",
+      "key": "Innate Recognition"
+    },
+    {
+      "id": 63,
+      "question": "What is the role of mast cells?",
+      "options": [
+        "Activate T cells",
+        "Secrete antibodies",
+        "Release histamines in allergic reactions",
+        "Suppress the immune response",
+        "Present antigens to B cells"
+      ],
+      "answer": "Release histamines in allergic reactions",
+      "key": "Mast Cell Role"
+    },
+    {
+      "id": 64,
+      "question": "Which of the following is NOT a characteristic of innate immunity?",
+      "options": [
+        "Rapid response",
+        "Non-specific defense",
+        "No memory formation",
+        "Highly specific recognition",
+        "Involves physical and chemical barriers"
+      ],
+      "answer": "Highly specific recognition",
+      "key": "Innate Immunity Characteristics"
+    },
+    {
+      "id": 65,
+      "question": "What triggers inflammation?",
+      "options": [
+        "T cell activation",
+        "Release of histamines and cytokines",
+        "Memory cell formation",
+        "Complement activation",
+        "Phagocytosis"
+      ],
+      "answer": "Release of histamines and cytokines",
+      "key": "Inflammation Triggers"
+    },
+    {
+      "id": 66,
+      "question": "What is the primary function of neutrophils?",
+      "options": [
+        "Antibody production",
+        "Antigen presentation",
+        "Engulfing pathogens (phagocytosis)",
+        "Stimulating B cells",
+        "Suppressing inflammation"
+      ],
+      "answer": "Engulfing pathogens (phagocytosis)",
+      "key": "Neutrophil Function"
+    },
+    {
+      "id": 67,
+      "question": "How do cytotoxic T cells kill infected cells?",
+      "options": [
+        "By producing antibodies",
+        "By engulfing them",
+        "By releasing perforins and granzymes",
+        "By presenting antigens",
+        "By activating neutrophils"
+      ],
+      "answer": "By releasing perforins and granzymes",
+      "key": "Cytotoxic T Cell Killing"
+    },
+    {
+      "id": 68,
+      "question": "What is the final stage of an immune response?",
+      "options": [
+        "Activation of B cells",
+        "Recognition of antigens",
+        "Resolution and memory formation",
+        "Cytotoxic attack",
+        "Complement activation"
+      ],
+      "answer": "Resolution and memory formation",
+      "key": "Immune Response Stages"
+    },
+    {
+      "id": 69,
+      "question": "What is the function of memory cells?",
+      "options": [
+        "Store genetic material",
+        "Remember past infections",
+        "Produce digestive enzymes",
+        "Regulate hormones",
+        "Form blood clots"
+      ],
+      "answer": "Remember past infections",
+      "key": "Memory Cell Function"
+    },
+    {
+      "id": 70,
+      "question": "Which of the following is a characteristic of innate immunity?",
+      "options": [
+        "Specific response",
+        "Memory formation",
+        "Fast response",
+        "Recognition of specific antigens",
+        "Activation of T cells"
+      ],
+      "answer": "Fast response",
+      "key": "Innate Immunity Characteristics"
+    },
+    {
+      "id": 71,
+      "question": "What is the primary role of TLRs (Toll-like receptors) in innate immunity?",
+      "options": [
+        "Activating B cells",
+        "Detecting PAMPs (pathogen-associated molecular patterns)",
+        "Promoting antibody production",
+        "Producing inflammatory cytokines",
+        "Inducing apoptosis"
+      ],
+      "answer": "Detecting PAMPs (pathogen-associated molecular patterns)",
+      "key": "TLR Role"
+    },
+    {
+      "id": 72,
+      "question": "Which cell type is primarily involved in the adaptive immune response?",
+      "options": [
+        "Neutrophils",
+        "B cells",
+        "Eosinophils",
+        "Macrophages",
+        "Natural killer cells"
+      ],
+      "answer": "B cells",
+      "key": "Adaptive Immune Cells"
+    },
+    {
+      "id": 73,
+      "question": "What are Pattern Recognition Receptors (PRRs)?",
+      "options": [
+        "Receptors that bind to antibodies",
+        "Proteins that recognize self-antigens",
+        "Receptors that detect pathogen-associated patterns",
+        "Molecules that help with blood clotting",
+        "Enzymes that break down bacteria"
+      ],
+      "answer": "Receptors that detect pathogen-associated patterns",
+      "key": "PRR Definition"
+    },
+    {
+      "id": 74,
+      "question": "Which type of MHC molecule presents antigens to CD4+ T cells?",
+      "options": [
+        "MHC Class I",
+        "MHC Class II",
+        "TLRs",
+        "Complement proteins",
+        "BCRs"
+      ],
+      "answer": "MHC Class II",
+      "key": "MHC Class II"
+    },
+    {
+      "id": 75,
+      "question": "What is the primary function of antibodies in adaptive immunity?",
+      "options": [
+        "Destroying infected cells directly",
+        "Neutralizing toxins and pathogens",
+        "Activating phagocytes",
+        "Generating memory cells",
+        "Inducing inflammation"
+      ],
+      "answer": "Neutralizing toxins and pathogens",
+      "key": "Antibody Function"
+    },
+    {
+      "id": 76,
+      "question": "Which cells are responsible for presenting antigens via MHC Class I molecules?",
+      "options": [
+        "B cells",
+        "Dendritic cells",
+        "All nucleated cells",
+        "Macrophages",
+        "Neutrophils"
+      ],
+      "answer": "All nucleated cells",
+      "key": "MHC Class I Presentation"
+    },
+    {
+      "id": 77,
+      "question": "Which type of cell recognizes antigen presented on MHC Class I molecules?",
+      "options": [
+        "CD4+ T cells",
+        "CD8+ T cells",
+        "B cells",
+        "Dendritic cells",
+        "Eosinophils"
+      ],
+      "answer": "CD8+ T cells",
+      "key": "MHC Class I Recognition"
+    },
+    {
+      "id": 78,
+      "question": "What do dendritic cells do in the immune response?",
+      "options": [
+        "Directly kill pathogens",
+        "Produce antibodies",
+        "Present antigens to T cells",
+        "Release histamine",
+        "Degrade pathogens in lysosomes"
+      ],
+      "answer": "Present antigens to T cells",
+      "key": "Dendritic Cell Function"
+    },
+    {
+      "id": 79,
+      "question": "What is an antigen?",
+      "options": [
+        "A protein that can induce an immune response",
+        "A white blood cell",
+        "A molecule that neutralizes pathogens",
+        "A component of the complement system",
+        "A protein that activates TLRs"
+      ],
+      "answer": "A protein that can induce an immune response",
+      "key": "Antigen Definition"
+    },
+    {
+      "id": 80,
+      "question": "Which of the following is a primary function of macrophages in innate immunity?",
+      "options": [
+        "Produce antibodies",
+        "Activate B cells",
+        "Present antigens and phagocytose pathogens",
+        "Produce cytokines to regulate the immune response",
+        "Present antigens and phagocytose pathogens and Produce cytokines to regulate the immune response"
+      ],
+      "answer": "Present antigens and phagocytose pathogens",
+      "key": "Macrophage Function"
+    },
+    {
+      "id": 81,
+      "question": "Which of the following is NOT a characteristic of adaptive immunity?",
+      "options": [
+        "Specificity for a particular pathogen",
+        "Memory",
+        "Rapid response",
+        "Involvement of T and B cells",
+        "Ability to recognize antigens"
+      ],
+      "answer": "Rapid response",
+      "key": "Adaptive Immunity Characteristics"
+    },
+    {
+      "id": 82,
+      "question": "Which type of cell is involved in killing virus-infected cells directly?",
+      "options": [
+        "Helper T cells",
+        "Cytotoxic T cells",
+        "B cells",
+        "Macrophages",
+        "Neutrophils"
+      ],
+      "answer": "Cytotoxic T cells",
+      "key": "Cytotoxic T Cell Killing"
+    },
+    {
+      "id": 83,
+      "question": "Which part of an antibody binds to an antigen?",
+      "options": [
+        "Fc region",
+        "Heavy chain",
+        "Light chain",
+        "Variable region",
+        "Constant region"
+      ],
+      "answer": "Variable region",
+      "key": "Antibody Structure"
+    },
+    {
+      "id": 84,
+      "question": "The presence of which molecule indicates a primary immune response to an infection?",
+      "options": [
+        "IgM",
+        "IgG",
+        "IgA",
+        "IgE",
+        "IgD"
+      ],
+      "answer": "IgM",
+      "key": "Primary Immune Response"
+    },
+    {
+      "id": 85,
+      "question": "Which of the following is NOT a type of PRR (pattern recognition receptor)?",
+      "options": [
+        "TLRs",
+        "RLRs",
+        "NLRs",
+        "MHC molecules",
+        "Scavenger receptors"
+      ],
+      "answer": "MHC molecules",
+      "key": "PRR Types"
+    },
+    {
+      "id": 86,
+      "question": "What is the main role of antibodies in the immune system?",
+      "options": [
+        "Destroy infected cells",
+        "Produce cytokines",
+        "Neutralize pathogens",
+        "Activate T cells",
+        "Phagocytose pathogens"
+      ],
+      "answer": "Neutralize pathogens",
+      "key": "Antibody Role"
+    },
+    {
+      "id": 87,
+      "question": "What is the primary structure that defines the antigen-binding site of an antibody?",
+      "options": [
+        "Constant region",
+        "Heavy chain",
+        "Light chain",
+        "Variable region",
+        "Fc region"
+      ],
+      "answer": "Variable region",
+      "key": "Antibody Structure"
+    },
+    {
+      "id": 88,
+      "question": "Which of the following is NOT an example of an antigen?",
+      "options": [
+        "Bacterial protein",
+        "Viral RNA",
+        "Human DNA",
+        "Pollen from plants",
+        "Tumor protein"
+      ],
+      "answer": "Human DNA",
+      "key": "Antigen Examples"
+    },
+    {
+      "id": 89,
+      "question": "Which antibody class is most commonly associated with allergic reactions?",
+      "options": [
+        "IgG",
+        "IgM",
+        "IgA",
+        "IgE",
+        "IgD"
+      ],
+      "answer": "IgE",
+      "key": "IgE Antibody"
+    },
+    {
+      "id": 90,
+      "question": "Which part of the immune system produces antibodies?",
+      "options": [
+        "T cells",
+        "B cells",
+        "Macrophages",
+        "Neutrophils",
+        "Natural killer cells"
+      ],
+      "answer": "B cells",
+      "key": "Antibody Production"
+    }
+  ]
+}
