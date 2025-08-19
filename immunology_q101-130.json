@@ -24,7 +24,7 @@
         "IgD",
         "IgG"
       ],
-      "answer": "IgM and IgG",
+      "answer": "IgM",
       "key": "Complement System Activation"
     },
     {
@@ -50,7 +50,7 @@
         "Neutrophils",
         "Eosinophils"
       ],
-      "answer": "Macrophages, B cells, and Dendritic cells",
+      "answer": "Dendritic cells",
       "key": "Antigen Presentation"
     },
     {
